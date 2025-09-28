@@ -1,0 +1,641 @@
+{
+  "id": "jonah",
+  "name": "Jonah",
+  "testament": "old",
+  "order": 32,
+  "chapterCount": 4,
+  "verseCount": 48,
+  "translation": "JUB",
+  "speakerStats": {
+    "jesusVerses": 0,
+    "godVerses": 0,
+    "narratorVerses": 48
+  },
+  "summary": {
+    "short": "Jonah contains 4 chapters",
+    "long": "Jonah is a book of the Old Testament.",
+    "keyThemes": [
+      "Mercy",
+      "Repentance",
+      "Mission",
+      "Salvation"
+    ],
+    "keyCharacters": [
+      "Jonah",
+      "Ninevites",
+      "Fish"
+    ]
+  },
+  "author": {
+    "name": "Jonah",
+    "confidence": "high",
+    "notes": ""
+  },
+  "dateWritten": {
+    "estimated": "760 BC",
+    "confidence": "high",
+    "notes": ""
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "summary": "Chapter 1 of Jonah",
+      "verses": [
+        {
+          "id": "jub_jonah_1_1",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 1,
+          "text": "Now the word of the LORD came unto Jonah, the son of Amittai, saying,",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_1_2",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 2,
+          "text": "Arise, go to Nineveh, that great city, and cry against it; for their wickedness is come up before me.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_1_3",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 3,
+          "text": "But Jonah rose up to flee unto Tarshish from the presence of the LORD and went down to Joppa, and he found a ship going to Tarshish; so he paid the fare thereof and went down into it, to go with them unto Tarshish fleeing from the presence of the LORD.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_1_4",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 4,
+          "text": "But the LORD caused a great wind to rise up in the sea, and there was a mighty tempest in the sea, so that the ship thought she would be broken.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_1_5",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 5,
+          "text": "And the mariners were afraid, and everyone called unto his god, and they cast forth the vessels that were in the ship into the sea, to lighten it of them. But Jonah was gone down into the sides of the ship; he lay and was fast asleep.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_1_6",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 6,
+          "text": "So the shipmaster came to him and said unto him, What meanest thou, O sleeper? arise, call upon thy God, if so be that he will have compassion upon us that we not perish.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_1_7",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 7,
+          "text": "And each one said to his fellow, Come, and let us cast lots that we may know for whose cause this evil is upon us. So they cast lots, and the lot fell upon Jonah.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_1_8",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 8,
+          "text": "Then they said unto him, Tell us, we pray thee, why this evil is come upon us; What is thine occupation? and from where dost thou come? what is thy country? and of what people art thou?",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_1_9",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 9,
+          "text": "And he said unto them, I am a Hebrew; and I fear the LORD, God of the heavens, who has made the sea and the dry land.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_1_10",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 10,
+          "text": "Then the men were exceedingly afraid and said unto him, Why hast thou done this? For the men knew that he fled from the presence of the LORD because he had told them.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_1_11",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 11,
+          "text": "Then they said unto him, What shall we do unto thee that the sea may be calm unto us? for the sea rose higher and was wroth.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_1_12",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 12,
+          "text": "And he said unto them, Take me up, and cast me forth into the sea; so shall the sea be calm unto you; for I know that for my sake this great tempest is upon you.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_1_13",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 13,
+          "text": "Nevertheless the men rowed hard to turn the ship to land, but they could not; for the sea rose higher and was wroth against them.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_1_14",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 14,
+          "text": "And they cried unto the LORD and said, We beseech thee, O LORD, we beseech thee, let us not perish for the soul of this man, and do not lay upon us innocent blood: for thou, O LORD, hast done as it pleased thee.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_1_15",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 15,
+          "text": "So they took up Jonah and cast him forth into the sea; and the sea ceased from her raging.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_1_16",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 16,
+          "text": "Then the men feared the LORD exceedingly and offered a sacrifice unto the LORD and made vows.",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_1_17",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 17,
+          "text": "Now the LORD had prepared a great fish to swallow up Jonah. And Jonah was in the belly of the fish three days and three nights.",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "Chapter 2 of Jonah",
+      "verses": [
+        {
+          "id": "jub_jonah_2_1",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 2,
+          "verse": 1,
+          "text": "Then Jonah prayed unto the LORD his God out of the fish’s belly,",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_2_2",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 2,
+          "verse": 2,
+          "text": "and said, I cried by reason of my tribulation unto the LORD, and he heard me; out of the belly of Sheol I cried, and thou didst hear my voice.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_2_3",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 2,
+          "verse": 3,
+          "text": "For thou hadst cast me into the deep, in the midst of the seas; and the floods compassed me about; all thy billows and thy waves passed over me.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_2_4",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 2,
+          "verse": 4,
+          "text": "Then I said, I am cast out of thy sight; yet I will see thy holy temple again.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_2_5",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 2,
+          "verse": 5,
+          "text": "The waters compassed me about, even to the soul, the depth closed me round about; the weeds were wrapped about my head.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_2_6",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 2,
+          "verse": 6,
+          "text": "I descended to the roots of the mountains; the earth put her bars about me for ever; yet thou hast brought up my life out of the grave, O LORD my God.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_2_7",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 2,
+          "verse": 7,
+          "text": "When my soul fainted within me, I remembered the LORD, and my prayer entered in unto thee in thy holy temple.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_2_8",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 2,
+          "verse": 8,
+          "text": "Those that observe lying vanities forsake his mercy.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_2_9",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 2,
+          "verse": 9,
+          "text": "But I will sacrifice unto thee with the voice of thanksgiving; I will pay that which I have vowed; that saving comes of the LORD.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_2_10",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 2,
+          "verse": 10,
+          "text": "And the LORD spoke unto the fish, and it vomited out Jonah upon the dry land.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "Chapter 3 of Jonah",
+      "verses": [
+        {
+          "id": "jub_jonah_3_1",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 3,
+          "verse": 1,
+          "text": "And the word of the LORD came unto Jonah the second time, saying,",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_3_2",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 3,
+          "verse": 2,
+          "text": "Arise, go unto Nineveh, that great city, and preach unto it the preaching that I bid thee.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_3_3",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 3,
+          "verse": 3,
+          "text": "So Jonah arose and went unto Nineveh, according to the word of the LORD. Now Nineveh was an exceeding great city of three days’ journey.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_3_4",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 3,
+          "verse": 4,
+          "text": "And Jonah began to enter into the city a day’s journey, and he cried and said, Yet forty days, and Nineveh shall be destroyed.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_3_5",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 3,
+          "verse": 5,
+          "text": "So the people of Nineveh believed God and proclaimed a fast and put on sackcloth, from the greatest of them even to the least of them.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_3_6",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 3,
+          "verse": 6,
+          "text": "For word came unto the king of Nineveh, and he arose from his throne, and he threw his robe from him and covered himself with sackcloth and sat in ashes.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_3_7",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 3,
+          "verse": 7,
+          "text": "And he caused it to be proclaimed and published through Nineveh by the decree of the king and his nobles, saying, Let neither man nor beast, herd nor flock, taste any thing; let them not feed, nor drink water:",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_3_8",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 3,
+          "verse": 8,
+          "text": "but let man and beast be covered with sackcloth and cry mightily unto God; and let each one turn from his evil way and from the violence that is in his hands.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_3_9",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 3,
+          "verse": 9,
+          "text": "Who can tell if God will turn and repent and turn away from his fierce anger, that we not perish?",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_3_10",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 3,
+          "verse": 10,
+          "text": "And God saw their works, because they turned from their evil way, and he repented of the evil that he had said that he would do unto them, and he did not do it.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "Chapter 4 of Jonah",
+      "verses": [
+        {
+          "id": "jub_jonah_4_1",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 1,
+          "text": "But it displeased Jonah exceedingly, and he was very angry.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_4_2",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 2,
+          "text": "And he prayed unto the LORD and said, I pray thee, O LORD, was this not what I said when I was yet in my country? Therefore I hastened to flee unto Tarshish, for I knew that thou art a gracious God and full of compassion, slow to anger, and of great mercy, and dost repent when thou art come to take punishment.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_4_3",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 3,
+          "text": "Therefore now, O LORD, take, I beseech thee, my life from me, for I would rather die than live.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_4_4",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 4,
+          "text": "Then the LORD said, Art thou so angry?",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_4_5",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 5,
+          "text": "And Jonah went out of the city and sat towards the east side of the city, and there made him a booth and sat under it in the shade until he might see what would become of the city.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_4_6",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 6,
+          "text": "And the LORD God prepared a gourd and made it to come up over Jonah that it might be a shadow over his head to deliver him from his evil. So Jonah was exceeding glad for the gourd.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_4_7",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 7,
+          "text": "But God also prepared a worm when the morning rose the next day, and it smote the gourd so that it withered.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_4_8",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 8,
+          "text": "And it came to pass, when the sun arose, that God prepared a vehement east wind; and the sun beat upon the head of Jonah that he fainted and wished in his soul to die and said, It is better for me to die than to live.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_4_9",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 9,
+          "text": "And God said to Jonah, Art thou so angry for the gourd? And he said, I do well to be angry, even unto death.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_4_10",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 10,
+          "text": "Then the LORD said, Thou hast had pity on the gourd for which thou hast not laboured, neither didst thou make it grow; which came up in a night and perished in a night:",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "jub_jonah_4_11",
+          "translation": "JUB",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 11,
+          "text": "And shall I not spare Nineveh, that great city, in which are more than one hundred twenty thousand persons, that cannot discern between their right hand and their left hand, and many animals?",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    }
+  ]
+}

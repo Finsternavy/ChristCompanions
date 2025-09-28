@@ -1,0 +1,106 @@
+[
+	{
+		"id": "note_001",
+		"verseId": "kjv_mat_1_1",
+		"content": "This opening verse establishes Jesus' lineage from both David and Abraham, showing His royal and covenantal heritage.",
+		"userId": "user_123",
+		"createdAt": "2024-01-15T10:30:00Z",
+		"tags": [
+			"genealogy",
+			"messiah",
+			"david",
+			"abraham"
+		]
+	},
+	{
+		"id": "note_002",
+		"verseId": "kjv_mat_1_16",
+		"content": "Notice the change in language here - Joseph is called the 'husband of Mary' rather than 'father of Jesus', indicating the virgin birth.",
+		"userId": "user_123",
+		"createdAt": "2024-01-15T10:35:00Z",
+		"tags": [
+			"virgin birth",
+			"joseph",
+			"mary",
+			"genealogy"
+		]
+	},
+	{
+		"id": "note_003",
+		"verseId": "kjv_mat_1_17",
+		"content": "The three sets of 14 generations show God's perfect timing and organization in salvation history.",
+		"userId": "user_123",
+		"createdAt": "2024-01-15T10:40:00Z",
+		"tags": [
+			"genealogy",
+			"salvation history",
+			"timing"
+		]
+	},
+	{
+		"id": "note_004",
+		"verseId": "kjv_mat_1_21",
+		"content": "The name Jesus means 'Yahweh saves' - this verse explains the purpose of His coming.",
+		"userId": "user_123",
+		"createdAt": "2024-01-15T10:45:00Z",
+		"tags": [
+			"jesus",
+			"salvation",
+			"name",
+			"purpose"
+		]
+	},
+	{
+		"id": "note_005",
+		"verseId": "kjv_mat_1_23",
+		"content": "Emmanuel means 'God with us' - this is the great promise of the incarnation.",
+		"userId": "user_123",
+		"createdAt": "2024-01-15T10:50:00Z",
+		"tags": [
+			"emmanuel",
+			"incarnation",
+			"god with us",
+			"prophecy"
+		]
+	},
+	{
+		"id": "note_006",
+		"verseId": "kjv_mat_2_2",
+		"content": "The wise men recognized Jesus as King of the Jews, showing His royal status even as a child.",
+		"userId": "user_123",
+		"createdAt": "2024-01-15T11:00:00Z",
+		"tags": [
+			"wise men",
+			"king",
+			"royalty",
+			"worship"
+		]
+	},
+	{
+		"id": "note_007",
+		"verseId": "kjv_mat_2_11",
+		"content": "The gifts of gold, frankincense, and myrrh represent kingship, deity, and death respectively.",
+		"userId": "user_123",
+		"createdAt": "2024-01-15T11:05:00Z",
+		"tags": [
+			"gifts",
+			"gold",
+			"frankincense",
+			"myrrh",
+			"symbolism"
+		]
+	},
+	{
+		"id": "note_008",
+		"verseId": "kjv_mat_2_15",
+		"content": "This fulfills Hosea 11:1, showing how God's plan was being worked out through history.",
+		"userId": "user_123",
+		"createdAt": "2024-01-15T11:10:00Z",
+		"tags": [
+			"prophecy",
+			"fulfillment",
+			"hosea",
+			"egypt"
+		]
+	}
+]

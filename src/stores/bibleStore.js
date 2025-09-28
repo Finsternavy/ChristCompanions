@@ -1,0 +1,597 @@
+import { ref, computed } from 'vue'
+import { defineStore } from 'pinia'
+import booksList from '@/models/bibleStructure/booksList.json'
+import bookSummaries from '@/data/bookSummaries.json'
+
+export const useBibleStore = defineStore('bibleStore', () => {
+  const bookData = ref(null)
+  const chapterData = ref(null)
+  const versesData = ref(null)
+  const activeChapter = ref(null)
+  const compiledData = ref(null)
+  const currentBookId = ref(null)
+  const currentVersion = ref(null)
+  const activeVerse = ref(null)
+  const isLoading = ref(false)
+
+  // User content
+  const userNotes = ref({})
+  const userQuestions = ref({})
+  const chapterNotes = ref({})
+  const chapterQuestions = ref({})
+  const bookNotes = ref({})
+  const bookQuestions = ref({})
+  const activeNote = ref(null)
+  const activeQuestions = ref(null)
+
+  // Verse comparison
+  const comparisonCache = ref({})
+  const availableVersions = ref([
+    { id: 'kjv', name: 'King James Version', abbreviation: 'KJV' },
+    { id: 'niv', name: 'New International Version', abbreviation: 'NIV' },
+    { id: 'esv', name: 'English Standard Version', abbreviation: 'ESV' },
+    { id: 'nasb', name: 'New American Standard Bible', abbreviation: 'NASB' },
+    { id: 'nlt', name: 'New Living Translation', abbreviation: 'NLT' },
+    { id: 'nkjv', name: 'New King James Version', abbreviation: 'NKJV' },
+    { id: 'net', name: 'New English Translation', abbreviation: 'NET' },
+    { id: 'web', name: 'World English Bible', abbreviation: 'WEB' },
+    { id: 'akjv', name: 'American King James Version', abbreviation: 'AKJV' },
+    { id: 'asv', name: 'American Standard Version', abbreviation: 'ASV' },
+    { id: 'brg', name: 'Bible in Basic English', abbreviation: 'BRG' },
+    { id: 'ehv', name: 'Evangelical Heritage Version', abbreviation: 'EHV' },
+    { id: 'esvuk', name: 'English Standard Version (UK)', abbreviation: 'ESVUK' },
+    { id: 'gnv', name: 'Geneva Bible', abbreviation: 'GNV' },
+    { id: 'gw', name: "God's Word", abbreviation: 'GW' },
+    { id: 'isv', name: 'International Standard Version', abbreviation: 'ISV' },
+    { id: 'jub', name: 'Jubilee Bible', abbreviation: 'JUB' },
+    { id: 'kj21', name: '21st Century King James Version', abbreviation: 'KJ21' },
+    { id: 'leb', name: 'Lexham English Bible', abbreviation: 'LEB' },
+    { id: 'mev', name: 'Modern English Version', abbreviation: 'MEV' },
+    { id: 'nasb1995', name: 'New American Standard Bible (1995)', abbreviation: 'NASB1995' },
+    { id: 'nivuk', name: 'New International Version (UK)', abbreviation: 'NIVUK' },
+    { id: 'nlv', name: 'New Life Version', abbreviation: 'NLV' },
+    { id: 'nog', name: 'Names of God Bible', abbreviation: 'NOG' },
+    { id: 'nrsv', name: 'New Revised Standard Version', abbreviation: 'NRSV' },
+    { id: 'nrsvue', name: 'New Revised Standard Version Updated Edition', abbreviation: 'NRSVUE' },
+    { id: 'ylt', name: "Young's Literal Translation", abbreviation: 'YLT' },
+  ])
+
+  // Cache for loaded data
+  const dataCache = ref({})
+
+  // Dynamic import mapping for individual book files
+  const getBookDataImport = async (versionId, bookId) => {
+    const versionMappings = {
+      kjv: () => import(`../data/converted/KJV/${bookId}Book.json`),
+      niv: () => import(`../data/converted/NIV/${bookId}Book.json`),
+      esv: () => import(`../data/converted/ESV/${bookId}Book.json`),
+      nasb: () => import(`../data/converted/NASB/${bookId}Book.json`),
+      nlt: () => import(`../data/converted/NLT/${bookId}Book.json`),
+      nkjv: () => import(`../data/converted/NKJV/${bookId}Book.json`),
+      net: () => import(`../data/converted/NET/${bookId}Book.json`),
+      web: () => import(`../data/converted/WEB/${bookId}Book.json`),
+      akjv: () => import(`../data/converted/AKJV/${bookId}Book.json`),
+      asv: () => import(`../data/converted/ASV/${bookId}Book.json`),
+      brg: () => import(`../data/converted/BRG/${bookId}Book.json`),
+      ehv: () => import(`../data/converted/EHV/${bookId}Book.json`),
+      esvuk: () => import(`../data/converted/ESVUK/${bookId}Book.json`),
+      gnv: () => import(`../data/converted/GNV/${bookId}Book.json`),
+      gw: () => import(`../data/converted/GW/${bookId}Book.json`),
+      isv: () => import(`../data/converted/ISV/${bookId}Book.json`),
+      jub: () => import(`../data/converted/JUB/${bookId}Book.json`),
+      kj21: () => import(`../data/converted/KJ21/${bookId}Book.json`),
+      leb: () => import(`../data/converted/LEB/${bookId}Book.json`),
+      mev: () => import(`../data/converted/MEV/${bookId}Book.json`),
+      nasb1995: () => import(`../data/converted/NASB1995/${bookId}Book.json`),
+      nivuk: () => import(`../data/converted/NIVUK/${bookId}Book.json`),
+      nlv: () => import(`../data/converted/NLV/${bookId}Book.json`),
+      nog: () => import(`../data/converted/NOG/${bookId}Book.json`),
+      nrsv: () => import(`../data/converted/NRSV/${bookId}Book.json`),
+      nrsvue: () => import(`../data/converted/NRSVUE/${bookId}Book.json`),
+      ylt: () => import(`../data/converted/YLT/${bookId}Book.json`),
+    }
+
+    const versionImport = versionMappings[versionId.toLowerCase()]
+    if (!versionImport) {
+      throw new Error(`Version ${versionId} not supported`)
+    }
+
+    const bookData = await versionImport()
+    return bookData.default
+  }
+
+  const getVersesDataImport = async (versionId, bookId) => {
+    const versionMappings = {
+      kjv: () => import(`../data/converted/KJV/${bookId}Verses.json`),
+      niv: () => import(`../data/converted/NIV/${bookId}Verses.json`),
+      esv: () => import(`../data/converted/ESV/${bookId}Verses.json`),
+      nasb: () => import(`../data/converted/NASB/${bookId}Verses.json`),
+      nlt: () => import(`../data/converted/NLT/${bookId}Verses.json`),
+      nkjv: () => import(`../data/converted/NKJV/${bookId}Verses.json`),
+      net: () => import(`../data/converted/NET/${bookId}Verses.json`),
+      web: () => import(`../data/converted/WEB/${bookId}Verses.json`),
+      akjv: () => import(`../data/converted/AKJV/${bookId}Verses.json`),
+      asv: () => import(`../data/converted/ASV/${bookId}Verses.json`),
+      brg: () => import(`../data/converted/BRG/${bookId}Verses.json`),
+      ehv: () => import(`../data/converted/EHV/${bookId}Verses.json`),
+      esvuk: () => import(`../data/converted/ESVUK/${bookId}Verses.json`),
+      gnv: () => import(`../data/converted/GNV/${bookId}Verses.json`),
+      gw: () => import(`../data/converted/GW/${bookId}Verses.json`),
+      isv: () => import(`../data/converted/ISV/${bookId}Verses.json`),
+      jub: () => import(`../data/converted/JUB/${bookId}Verses.json`),
+      kj21: () => import(`../data/converted/KJ21/${bookId}Verses.json`),
+      leb: () => import(`../data/converted/LEB/${bookId}Verses.json`),
+      mev: () => import(`../data/converted/MEV/${bookId}Verses.json`),
+      nasb1995: () => import(`../data/converted/NASB1995/${bookId}Verses.json`),
+      nivuk: () => import(`../data/converted/NIVUK/${bookId}Verses.json`),
+      nlv: () => import(`../data/converted/NLV/${bookId}Verses.json`),
+      nog: () => import(`../data/converted/NOG/${bookId}Verses.json`),
+      nrsv: () => import(`../data/converted/NRSV/${bookId}Verses.json`),
+      nrsvue: () => import(`../data/converted/NRSVUE/${bookId}Verses.json`),
+      ylt: () => import(`../data/converted/YLT/${bookId}Verses.json`),
+    }
+
+    const versionImport = versionMappings[versionId.toLowerCase()]
+    if (!versionImport) {
+      throw new Error(`Version ${versionId} not supported`)
+    }
+
+    const versesData = await versionImport()
+    return versesData.default
+  }
+
+  // Initialize default version
+  const initializeDefaultVersion = () => {
+    if (!currentVersion.value) {
+      currentVersion.value = { id: 'kjv', name: 'King James Version', abbreviation: 'KJV' }
+    }
+  }
+
+  // Load book data dynamically from converted JSON files
+  const loadBookData = async (bookId, versionId = 'kjv') => {
+    const cacheKey = `${versionId}_${bookId}`
+
+    // Check cache first
+    if (dataCache.value[cacheKey]) {
+      return dataCache.value[cacheKey]
+    }
+
+    try {
+      // Load the specific book and verses data
+      const [bookData, versesData] = await Promise.all([
+        getBookDataImport(versionId, bookId),
+        getVersesDataImport(versionId, bookId),
+      ])
+
+      const result = { bookData, versesData }
+
+      // Cache the result
+      dataCache.value[cacheKey] = result
+
+      return result
+    } catch (error) {
+      console.error(`Error loading book data for ${bookId} in ${versionId}:`, error)
+      throw error
+    }
+  }
+
+  const compileData = async (book, versionId = 'kjv') => {
+    if (!book || !book.id) {
+      console.error(`Invalid book: ${book?.id}`)
+      return
+    }
+
+    isLoading.value = true
+    try {
+      const { bookData: loadedBookData, versesData: loadedVersesData } = await loadBookData(
+        book.id,
+        versionId,
+      )
+
+      bookData.value = loadedBookData
+      chapterData.value = loadedBookData.chapters
+      versesData.value = loadedVersesData
+      currentBookId.value = book.id
+      // Don't overwrite currentVersion here - it should already be set properly
+
+      // Compile the data
+      const data = chapterData.value.map((chapter) => ({
+        ...chapter,
+        verses: versesData.value.filter((verse) => verse.chapter === chapter.number),
+      }))
+
+      compiledData.value = data
+
+      // Set the first chapter as active
+      if (data.length > 0) {
+        activeChapter.value = data[0]
+      }
+
+      return data
+    } catch (error) {
+      console.error(`Failed to compile data for ${book.id}:`, error)
+    } finally {
+      isLoading.value = false
+    }
+  }
+
+  async function setBookData(book) {
+    // Initialize default version if not set
+    initializeDefaultVersion()
+
+    // Clear active verse when switching books
+    setActiveVerse(null)
+    currentBookId.value = book.id
+    await compileData(book, currentVersion.value?.id || 'kjv')
+  }
+
+  async function setBibleVersion(version) {
+    currentVersion.value = version
+
+    // If we have a current book, reload it with the new version
+    if (currentBookId.value) {
+      const currentBook = booksList.find((book) => book.id === currentBookId.value)
+      if (currentBook) {
+        await setBookData(currentBook)
+      }
+    }
+  }
+
+  function setChapterData(data) {
+    chapterData.value = data
+  }
+
+  function setVersesData(data) {
+    versesData.value = data
+  }
+
+  function setActiveChapter(chapter) {
+    activeChapter.value = chapter
+  }
+
+  // Get available books
+  function getAvailableBooks() {
+    return booksList
+  }
+
+  // Check if a book is available
+  function isBookAvailable(bookId) {
+    return bookDataMap.hasOwnProperty(bookId)
+  }
+
+  // Get current book info
+  function getCurrentBook() {
+    return {
+      id: currentBookId.value,
+      data: bookData.value,
+    }
+  }
+
+  // Helper function to get note key from verse (use version-independent key)
+  function getNoteKeyFromVerse(verse) {
+    // Always use version-independent key: book_chapter_verse
+    return `${verse.book || currentBookId.value}_${verse.chapter}_${verse.verse}`
+  }
+
+  // Helper function to get chapter note key
+  function getChapterNoteKey(bookId, chapterNumber) {
+    return `${bookId}_chapter_${chapterNumber}`
+  }
+
+  // Helper function to get book note key
+  function getBookNoteKey(bookId) {
+    return `${bookId}_book`
+  }
+
+  // Set active verse
+  function setActiveVerse(verse) {
+    activeVerse.value = verse
+
+    if (verse) {
+      const noteKey = getNoteKeyFromVerse(verse)
+
+      // Initialize note if it doesn't exist
+      if (!userNotes.value[noteKey]) {
+        userNotes.value[noteKey] = {
+          id: '',
+          text: '',
+          book: currentBookId.value,
+          chapter: activeChapter.value?.number,
+          verse: verse.verse,
+          noteKey: noteKey,
+        }
+      }
+
+      // Initialize question if it doesn't exist
+      if (!userQuestions.value[noteKey]) {
+        userQuestions.value[noteKey] = {
+          id: '',
+          text: '',
+          book: currentBookId.value,
+          chapter: activeChapter.value?.number,
+          verse: verse.verse,
+          noteKey: noteKey,
+        }
+      }
+
+      activeNote.value = userNotes.value[noteKey]
+      activeQuestions.value = userQuestions.value[noteKey]
+    } else {
+      activeNote.value = null
+      activeQuestions.value = null
+    }
+  }
+
+  // Navigate to a specific verse from a note
+  function navigateToVerseFromNote(note) {
+    const targetBook = note.book
+    const targetChapter = note.chapter
+    const targetVerse = note.verse
+
+    // Check if we need to switch books
+    if (targetBook && targetBook !== currentBookId.value) {
+      if (!isBookAvailable(targetBook)) {
+        console.error(`Book ${targetBook} is not available`)
+        return
+      }
+
+      // Switch to the correct book
+      setBookData({ id: targetBook })
+
+      // Wait for data compilation, then navigate
+      setTimeout(() => {
+        navigateToSpecificVerse(targetBook, targetChapter, targetVerse)
+      }, 50)
+    } else {
+      // Book is already correct, navigate immediately
+      navigateToSpecificVerse(targetBook, targetChapter, targetVerse)
+    }
+  }
+
+  // Navigate to a specific verse within the current book
+  function navigateToSpecificVerse(book, chapter, verse) {
+    // Find the correct chapter in the compiled data
+    const targetChapter = compiledData.value?.find((c) => c.number === chapter)
+    if (!targetChapter) {
+      console.error(`Chapter ${chapter} not found in book ${book}`)
+      return
+    }
+
+    // Find the target verse in the chapter
+    const targetVerse = targetChapter.verses.find((v) => v.verse === verse)
+    if (!targetVerse) {
+      console.error(`Verse ${verse} not found in chapter ${chapter}`)
+      return
+    }
+
+    // Check if this is the same verse that's already active
+    const currentVerse = activeVerse.value
+    if (
+      currentVerse &&
+      currentVerse.verse === targetVerse.verse &&
+      currentVerse.chapter === chapter &&
+      currentBookId.value === book
+    ) {
+      setActiveVerse(null)
+      return
+    }
+
+    // Set the active chapter first
+    setActiveChapter(targetChapter)
+
+    // Create verse with proper context and set as active
+    setActiveVerse({
+      ...targetVerse,
+      book: book,
+      chapter: chapter,
+    })
+  }
+
+  // Add or update a note
+  function addOrUpdateNote(verse, noteText, noteId = null) {
+    const noteKey = getNoteKeyFromVerse(verse)
+    userNotes.value[noteKey] = {
+      id: noteId || userNotes.value[noteKey]?.id || '',
+      text: noteText,
+      book: currentBookId.value,
+      chapter: activeChapter.value?.number,
+      verse: verse.verse,
+      noteKey: noteKey,
+    }
+    return userNotes.value[noteKey]
+  }
+
+  // Add or update a question
+  function addOrUpdateQuestion(verse, questionText, questionId = null) {
+    const noteKey = getNoteKeyFromVerse(verse)
+    userQuestions.value[noteKey] = {
+      id: questionId || userQuestions.value[noteKey]?.id || '',
+      text: questionText,
+      book: currentBookId.value,
+      chapter: activeChapter.value?.number,
+      verse: verse.verse,
+      noteKey: noteKey,
+    }
+    return userQuestions.value[noteKey]
+  }
+
+  // Add or update a chapter note
+  function addOrUpdateChapterNote(bookId, chapterNumber, noteText, noteId = null) {
+    const noteKey = getChapterNoteKey(bookId, chapterNumber)
+    chapterNotes.value[noteKey] = {
+      id: noteId || chapterNotes.value[noteKey]?.id || '',
+      text: noteText,
+      book: bookId,
+      chapter: chapterNumber,
+      noteKey: noteKey,
+    }
+    return chapterNotes.value[noteKey]
+  }
+
+  // Add or update a chapter question
+  function addOrUpdateChapterQuestion(bookId, chapterNumber, questionText, questionId = null) {
+    const noteKey = getChapterNoteKey(bookId, chapterNumber)
+    chapterQuestions.value[noteKey] = {
+      id: questionId || chapterQuestions.value[noteKey]?.id || '',
+      text: questionText,
+      book: bookId,
+      chapter: chapterNumber,
+      noteKey: noteKey,
+    }
+    return chapterQuestions.value[noteKey]
+  }
+
+  // Add or update a book note
+  function addOrUpdateBookNote(bookId, noteText, noteId = null) {
+    const noteKey = getBookNoteKey(bookId)
+    bookNotes.value[noteKey] = {
+      id: noteId || bookNotes.value[noteKey]?.id || '',
+      text: noteText,
+      book: bookId,
+      noteKey: noteKey,
+    }
+    return bookNotes.value[noteKey]
+  }
+
+  // Add or update a book question
+  function addOrUpdateBookQuestion(bookId, questionText, questionId = null) {
+    const noteKey = getBookNoteKey(bookId)
+    bookQuestions.value[noteKey] = {
+      id: questionId || bookQuestions.value[noteKey]?.id || '',
+      text: questionText,
+      book: bookId,
+      noteKey: noteKey,
+    }
+    return bookQuestions.value[noteKey]
+  }
+
+  // Get filtered notes
+  function getFilteredNotes() {
+    return Object.values(userNotes.value).filter((note) => note.text)
+  }
+
+  // Get filtered questions
+  function getFilteredQuestions() {
+    return Object.values(userQuestions.value).filter((question) => question.text)
+  }
+
+  // Get filtered chapter notes
+  function getFilteredChapterNotes(bookId) {
+    return Object.values(chapterNotes.value).filter((note) => note.text && note.book === bookId)
+  }
+
+  // Get filtered chapter questions
+  function getFilteredChapterQuestions(bookId) {
+    return Object.values(chapterQuestions.value).filter(
+      (question) => question.text && question.book === bookId,
+    )
+  }
+
+  // Get filtered book notes
+  function getFilteredBookNotes(bookId) {
+    return Object.values(bookNotes.value).filter((note) => note.text && note.book === bookId)
+  }
+
+  // Get filtered book questions
+  function getFilteredBookQuestions(bookId) {
+    return Object.values(bookQuestions.value).filter(
+      (question) => question.text && question.book === bookId,
+    )
+  }
+
+  // Load a specific verse from a different version for comparison
+  async function loadVerseComparison(verse, targetVersionId) {
+    const cacheKey = `${targetVersionId}_${verse.book}_${verse.chapter}_${verse.verse}`
+
+    // Check cache first
+    if (comparisonCache.value[cacheKey]) {
+      return comparisonCache.value[cacheKey]
+    }
+
+    try {
+      // Load the specific verse data from the target version
+      const versesData = await getVersesDataImport(targetVersionId, verse.book)
+
+      // Find the specific verse
+      const targetVerse = versesData.find(
+        (v) => v.chapter === verse.chapter && v.verse === verse.verse,
+      )
+
+      if (targetVerse) {
+        const result = {
+          ...targetVerse,
+          version: availableVersions.value.find((v) => v.id === targetVersionId),
+          originalVerse: verse,
+        }
+
+        // Cache the result
+        comparisonCache.value[cacheKey] = result
+        return result
+      } else {
+        throw new Error(`Verse not found in ${targetVersionId}`)
+      }
+    } catch (error) {
+      console.error(
+        `Error loading verse comparison for ${verse.book} ${verse.chapter}:${verse.verse} in ${targetVersionId}:`,
+        error,
+      )
+      throw error
+    }
+  }
+
+  // Get available versions for comparison
+  function getAvailableVersions() {
+    return availableVersions.value.filter((v) => v.id !== currentVersion.value?.id)
+  }
+
+  // Get book summary
+  function getBookSummary(bookId) {
+    return bookSummaries[bookId] || null
+  }
+
+  return {
+    bookData,
+    chapterData,
+    versesData,
+    activeChapter,
+    compiledData,
+    currentBookId,
+    currentVersion,
+    activeVerse,
+    isLoading,
+    userNotes,
+    userQuestions,
+    chapterNotes,
+    chapterQuestions,
+    bookNotes,
+    bookQuestions,
+    activeNote,
+    activeQuestions,
+    setBookData,
+    setBibleVersion,
+    setChapterData,
+    setVersesData,
+    setActiveChapter,
+    setActiveVerse,
+    getAvailableBooks,
+    isBookAvailable,
+    getCurrentBook,
+    navigateToVerseFromNote,
+    addOrUpdateNote,
+    addOrUpdateQuestion,
+    addOrUpdateChapterNote,
+    addOrUpdateChapterQuestion,
+    addOrUpdateBookNote,
+    addOrUpdateBookQuestion,
+    getFilteredNotes,
+    getFilteredQuestions,
+    getFilteredChapterNotes,
+    getFilteredChapterQuestions,
+    getFilteredBookNotes,
+    getFilteredBookQuestions,
+    loadVerseComparison,
+    getAvailableVersions,
+    availableVersions,
+    getBookSummary,
+  }
+})

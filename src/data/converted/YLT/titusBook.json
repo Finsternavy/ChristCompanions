@@ -1,0 +1,613 @@
+{
+  "id": "titus",
+  "name": "Titus",
+  "testament": "new",
+  "order": 56,
+  "chapterCount": 3,
+  "verseCount": 46,
+  "translation": "YLT",
+  "speakerStats": {
+    "jesusVerses": 0,
+    "godVerses": 0,
+    "narratorVerses": 46
+  },
+  "summary": {
+    "short": "Titus contains 3 chapters",
+    "long": "Titus is a book of the New Testament.",
+    "keyThemes": [
+      "Good Works",
+      "Sound Doctrine",
+      "Leadership"
+    ],
+    "keyCharacters": [
+      "Paul",
+      "Titus",
+      "Artemas",
+      "Tychicus",
+      "Zenas",
+      "Apollos"
+    ]
+  },
+  "author": {
+    "name": "Paul",
+    "confidence": "high",
+    "notes": ""
+  },
+  "dateWritten": {
+    "estimated": "64 AD",
+    "confidence": "high",
+    "notes": ""
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "summary": "Chapter 1 of Titus",
+      "verses": [
+        {
+          "id": "ylt_titus_1_1",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 1,
+          "text": "Paul, a servant of God, and an apostle of Jesus Christ, according to the faith of the choice ones of God, and an acknowledging of truth that [is] according to piety,",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_1_2",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 2,
+          "text": "upon hope of life age-during, which God, who doth not lie, did promise before times of ages,",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_1_3",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 3,
+          "text": "(and He manifested in proper times His word,) in preaching, which I was entrusted with, according to a charge of God our Saviour,",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_1_4",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 4,
+          "text": "to Titus -- true child according to a common faith: Grace, kindness, peace, from God the Father, and the Lord Jesus Christ our Saviour!",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_1_5",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 5,
+          "text": "For this cause left I thee in Crete, that the things lacking thou mayest arrange, and mayest set down in every city elders, as I did appoint to thee;",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_1_6",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 6,
+          "text": "if any one is blameless, of one wife a husband, having children stedfast, not under accusation of riotous living or insubordinate --",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_1_7",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 7,
+          "text": "for it behoveth the overseer to be blameless, as God's steward, not self-pleased, nor irascible, not given to wine, not a striker, not given to filthy lucre;",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_1_8",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 8,
+          "text": "but a lover of strangers, a lover of good men, sober-minded, righteous, kind, self-controlled,",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_1_9",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 9,
+          "text": "holding -- according to the teaching -- to the stedfast word, that he may be able also to exhort in the sound teaching, and the gainsayers to convict;",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_1_10",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 10,
+          "text": "for there are many both insubordinate, vain-talkers, and mind-deceivers -- especially they of the circumcision --",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_1_11",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 11,
+          "text": "whose mouth it behoveth to stop, who whole households do overturn, teaching what things it behoveth not, for filthy lucre's sake.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_1_12",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 12,
+          "text": "A certain one of them, a prophet of their own, said -- `Cretans! always liars, evil beasts, lazy bellies!'",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_1_13",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 13,
+          "text": "this testimony is true; for which cause convict them sharply, that they may be sound in the faith,",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_1_14",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 14,
+          "text": "not giving heed to Jewish fables and commands of men, turning themselves away from the truth;",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_1_15",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 15,
+          "text": "all things, indeed, [are] pure to the pure, and to the defiled and unstedfast [is] nothing pure, but of them defiled [are] even the mind and the conscience;",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_1_16",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 16,
+          "text": "God they profess to know, and in the works they deny [Him], being abominable, and disobedient, and unto every good work disapproved.",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "Chapter 2 of Titus",
+      "verses": [
+        {
+          "id": "ylt_titus_2_1",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 1,
+          "text": "And thou -- be speaking what doth become the sound teaching;",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_2_2",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 2,
+          "text": "aged men to be temperate, grave, sober, sound in the faith, in the love, in the endurance;",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_2_3",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 3,
+          "text": "aged women, in like manner, in deportment as doth become sacred persons, not false accusers, to much wine not enslaved, of good things teachers,",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_2_4",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 4,
+          "text": "that they may make the young women sober-minded, to be lovers of [their] husbands, lovers of [their] children,",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_2_5",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 5,
+          "text": "sober, pure, keepers of [their own] houses, good, subject to their own husbands, that the word of God may not be evil spoken of.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_2_6",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 6,
+          "text": "The younger men, in like manner, be exhorting to be sober-minded;",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_2_7",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 7,
+          "text": "concerning all things thyself showing a pattern of good works; in the teaching uncorruptedness, gravity, incorruptibility,",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_2_8",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 8,
+          "text": "discourse sound, irreprehensible, that he who is of the contrary part may be ashamed, having nothing evil to say concerning you.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_2_9",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 9,
+          "text": "Servants -- to their own masters [are] to be subject, in all things to be well-pleasing, not gainsaying,",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_2_10",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 10,
+          "text": "not purloining, but showing all good stedfastness, that the teaching of God our Saviour they may adorn in all things.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_2_11",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 11,
+          "text": "For the saving grace of God was manifested to all men,",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_2_12",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 12,
+          "text": "teaching us, that denying the impiety and the worldly desires, soberly and righteously and piously we may live in the present age,",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_2_13",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 13,
+          "text": "waiting for the blessed hope and manifestation of the glory of our great God and Saviour Jesus Christ,",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_2_14",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 14,
+          "text": "who did give himself for us, that he might ransom us from all lawlessness, and might purify to himself a peculiar people, zealous of good works;",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_2_15",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 15,
+          "text": "these things be speaking, and exhorting, and convicting, with all charge; let no one despise thee!",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "Chapter 3 of Titus",
+      "verses": [
+        {
+          "id": "ylt_titus_3_1",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 1,
+          "text": "Remind them to be subject to principalities and authorities, to obey rule, unto every good work to be ready,",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_3_2",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 2,
+          "text": "of no one to speak evil, not to be quarrelsome -- gentle, showing all meekness to all men,",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_3_3",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 3,
+          "text": "for we were once -- also we -- thoughtless, disobedient, led astray, serving desires and pleasures manifold, in malice and envy living, odious -- hating one another;",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_3_4",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 4,
+          "text": "and when the kindness and the love to men of God our Saviour did appear",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_3_5",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 5,
+          "text": "(not by works that [are] in righteousness that we did but according to His kindness,) He did save us, through a bathing of regeneration, and a renewing of the Holy Spirit,",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_3_6",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 6,
+          "text": "which He poured upon us richly, through Jesus Christ our Saviour,",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_3_7",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 7,
+          "text": "that having been declared righteous by His grace, heirs we may become according to the hope of life age-during.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_3_8",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 8,
+          "text": "Stedfast [is] the word; and concerning these things I counsel thee to affirm fully, that they may be thoughtful, to be leading in good works -- who have believed God; these are the good and profitable things to men,",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_3_9",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 9,
+          "text": "and foolish questions, and genealogies, and contentions, and strivings about law, stand away from -- for they are unprofitable and vain.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_3_10",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 10,
+          "text": "A sectarian man, after a first and second admonition be rejecting,",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_3_11",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 11,
+          "text": "having known that he hath been subverted who [is] such, and doth sin, being self-condemned.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_3_12",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 12,
+          "text": "When I shall send Artemas unto thee, or Tychicus, be diligent to come unto me to Nicopolis, for there to winter I have determined.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_3_13",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 13,
+          "text": "Zenas the lawyer and Apollos bring diligently on their way, that nothing to them may be lacking,",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_3_14",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 14,
+          "text": "and let them learn -- ours also -- to be leading in good works to the necessary uses, that they may not be unfruitful.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ylt_titus_3_15",
+          "translation": "YLT",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 15,
+          "text": "Salute thee do all those with me; salute those loving us in faith; the grace [is] with you all!",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    }
+  ]
+}

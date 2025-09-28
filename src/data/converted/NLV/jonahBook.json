@@ -1,0 +1,641 @@
+{
+  "id": "jonah",
+  "name": "Jonah",
+  "testament": "old",
+  "order": 32,
+  "chapterCount": 4,
+  "verseCount": 48,
+  "translation": "NLV",
+  "speakerStats": {
+    "jesusVerses": 0,
+    "godVerses": 0,
+    "narratorVerses": 48
+  },
+  "summary": {
+    "short": "Jonah contains 4 chapters",
+    "long": "Jonah is a book of the Old Testament.",
+    "keyThemes": [
+      "Mercy",
+      "Repentance",
+      "Mission",
+      "Salvation"
+    ],
+    "keyCharacters": [
+      "Jonah",
+      "Ninevites",
+      "Fish"
+    ]
+  },
+  "author": {
+    "name": "Jonah",
+    "confidence": "high",
+    "notes": ""
+  },
+  "dateWritten": {
+    "estimated": "760 BC",
+    "confidence": "high",
+    "notes": ""
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "summary": "Chapter 1 of Jonah",
+      "verses": [
+        {
+          "id": "nlv_jonah_1_1",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 1,
+          "text": "The Word of the Lord came to Jonah the son of Amittai, saying,",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_1_2",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 2,
+          "text": "“Get up and go to the large city of Nineveh, and preach against it. For their sin has come up before Me.”",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_1_3",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 3,
+          "text": "But Jonah ran away from the Lord going toward Tarshish. He went down to Joppa and found a ship which was going to Tarshish. Jonah paid money, and got on the ship to go with them, to get away from the Lord.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_1_4",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 4,
+          "text": "Then the Lord sent a powerful wind upon the sea, and there was such a big storm that the ship was about to break up.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_1_5",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 5,
+          "text": "The sailors became afraid, and every man cried to his god. They threw the things that were in the ship into the sea so that it would not be so heavy. But Jonah had gone below in the ship and had lain down and fallen asleep.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_1_6",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 6,
+          "text": "So the captain went to him and said, “How can you sleep? Get up and call on your god. It may be that your god will care about us, and we will not die.”",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_1_7",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 7,
+          "text": "Then the sailors said to each other, “Come, let us draw names so we can find out who is to blame for this trouble.” So they drew names, and Jonah’s name was drawn.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_1_8",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 8,
+          "text": "Then they said to him, “Now tell us! Who is to blame for this? What is your work? Where do you come from? What is your country? From what people are you?”",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_1_9",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 9,
+          "text": "Jonah said to them, “I am a Hebrew, and I worship the Lord God of heaven Who made the sea and the dry land.”",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_1_10",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 10,
+          "text": "Then the men were filled with fear and said to him, “How could you do this?” For the men knew that he was running away from the Lord, because he had told them.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_1_11",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 11,
+          "text": "So they said to him, “What should we do to you to make the sea quiet down for us?” For the storm was getting worse.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_1_12",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 12,
+          "text": "Jonah said to them, “Pick me up and throw me into the sea. Then the sea will quiet down for you. For I know that this bad storm has come upon you because of me.”",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_1_13",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 13,
+          "text": "The men rowed hard to return to land, but they could not, for the wind was blowing even worse against them.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_1_14",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 14,
+          "text": "Then they called on the Lord and said, “We beg You, O Lord, do not let us die for what this man has done. And do not let us become guilty for killing someone who is not to blame. For You, O Lord, have done as You have pleased.”",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_1_15",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 15,
+          "text": "So they picked up Jonah and threw him into the sea, and the storm stopped.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_1_16",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 16,
+          "text": "Then the men feared the Lord very much. They gave a gift in worship to the Lord and made promises to Him.",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_1_17",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 17,
+          "text": "The Lord sent a big fish to swallow Jonah, and he was in the stomach of the fish for three days and three nights.",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "Chapter 2 of Jonah",
+      "verses": [
+        {
+          "id": "nlv_jonah_2_1",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 2,
+          "verse": 1,
+          "text": "Then Jonah prayed to the Lord his God while in the stomach of the fish,",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_2_2",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 2,
+          "verse": 2,
+          "text": "saying, “I called out to the Lord because of my trouble, and He answered me. I cried for help from the place of the dead, and You heard my voice.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_2_3",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 2,
+          "verse": 3,
+          "text": "You threw me into the deep waters, to the very bottom of the sea. A flood was all around me and all Your waves passed over me.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_2_4",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 2,
+          "verse": 4,
+          "text": "Then I said, ‘I have been sent away from Your eyes. But I will look again toward Your holy house.’",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_2_5",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 2,
+          "verse": 5,
+          "text": "Waters closed in over me. The sea was all around me. Weeds were around my head.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_2_6",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 2,
+          "verse": 6,
+          "text": "I went down to the roots of the mountains. The walls of the earth were around me forever. But You have brought me up from the grave, O Lord my God.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_2_7",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 2,
+          "verse": 7,
+          "text": "While I was losing all my strength, I remembered the Lord. And my prayer came to You, into Your holy house.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_2_8",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 2,
+          "verse": 8,
+          "text": "Those who worship false gods have given up their faith in You.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_2_9",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 2,
+          "verse": 9,
+          "text": "But I will give gifts in worship to You with a thankful voice. I will give You what I have promised. The Lord is the One Who saves.”",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_2_10",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 2,
+          "verse": 10,
+          "text": "Then the Lord spoke to the fish, and it spit Jonah out onto the dry land.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "Chapter 3 of Jonah",
+      "verses": [
+        {
+          "id": "nlv_jonah_3_1",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 3,
+          "verse": 1,
+          "text": "The Word of the Lord came to Jonah a second time, saying,",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_3_2",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 3,
+          "verse": 2,
+          "text": "“Get up and go to the large city of Nineveh, and tell the people there the news which I am going to tell you.”",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_3_3",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 3,
+          "verse": 3,
+          "text": "So Jonah got up and went to Nineveh, as the Lord had told him. Now Nineveh was a very large city. It took three days to walk through it.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_3_4",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 3,
+          "verse": 4,
+          "text": "Jonah started into the city, for a day’s walk, and he cried out, “In forty days Nineveh will be destroyed!”",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_3_5",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 3,
+          "verse": 5,
+          "text": "Then the people of Nineveh believed in God. They called for a time when no food was to be eaten. And all the people, from the greatest to the least, put on clothes made from hair.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_3_6",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 3,
+          "verse": 6,
+          "text": "When the news came to the king of Nineveh, he got up from his throne and laid aside his beautiful clothing. Then he covered himself with cloth made from hair, and sat in ashes.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_3_7",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 3,
+          "verse": 7,
+          "text": "And he sent word through all of Nineveh, saying, “By the law of the king and his leaders, do not let man or animal, cattle or flock, taste anything. Do not let them eat or drink water.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_3_8",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 3,
+          "verse": 8,
+          "text": "Both man and animal must be covered with cloth made from hair. Everyone must pray to God with all his heart, so each person may turn from his sinful way and from the bad things he has done.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_3_9",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 3,
+          "verse": 9,
+          "text": "Who knows? God may change His mind and stop being angry so that we will not die.”",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_3_10",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 3,
+          "verse": 10,
+          "text": "When God saw what they did, and that they turned from their sinful way, He changed His mind about the trouble He said He would bring upon them, and He did not destroy Nineveh.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "Chapter 4 of Jonah",
+      "verses": [
+        {
+          "id": "nlv_jonah_4_1",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 1,
+          "text": "But Jonah was not pleased at all, and he became angry.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_4_2",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 2,
+          "text": "He prayed to the Lord and said, “O Lord, is this not what I said You would do while still in my own country? That is why I ran away to Tarshish. For I knew that You are a kind and loving God Who shows pity. I knew that You are slow to anger and are filled with loving-kindness, always ready to change Your mind and not punish.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_4_3",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 3,
+          "text": "So now, O Lord, take my life from me. For death is better to me than life.”",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_4_4",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 4,
+          "text": "And the Lord said, “Have you any reason to be angry?”",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_4_5",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 5,
+          "text": "Then Jonah left the city and sat to the east of the city. There he made a tent for himself, and sat in its shadow until he could see what would happen in the city.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_4_6",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 6,
+          "text": "Then the Lord God made a plant grow up over Jonah to cover him from the hot sun and to stop his suffering. Jonah was very happy about the plant.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_4_7",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 7,
+          "text": "But at the beginning of the next day, God sent a worm to destroy the plant and it dried up.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_4_8",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 8,
+          "text": "When the sun came up, God sent a hot east wind. And the sun’s heat came upon Jonah’s head so that he became weak and begged with all his heart to die. He said, “Death is better to me than life.”",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_4_9",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 9,
+          "text": "Then God said to Jonah, “Do you have a good reason to be angry about the plant?” And Jonah said, “I have a good reason to be angry, angry enough to die.”",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_4_10",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 10,
+          "text": "The Lord said, “You had loving-pity on the plant which you did not work for. You did not cause it to grow. It came up during the night and died during the night.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_jonah_4_11",
+          "translation": "NLV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 11,
+          "text": "And should I not have loving-pity for Nineveh, the large city where more than 120,000 people live who do not know the difference between their right and left hand, as well as many animals?”",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    }
+  ]
+}

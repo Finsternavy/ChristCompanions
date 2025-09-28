@@ -1,0 +1,509 @@
+{
+  "id": "haggai",
+  "name": "Haggai",
+  "testament": "old",
+  "order": 37,
+  "chapterCount": 2,
+  "verseCount": 38,
+  "translation": "NRSV",
+  "speakerStats": {
+    "jesusVerses": 0,
+    "godVerses": 0,
+    "narratorVerses": 38
+  },
+  "summary": {
+    "short": "Haggai contains 2 chapters",
+    "long": "Haggai is a book of the Old Testament.",
+    "keyThemes": [
+      "Temple",
+      "Priority",
+      "Blessing",
+      "Glory"
+    ],
+    "keyCharacters": [
+      "Haggai",
+      "Zerubbabel",
+      "Joshua"
+    ]
+  },
+  "author": {
+    "name": "Haggai",
+    "confidence": "high",
+    "notes": ""
+  },
+  "dateWritten": {
+    "estimated": "520 BC",
+    "confidence": "high",
+    "notes": ""
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "summary": "Chapter 1 of Haggai",
+      "verses": [
+        {
+          "id": "nrsv_haggai_1_1",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 1,
+          "verse": 1,
+          "text": "In the second year of King Darius, in the sixth month, on the first day of the month, the word of the Lord came by the prophet Haggai to Zerubbabel son of Shealtiel, governor of Judah, and to Joshua son of Jehozadak, the high priest:",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_1_2",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 1,
+          "verse": 2,
+          "text": "“Thus says the Lord of hosts: These people say the time has not yet come to rebuild the Lord’s house.”",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_1_3",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 1,
+          "verse": 3,
+          "text": "Then the word of the Lord came by the prophet Haggai, saying:",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_1_4",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 1,
+          "verse": 4,
+          "text": "“Is it a time for you yourselves to live in your paneled houses, while this house lies in ruins?",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_1_5",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 1,
+          "verse": 5,
+          "text": "Now therefore thus says the Lord of hosts: Consider how you have fared.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_1_6",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 1,
+          "verse": 6,
+          "text": "You have sown much and harvested little; you eat, but you never have enough; you drink, but you never have your fill; you clothe yourselves, but no one is warm; and you that earn wages earn wages to put them into a bag with holes.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_1_7",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 1,
+          "verse": 7,
+          "text": "“Thus says the Lord of hosts: Consider how you have fared.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_1_8",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 1,
+          "verse": 8,
+          "text": "Go up to the hills and bring wood and build the house, so that I may take pleasure in it and be honored, says the Lord.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_1_9",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 1,
+          "verse": 9,
+          "text": "You have looked for much, but it came to little, and when you brought it home, I blew it away. Why? says the Lord of hosts. Because my house lies in ruins, while all of you hurry off to your own houses.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_1_10",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 1,
+          "verse": 10,
+          "text": "Therefore the heavens above you have withheld the dew, and the earth has withheld its produce.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_1_11",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 1,
+          "verse": 11,
+          "text": "And I have called for a drought on the land and the hills, on the grain, the new wine, the oil, on what the soil produces, on humans and animals, and on all their labors.”",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_1_12",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 1,
+          "verse": 12,
+          "text": "Then Zerubbabel son of Shealtiel and Joshua son of Jehozadak, the high priest, with all the remnant of the people, obeyed the voice of the Lord their God and the words of the prophet Haggai, as the Lord their God had sent him, and the people feared the Lord.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_1_13",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 1,
+          "verse": 13,
+          "text": "Then Haggai, the messenger of the Lord, spoke to the people with the Lord’s message, saying, “I am with you, says the Lord.”",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_1_14",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 1,
+          "verse": 14,
+          "text": "And the Lord stirred up the spirit of Zerubbabel son of Shealtiel, governor of Judah, and the spirit of Joshua son of Jehozadak, the high priest, and the spirit of all the remnant of the people, and they came and worked on the house of the Lord of hosts, their God,",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_1_15",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 1,
+          "verse": 15,
+          "text": "on the twenty-fourth day of the month, in the sixth month.\nIn the second year of King Darius,",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "Chapter 2 of Haggai",
+      "verses": [
+        {
+          "id": "nrsv_haggai_2_1",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 1,
+          "text": "in the seventh month, on the twenty-first day of the month, the word of the Lord came by the prophet Haggai, saying:",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_2_2",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 2,
+          "text": "“Speak now to Zerubbabel son of Shealtiel, governor of Judah, and to Joshua son of Jehozadak, the high priest, and to the remnant of the people, and say:",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_2_3",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 3,
+          "text": "Who is left among you who saw this house in its former glory? How does it look to you now? Is it not in your sight as nothing?",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_2_4",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 4,
+          "text": "Yet now take courage, O Zerubbabel, says the Lord; take courage, O Joshua, son of Jehozadak, the high priest; take courage, all you people of the land, says the Lord; work, for I am with you, says the Lord of hosts,",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_2_5",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 5,
+          "text": "according to the promise that I made you when you came out of Egypt. My spirit abides among you; do not fear.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_2_6",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 6,
+          "text": "For thus says the Lord of hosts: Once again, in a little while, I will shake the heavens and the earth and the sea and the dry land,",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_2_7",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 7,
+          "text": "and I will shake all the nations, so that the treasure of all nations will come, and I will fill this house with splendor, says the Lord of hosts.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_2_8",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 8,
+          "text": "The silver is mine, and the gold is mine, says the Lord of hosts.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_2_9",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 9,
+          "text": "The latter splendor of this house shall be greater than the former, says the Lord of hosts, and in this place I will give prosperity, says the Lord of hosts.”",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_2_10",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 10,
+          "text": "On the twenty-fourth day of the ninth month, in the second year of Darius, the word of the Lord came to the prophet Haggai, saying:",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_2_11",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 11,
+          "text": "“Thus says the Lord of hosts: Ask the priests for a ruling:",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_2_12",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 12,
+          "text": "If one carries consecrated meat in the fold of one’s garment and with the fold touches bread, or stew, or wine, or oil, or any kind of food, does it become holy?” The priests answered, “No.”",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_2_13",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 13,
+          "text": "Then Haggai said, “If one who is unclean by contact with a dead body touches any of these, does it become unclean?” The priests answered, “Yes, it becomes unclean.”",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_2_14",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 14,
+          "text": "Haggai then said, “So is it with this people and with this nation before me, says the Lord, and so with every work of their hands; what they offer there is unclean.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_2_15",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 15,
+          "text": "But now, consider what will come to pass from this day on. Before a stone was placed upon a stone in the Lord’s temple,",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_2_16",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 16,
+          "text": "how did you fare? When one came to a heap of twenty measures, there were but ten; when one came to the wine vat to draw fifty measures, there were but twenty.",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_2_17",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 17,
+          "text": "I struck you and every work of your hands with blight and mildew and hail, yet you did not return to me, says the Lord.",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_2_18",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 18,
+          "text": "Consider from this day on, from the twenty-fourth day of the ninth month. Since the day that the foundation of the Lord’s temple was laid, consider:",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_2_19",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 19,
+          "text": "Is there any seed left in the barn? Do the vine, the fig tree, the pomegranate, and the olive tree still yield nothing? From this day on I will bless you.”",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_2_20",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 20,
+          "text": "The word of the Lord came a second time to Haggai on the twenty-fourth day of the month:",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_2_21",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 21,
+          "text": "“Speak to Zerubbabel, governor of Judah, saying: I am about to shake the heavens and the earth",
+          "paragraph": 5,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_2_22",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 22,
+          "text": "and to overthrow the throne of kingdoms; I am about to destroy the strength of the kingdoms of the nations and overthrow the chariots and their riders, and the horses and their riders shall fall, every one by the sword of a comrade.",
+          "paragraph": 5,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_haggai_2_23",
+          "translation": "NRSV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 23,
+          "text": "On that day, says the Lord of hosts, I will take you, O Zerubbabel my servant, son of Shealtiel, says the Lord, and make you like a signet ring; for I have chosen you, says the Lord of hosts.”",
+          "paragraph": 5,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    }
+  ]
+}

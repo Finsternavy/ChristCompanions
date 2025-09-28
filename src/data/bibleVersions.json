@@ -1,0 +1,164 @@
+[
+	{
+		"id": "kjv",
+		"name": "King James Version",
+		"abbreviation": "KJV",
+		"description": "The classic English translation from 1611"
+	},
+	{
+		"id": "niv",
+		"name": "New International Version",
+		"abbreviation": "NIV",
+		"description": "Modern, readable English translation"
+	},
+	{
+		"id": "esv",
+		"name": "English Standard Version",
+		"abbreviation": "ESV",
+		"description": "Word-for-word accuracy with readability"
+	},
+	{
+		"id": "nasb",
+		"name": "New American Standard Bible",
+		"abbreviation": "NASB",
+		"description": "Most literal English translation"
+	},
+	{
+		"id": "nlt",
+		"name": "New Living Translation",
+		"abbreviation": "NLT",
+		"description": "Thought-for-thought translation for clarity"
+	},
+	{
+		"id": "nkjv",
+		"name": "New King James Version",
+		"abbreviation": "NKJV",
+		"description": "Modern language with traditional style"
+	},
+	{
+		"id": "net",
+		"name": "New English Translation",
+		"abbreviation": "NET",
+		"description": "Comprehensive study notes included"
+	},
+	{
+		"id": "web",
+		"name": "World English Bible",
+		"abbreviation": "WEB",
+		"description": "Public domain modern English translation"
+	},
+	{
+		"id": "akjv",
+		"name": "American King James Version",
+		"abbreviation": "AKJV",
+		"description": "Americanized version of the King James Bible"
+	},
+	{
+		"id": "asv",
+		"name": "American Standard Version",
+		"abbreviation": "ASV",
+		"description": "Early 20th century American translation"
+	},
+	{
+		"id": "brg",
+		"name": "Bible in Basic English",
+		"abbreviation": "BRG",
+		"description": "Simplified English translation using basic vocabulary"
+	},
+	{
+		"id": "ehv",
+		"name": "Evangelical Heritage Version",
+		"abbreviation": "EHV",
+		"description": "Conservative Lutheran translation"
+	},
+	{
+		"id": "esvuk",
+		"name": "English Standard Version (UK)",
+		"abbreviation": "ESVUK",
+		"description": "British English version of the ESV"
+	},
+	{
+		"id": "gnv",
+		"name": "Geneva Bible",
+		"abbreviation": "GNV",
+		"description": "16th century Protestant translation"
+	},
+	{
+		"id": "gw",
+		"name": "God's Word",
+		"abbreviation": "GW",
+		"description": "Contemporary English translation"
+	},
+	{
+		"id": "isv",
+		"name": "International Standard Version",
+		"abbreviation": "ISV",
+		"description": "Modern translation with scholarly accuracy"
+	},
+	{
+		"id": "jub",
+		"name": "Jubilee Bible",
+		"abbreviation": "JUB",
+		"description": "Spanish-influenced English translation"
+	},
+	{
+		"id": "kj21",
+		"name": "21st Century King James Version",
+		"abbreviation": "KJ21",
+		"description": "Updated language while maintaining KJV style"
+	},
+	{
+		"id": "leb",
+		"name": "Lexham English Bible",
+		"abbreviation": "LEB",
+		"description": "Scholarly translation with extensive notes"
+	},
+	{
+		"id": "mev",
+		"name": "Modern English Version",
+		"abbreviation": "MEV",
+		"description": "Contemporary translation maintaining traditional language"
+	},
+	{
+		"id": "nasb1995",
+		"name": "New American Standard Bible (1995)",
+		"abbreviation": "NASB1995",
+		"description": "Updated version of the NASB"
+	},
+	{
+		"id": "nivuk",
+		"name": "New International Version (UK)",
+		"abbreviation": "NIVUK",
+		"description": "British English version of the NIV"
+	},
+	{
+		"id": "nlv",
+		"name": "New Life Version",
+		"abbreviation": "NLV",
+		"description": "Simplified English translation"
+	},
+	{
+		"id": "nog",
+		"name": "Names of God Bible",
+		"abbreviation": "NOG",
+		"description": "Translation emphasizing the names of God"
+	},
+	{
+		"id": "nrsv",
+		"name": "New Revised Standard Version",
+		"abbreviation": "NRSV",
+		"description": "Ecumenical translation used by many denominations"
+	},
+	{
+		"id": "nrsvue",
+		"name": "New Revised Standard Version Updated Edition",
+		"abbreviation": "NRSVUE",
+		"description": "Updated version of the NRSV with inclusive language"
+	},
+	{
+		"id": "ylt",
+		"name": "Young's Literal Translation",
+		"abbreviation": "YLT",
+		"description": "Very literal translation maintaining Hebrew/Greek word order"
+	}
+]

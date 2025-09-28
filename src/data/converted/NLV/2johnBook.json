@@ -1,0 +1,202 @@
+{
+  "id": "2john",
+  "name": "2 John",
+  "testament": "new",
+  "order": 63,
+  "chapterCount": 1,
+  "verseCount": 13,
+  "translation": "NLV",
+  "speakerStats": {
+    "jesusVerses": 0,
+    "godVerses": 0,
+    "narratorVerses": 13
+  },
+  "summary": {
+    "short": "2 John contains 1 chapters",
+    "long": "2 John is a book of the New Testament.",
+    "keyThemes": [
+      "Truth",
+      "Love",
+      "Deception"
+    ],
+    "keyCharacters": [
+      "John",
+      "Elect lady",
+      "Her children"
+    ]
+  },
+  "author": {
+    "name": "John",
+    "confidence": "high",
+    "notes": ""
+  },
+  "dateWritten": {
+    "estimated": "85-95 AD",
+    "confidence": "high",
+    "notes": ""
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "summary": "Chapter 1 of 2 John",
+      "verses": [
+        {
+          "id": "nlv_2john_1_1",
+          "translation": "NLV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 1,
+          "text": "The church leader writes to the chosen lady and to her children. I love you because of the truth. I am not the only one who loves you. All who know the truth love you.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_2john_1_2",
+          "translation": "NLV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 2,
+          "text": "It is because the truth is in us and will be with us forever.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_2john_1_3",
+          "translation": "NLV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 3,
+          "text": "Loving-favor and loving-kindness and peace are ours as we live in truth and love. These come from God the Father and from the Lord Jesus Christ, Who is the Son of the Father.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_2john_1_4",
+          "translation": "NLV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 4,
+          "text": "I am happy to find some of your children living in the truth as the Father has said we should.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_2john_1_5",
+          "translation": "NLV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 5,
+          "text": "And now I ask you, lady, that we have love one for the other. I am not writing to you about a new Law but an old one we have had from the beginning.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_2john_1_6",
+          "translation": "NLV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 6,
+          "text": "Love means that we should live by obeying His Word. From the beginning He has said in His Word that our hearts should be full of love.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_2john_1_7",
+          "translation": "NLV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 7,
+          "text": "There are many false teachers in the world. They do not say that Jesus Christ came in a human body. Such a person does not tell the truth. He is the false-christ.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_2john_1_8",
+          "translation": "NLV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 8,
+          "text": "Watch yourselves! You do not want to lose what we have worked for. You want to get what has been promised to you.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_2john_1_9",
+          "translation": "NLV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 9,
+          "text": "Anyone who goes too far and does not live by the teachings of Christ does not have God. If you live by what Christ taught, you have both the Father and the Son.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_2john_1_10",
+          "translation": "NLV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 10,
+          "text": "If a person comes to you with some other kind of teaching, do not take him into your home. Do not even greet him.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_2john_1_11",
+          "translation": "NLV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 11,
+          "text": "The person who does has a share in his sins.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_2john_1_12",
+          "translation": "NLV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 12,
+          "text": "I have many things to write to you. I do not want to write them in this letter. But I hope to come to you soon. Then we can talk about these things together that your joy may be full.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nlv_2john_1_13",
+          "translation": "NLV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 13,
+          "text": "The children of your chosen sister greet you.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "id": "2john",
+  "name": "2 John",
+  "testament": "new",
+  "order": 63,
+  "chapterCount": 1,
+  "verseCount": 13,
+  "translation": "ISV",
+  "speakerStats": {
+    "jesusVerses": 0,
+    "godVerses": 0,
+    "narratorVerses": 13
+  },
+  "summary": {
+    "short": "2 John contains 1 chapters",
+    "long": "2 John is a book of the New Testament.",
+    "keyThemes": [
+      "Truth",
+      "Love",
+      "Deception"
+    ],
+    "keyCharacters": [
+      "John",
+      "Elect lady",
+      "Her children"
+    ]
+  },
+  "author": {
+    "name": "John",
+    "confidence": "high",
+    "notes": ""
+  },
+  "dateWritten": {
+    "estimated": "85-95 AD",
+    "confidence": "high",
+    "notes": ""
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "summary": "Chapter 1 of 2 John",
+      "verses": [
+        {
+          "id": "isv_2john_1_1",
+          "translation": "ISV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 1,
+          "text": "From: The Elder\nTo: The chosen lady and her children, whom I genuinely love, and not only I but also all who know the truth,",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_2john_1_2",
+          "translation": "ISV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 2,
+          "text": "that is present in us and will be with us forever.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_2john_1_3",
+          "translation": "ISV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 3,
+          "text": "Grace, mercy, and peace will be with us from God the Father and from Jesus the Messiah, the Father’s Son, in truth and love.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_2john_1_4",
+          "translation": "ISV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 4,
+          "text": "I was overjoyed to find some of your children living truthfully, just as the Father has commanded us.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_2john_1_5",
+          "translation": "ISV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 5,
+          "text": "Dear lady, I am now requesting of you that we all continue to love one another. It is not as though I am writing to give you a new commandment, but one that we have had from the beginning.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_2john_1_6",
+          "translation": "ISV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 6,
+          "text": "And this is what demonstrates love: that we live according to God’s commandments. Just as you have heard from the beginning what he commanded, you must live by it.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_2john_1_7",
+          "translation": "ISV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 7,
+          "text": "For many deceivers have gone out into the world. They refuse to acknowledge Jesus the Messiah as having become human. Any such person is a deceiver and an antichrist.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_2john_1_8",
+          "translation": "ISV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 8,
+          "text": "See to it that you don’t destroy what we have worked for, but that you receive your full reward.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_2john_1_9",
+          "translation": "ISV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 9,
+          "text": "Everyone who does not remain true to the teaching of the Messiah, but goes beyond it, does not have God. The person who remains true to the teaching of the Messiah has both the Father and the Son.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_2john_1_10",
+          "translation": "ISV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 10,
+          "text": "If anyone comes to you but does not present his teachings, do not receive him into your house or even welcome him,",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_2john_1_11",
+          "translation": "ISV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 11,
+          "text": "because the one who welcomes him shares in his evil deeds.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_2john_1_12",
+          "translation": "ISV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 12,
+          "text": "Although I have a great deal to write to you, I would prefer not to use paper and ink. Instead, I hope to come to you and talk face to face, so that our joy may be complete.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_2john_1_13",
+          "translation": "ISV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 13,
+          "text": "The children of your chosen sister greet you.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1204 @@
+{
+	"genesis": {
+		"title": "Genesis",
+		"testament": "Old Testament",
+		"summary": "The book of Genesis is the foundational book of the Bible, describing the creation of the world, the fall of humanity, and the beginning of God's redemptive plan through the patriarchs Abraham, Isaac, and Jacob. It covers the stories of Adam and Eve, Noah and the flood, the Tower of Babel, and the establishment of the covenant with Abraham and his descendants.",
+		"keyThemes": [
+			"Creation",
+			"Fall of Man",
+			"Covenant",
+			"Patriarchs",
+			"God's Faithfulness"
+		],
+		"keyEvents": [
+			"Creation",
+			"Fall",
+			"Flood",
+			"Tower of Babel",
+			"Abraham's Call",
+			"Joseph in Egypt"
+		]
+	},
+	"exodus": {
+		"title": "Exodus",
+		"testament": "Old Testament",
+		"summary": "Exodus tells the story of Israel's deliverance from slavery in Egypt under Moses' leadership. It includes the ten plagues, the Passover, the crossing of the Red Sea, and the giving of the Law at Mount Sinai. The book establishes the foundation of Israel as God's chosen people and introduces the tabernacle as God's dwelling place among them.",
+		"keyThemes": [
+			"Deliverance",
+			"Covenant",
+			"Law",
+			"Worship",
+			"God's Presence"
+		],
+		"keyEvents": [
+			"Moses' Birth",
+			"Burning Bush",
+			"Ten Plagues",
+			"Passover",
+			"Red Sea Crossing",
+			"Ten Commandments"
+		]
+	},
+	"leviticus": {
+		"title": "Leviticus",
+		"testament": "Old Testament",
+		"summary": "Leviticus provides detailed instructions for worship, sacrifices, and holy living for the Israelites. It establishes the priestly system, dietary laws, and various offerings. The book emphasizes holiness and the need for atonement, pointing forward to Christ's ultimate sacrifice.",
+		"keyThemes": [
+			"Holiness",
+			"Sacrifice",
+			"Atonement",
+			"Priesthood",
+			"Cleanliness"
+		],
+		"keyEvents": [
+			"Priestly Ordination",
+			"Day of Atonement",
+			"Feast of Passover",
+			"Various Offerings"
+		]
+	},
+	"numbers": {
+		"title": "Numbers",
+		"testament": "Old Testament",
+		"summary": "Numbers chronicles Israel's journey from Mount Sinai to the edge of the Promised Land. It includes the census of the tribes, the rebellion at Kadesh-barnea, and the 40 years of wandering in the wilderness. The book shows God's faithfulness despite Israel's disobedience.",
+		"keyThemes": [
+			"Wandering",
+			"Disobedience",
+			"God's Faithfulness",
+			"Preparation",
+			"Census"
+		],
+		"keyEvents": [
+			"Census",
+			"Spy Mission",
+			"Korah's Rebellion",
+			"Balaam's Prophecy",
+			"Preparing for Canaan"
+		]
+	},
+	"deuteronomy": {
+		"title": "Deuteronomy",
+		"testament": "Old Testament",
+		"summary": "Deuteronomy is Moses' farewell address to Israel before they enter the Promised Land. It restates the Law, emphasizes the importance of loving and obeying God, and includes blessings and curses. The book serves as a covenant renewal and preparation for life in Canaan.",
+		"keyThemes": [
+			"Law",
+			"Covenant",
+			"Blessing and Curse",
+			"Love for God",
+			"Preparation"
+		],
+		"keyEvents": [
+			"Moses' Final Words",
+			"Restating the Law",
+			"Blessings and Curses",
+			"Joshua's Commission"
+		]
+	},
+	"joshua": {
+		"title": "Joshua",
+		"testament": "Old Testament",
+		"summary": "Joshua tells the story of Israel's conquest and settlement of the Promised Land under Joshua's leadership. It includes the crossing of the Jordan River, the fall of Jericho, the division of the land among the tribes, and Joshua's final charge to remain faithful to God.",
+		"keyThemes": [
+			"Conquest",
+			"Faithfulness",
+			"Covenant",
+			"Inheritance",
+			"Leadership"
+		],
+		"keyEvents": [
+			"Crossing Jordan",
+			"Fall of Jericho",
+			"Sun Stands Still",
+			"Land Division",
+			"Joshua's Charge"
+		]
+	},
+	"judges": {
+		"title": "Judges",
+		"testament": "Old Testament",
+		"summary": "Judges records the cycle of Israel's disobedience, oppression, and deliverance through various judges. It shows the moral and spiritual decline of Israel after Joshua's death and God's continued faithfulness in raising up deliverers like Deborah, Gideon, and Samson.",
+		"keyThemes": [
+			"Cycle of Sin",
+			"Deliverance",
+			"Leadership",
+			"Decline",
+			"God's Faithfulness"
+		],
+		"keyEvents": [
+			"Deborah and Barak",
+			"Gideon's Victory",
+			"Samson's Exploits",
+			"Cycle of Judges"
+		]
+	},
+	"ruth": {
+		"title": "Ruth",
+		"testament": "Old Testament",
+		"summary": "Ruth is a beautiful story of loyalty, love, and redemption set during the time of the judges. It tells of Ruth's devotion to her mother-in-law Naomi, her marriage to Boaz, and her place in the lineage of King David and ultimately Jesus Christ.",
+		"keyThemes": [
+			"Loyalty",
+			"Redemption",
+			"Love",
+			"Providence",
+			"Lineage"
+		],
+		"keyEvents": [
+			"Naomi's Return",
+			"Ruth's Loyalty",
+			"Gleaning in Fields",
+			"Marriage to Boaz"
+		]
+	},
+	"1samuel": {
+		"title": "1 Samuel",
+		"testament": "Old Testament",
+		"summary": "1 Samuel marks the transition from the period of judges to the monarchy in Israel. It covers Samuel's birth and calling, the anointing of Saul as first king, his disobedience and rejection, and the anointing of David as his successor. The book shows the importance of obedience to God over human leadership.",
+		"keyThemes": [
+			"Transition",
+			"Kingship",
+			"Obedience",
+			"Anointing",
+			"God's Choice"
+		],
+		"keyEvents": [
+			"Samuel's Birth",
+			"Ark Captured",
+			"Saul Anointed",
+			"David Anointed",
+			"Goliath Defeated"
+		]
+	},
+	"2samuel": {
+		"title": "2 Samuel",
+		"testament": "Old Testament",
+		"summary": "2 Samuel focuses on David's reign as king of Israel. It includes his victories, the establishment of Jerusalem as the capital, his sin with Bathsheba, the consequences of his actions, and his preparation for Solomon to succeed him. The book shows both David's greatness and his humanity.",
+		"keyThemes": [
+			"Kingship",
+			"Sin and Consequences",
+			"Repentance",
+			"Covenant",
+			"Succession"
+		],
+		"keyEvents": [
+			"David's Coronation",
+			"Jerusalem Captured",
+			"Bathsheba Incident",
+			"Absalom's Rebellion"
+		]
+	},
+	"1kings": {
+		"title": "1 Kings",
+		"testament": "Old Testament",
+		"summary": "1 Kings begins with Solomon's succession to the throne and his wisdom, the building of the temple, and the division of the kingdom after his death. It covers the reigns of various kings of Israel and Judah, including the ministry of Elijah the prophet during Ahab's reign.",
+		"keyThemes": [
+			"Wisdom",
+			"Temple",
+			"Division",
+			"Prophecy",
+			"Idolatry"
+		],
+		"keyEvents": [
+			"Solomon's Wisdom",
+			"Temple Built",
+			"Kingdom Divided",
+			"Elijah's Ministry"
+		]
+	},
+	"2kings": {
+		"title": "2 Kings",
+		"testament": "Old Testament",
+		"summary": "2 Kings continues the history of Israel and Judah, showing the decline of both kingdoms through idolatry and disobedience. It includes the ministry of Elisha, the fall of Israel to Assyria, and the fall of Judah to Babylon. The book demonstrates the consequences of turning away from God.",
+		"keyThemes": [
+			"Decline",
+			"Prophecy",
+			"Judgment",
+			"Exile",
+			"Faithfulness"
+		],
+		"keyEvents": [
+			"Elisha's Ministry",
+			"Israel Falls",
+			"Josiah's Reform",
+			"Judah Falls"
+		]
+	},
+	"1chronicles": {
+		"title": "1 Chronicles",
+		"testament": "Old Testament",
+		"summary": "1 Chronicles provides a genealogical record from Adam to David and focuses on David's reign, his preparations for the temple, and the organization of worship. It emphasizes the importance of proper worship and the priestly and Levitical services.",
+		"keyThemes": [
+			"Genealogy",
+			"Worship",
+			"Temple",
+			"Organization",
+			"Priesthood"
+		],
+		"keyEvents": [
+			"Genealogies",
+			"David's Reign",
+			"Temple Preparations",
+			"Worship Organization"
+		]
+	},
+	"2chronicles": {
+		"title": "2 Chronicles",
+		"testament": "Old Testament",
+		"summary": "2 Chronicles focuses on the history of Judah from Solomon's reign through the Babylonian exile. It emphasizes the importance of temple worship, the consequences of idolatry, and God's faithfulness to His covenant. The book ends with Cyrus's decree allowing the Jews to return to Jerusalem.",
+		"keyThemes": [
+			"Temple",
+			"Worship",
+			"Idolatry",
+			"Covenant",
+			"Return"
+		],
+		"keyEvents": [
+			"Solomon's Temple",
+			"Kingdom Division",
+			"Temple Reforms",
+			"Babylonian Exile"
+		]
+	},
+	"ezra": {
+		"title": "Ezra",
+		"testament": "Old Testament",
+		"summary": "Ezra tells the story of the Jews' return from Babylonian exile and the rebuilding of the temple in Jerusalem. It emphasizes the importance of God's law, proper worship, and separation from pagan practices. The book shows God's faithfulness in restoring His people.",
+		"keyThemes": [
+			"Return",
+			"Temple",
+			"Law",
+			"Separation",
+			"Restoration"
+		],
+		"keyEvents": [
+			"Return from Exile",
+			"Temple Rebuilt",
+			"Law Restored",
+			"Pagan Separation"
+		]
+	},
+	"nehemiah": {
+		"title": "Nehemiah",
+		"testament": "Old Testament",
+		"summary": "Nehemiah records the rebuilding of Jerusalem's walls and the spiritual renewal of the people. It shows Nehemiah's leadership, the opposition they faced, and the importance of both physical and spiritual restoration. The book emphasizes prayer, perseverance, and commitment to God's work.",
+		"keyThemes": [
+			"Leadership",
+			"Opposition",
+			"Prayer",
+			"Perseverance",
+			"Renewal"
+		],
+		"keyEvents": [
+			"Wall Rebuilding",
+			"Opposition Overcome",
+			"Spiritual Renewal",
+			"Covenant Renewal"
+		]
+	},
+	"esther": {
+		"title": "Esther",
+		"testament": "Old Testament",
+		"summary": "Esther is the story of a Jewish queen who saves her people from destruction in Persia. Though God's name is never mentioned, His providence is evident throughout. The book shows how God works through ordinary people in extraordinary circumstances to accomplish His purposes.",
+		"keyThemes": [
+			"Providence",
+			"Courage",
+			"Deliverance",
+			"Hidden God",
+			"Purpose"
+		],
+		"keyEvents": [
+			"Esther Becomes Queen",
+			"Haman's Plot",
+			"Mordecai's Honor",
+			"Jews Delivered"
+		]
+	},
+	"job": {
+		"title": "Job",
+		"testament": "Old Testament",
+		"summary": "Job explores the problem of human suffering and God's sovereignty. It tells of a righteous man who loses everything but maintains his faith in God. The book addresses questions about why the righteous suffer and emphasizes God's wisdom and power over all creation.",
+		"keyThemes": [
+			"Suffering",
+			"Sovereignty",
+			"Wisdom",
+			"Faith",
+			"Righteousness"
+		],
+		"keyEvents": [
+			"Job's Losses",
+			"Friends' Counsel",
+			"God's Response",
+			"Job's Restoration"
+		]
+	},
+	"psalm": {
+		"title": "Psalms",
+		"testament": "Old Testament",
+		"summary": "Psalms is a collection of 150 songs, prayers, and poems that express the full range of human emotions and experiences in relationship with God. They include praise, thanksgiving, lament, confession, and wisdom. Many psalms point to the coming Messiah and are used in worship.",
+		"keyThemes": [
+			"Worship",
+			"Praise",
+			"Lament",
+			"Wisdom",
+			"Messiah"
+		],
+		"keyEvents": [
+			"Various Psalms",
+			"David's Songs",
+			"Asaph's Psalms",
+			"Messianic Psalms"
+		]
+	},
+	"proverbs": {
+		"title": "Proverbs",
+		"testament": "Old Testament",
+		"summary": "Proverbs is a collection of wise sayings that teach practical wisdom for daily living. It covers topics like relationships, work, speech, and character. The book emphasizes the fear of the Lord as the beginning of wisdom and provides guidance for making good decisions.",
+		"keyThemes": [
+			"Wisdom",
+			"Character",
+			"Relationships",
+			"Work",
+			"Speech"
+		],
+		"keyEvents": [
+			"Solomon's Proverbs",
+			"Various Wise Sayings",
+			"Wisdom Personified"
+		]
+	},
+	"ecclesiastes": {
+		"title": "Ecclesiastes",
+		"testament": "Old Testament",
+		"summary": "Ecclesiastes explores the meaning of life and the vanity of pursuing earthly pleasures and achievements apart from God. It concludes that the whole duty of man is to fear God and keep His commandments. The book provides a realistic view of life's challenges and ultimate purpose.",
+		"keyThemes": [
+			"Vanity",
+			"Meaning",
+			"Wisdom",
+			"Fear of God",
+			"Purpose"
+		],
+		"keyEvents": [
+			"Qoheleth's Search",
+			"Vanity of Life",
+			"Wisdom's Limits",
+			"Final Conclusion"
+		]
+	},
+	"songofsolomon": {
+		"title": "Song of Solomon",
+		"testament": "Old Testament",
+		"summary": "Song of Solomon is a beautiful love poem celebrating the love between a bride and groom. It has been interpreted both literally as a celebration of marital love and allegorically as representing God's love for His people. The book emphasizes the purity and beauty of love.",
+		"keyThemes": [
+			"Love",
+			"Marriage",
+			"Beauty",
+			"Purity",
+			"Relationship"
+		],
+		"keyEvents": [
+			"Love's Expression",
+			"Bride's Beauty",
+			"Groom's Praise",
+			"Love's Permanence"
+		]
+	},
+	"isaiah": {
+		"title": "Isaiah",
+		"testament": "Old Testament",
+		"summary": "Isaiah is one of the major prophetic books, containing messages of judgment and hope. It includes prophecies about the coming Messiah, the suffering servant, and the future restoration of Israel. The book emphasizes God's holiness, justice, and mercy, and contains some of the most beautiful messianic prophecies.",
+		"keyThemes": [
+			"Holiness",
+			"Judgment",
+			"Hope",
+			"Messiah",
+			"Restoration"
+		],
+		"keyEvents": [
+			"Call of Isaiah",
+			"Judgment on Nations",
+			"Messianic Prophecies",
+			"Future Hope"
+		]
+	},
+	"jeremiah": {
+		"title": "Jeremiah",
+		"testament": "Old Testament",
+		"summary": "Jeremiah, known as the weeping prophet, delivered messages of judgment to Judah during its final years. Despite facing opposition and persecution, he faithfully proclaimed God's word. The book includes his personal struggles, prophecies of judgment, and promises of future restoration.",
+		"keyThemes": [
+			"Judgment",
+			"Faithfulness",
+			"Opposition",
+			"Restoration",
+			"Covenant"
+		],
+		"keyEvents": [
+			"Jeremiah's Call",
+			"Temple Sermon",
+			"Babylonian Siege",
+			"New Covenant"
+		]
+	},
+	"lamentations": {
+		"title": "Lamentations",
+		"testament": "Old Testament",
+		"summary": "Lamentations is a collection of five poems mourning the destruction of Jerusalem and the temple. Written in the aftermath of the Babylonian conquest, it expresses deep grief while maintaining hope in God's faithfulness. The book shows the consequences of sin but also God's mercy.",
+		"keyThemes": [
+			"Grief",
+			"Destruction",
+			"Hope",
+			"Mercy",
+			"Faithfulness"
+		],
+		"keyEvents": [
+			"Jerusalem's Fall",
+			"Temple's Destruction",
+			"People's Suffering",
+			"Hope in God"
+		]
+	},
+	"ezekiel": {
+		"title": "Ezekiel",
+		"testament": "Old Testament",
+		"summary": "Ezekiel ministered to the exiles in Babylon, using dramatic symbolic actions to convey God's messages. His prophecies include judgment on Israel and the nations, the vision of the new temple, and the restoration of Israel. The book emphasizes God's glory and sovereignty.",
+		"keyThemes": [
+			"Glory",
+			"Judgment",
+			"Restoration",
+			"Symbolism",
+			"Sovereignty"
+		],
+		"keyEvents": [
+			"Call of Ezekiel",
+			"Symbolic Actions",
+			"Temple Vision",
+			"Dry Bones Vision"
+		]
+	},
+	"daniel": {
+		"title": "Daniel",
+		"testament": "Old Testament",
+		"summary": "Daniel tells the story of Jewish exiles in Babylon who remained faithful to God despite pressure to conform. It includes stories of Daniel and his friends, prophetic visions of future kingdoms, and the ultimate triumph of God's kingdom. The book emphasizes faithfulness and God's sovereignty over history.",
+		"keyThemes": [
+			"Faithfulness",
+			"Sovereignty",
+			"Prophecy",
+			"Kingdom",
+			"Perseverance"
+		],
+		"keyEvents": [
+			"Fiery Furnace",
+			"Lion's Den",
+			"Nebuchadnezzar's Dreams",
+			"Future Visions"
+		]
+	},
+	"hosea": {
+		"title": "Hosea",
+		"testament": "Old Testament",
+		"summary": "Hosea uses his own marriage to an unfaithful wife as a metaphor for God's relationship with Israel. Despite Israel's spiritual adultery, God's love remains constant. The book emphasizes God's faithfulness, the consequences of idolatry, and the hope of restoration through repentance.",
+		"keyThemes": [
+			"Love",
+			"Faithfulness",
+			"Idolatry",
+			"Restoration",
+			"Covenant"
+		],
+		"keyEvents": [
+			"Hosea's Marriage",
+			"Israel's Unfaithfulness",
+			"God's Love",
+			"Promise of Restoration"
+		]
+	},
+	"joel": {
+		"title": "Joel",
+		"testament": "Old Testament",
+		"summary": "Joel prophesies about a locust plague as a sign of the coming day of the Lord. The book calls for repentance and promises the outpouring of God's Spirit. It connects the immediate crisis with future judgment and blessing, emphasizing the importance of turning to God.",
+		"keyThemes": [
+			"Day of the Lord",
+			"Repentance",
+			"Spirit",
+			"Judgment",
+			"Blessing"
+		],
+		"keyEvents": [
+			"Locust Plague",
+			"Call to Repentance",
+			"Spirit's Outpouring",
+			"Day of the Lord"
+		]
+	},
+	"amos": {
+		"title": "Amos",
+		"testament": "Old Testament",
+		"summary": "Amos, a shepherd from Judah, prophesied to Israel about social injustice and religious hypocrisy. He condemned the wealthy for oppressing the poor and called for justice and righteousness. The book emphasizes God's concern for social justice and the consequences of ignoring His standards.",
+		"keyThemes": [
+			"Justice",
+			"Righteousness",
+			"Social Concern",
+			"Judgment",
+			"Mercy"
+		],
+		"keyEvents": [
+			"Amos' Call",
+			"Judgment on Nations",
+			"Israel's Condemnation",
+			"Promise of Restoration"
+		]
+	},
+	"obadiah": {
+		"title": "Obadiah",
+		"testament": "Old Testament",
+		"summary": "Obadiah is the shortest book in the Old Testament, containing a prophecy against Edom for its pride and violence against Israel. It promises judgment on Edom and restoration for Israel. The book emphasizes God's justice and His care for His people.",
+		"keyThemes": [
+			"Pride",
+			"Judgment",
+			"Justice",
+			"Restoration",
+			"Care"
+		],
+		"keyEvents": [
+			"Edom's Pride",
+			"Judgment Pronounced",
+			"Israel's Restoration",
+			"Kingdom of the Lord"
+		]
+	},
+	"jonah": {
+		"title": "Jonah",
+		"testament": "Old Testament",
+		"summary": "Jonah tells the story of a prophet who initially refuses to obey God's call to preach to Nineveh. After being swallowed by a great fish and repenting, he delivers God's message, and the city repents. The book emphasizes God's mercy to all nations and the importance of obedience.",
+		"keyThemes": [
+			"Obedience",
+			"Mercy",
+			"Repentance",
+			"Mission",
+			"Compassion"
+		],
+		"keyEvents": [
+			"Jonah's Flight",
+			"Great Fish",
+			"Nineveh's Repentance",
+			"God's Mercy"
+		]
+	},
+	"micah": {
+		"title": "Micah",
+		"testament": "Old Testament",
+		"summary": "Micah prophesied to both Israel and Judah about social injustice, false prophets, and the coming judgment. He also foretold the birthplace of the Messiah in Bethlehem. The book balances judgment with hope, emphasizing God's requirements for justice, mercy, and humility.",
+		"keyThemes": [
+			"Justice",
+			"Mercy",
+			"Humility",
+			"Messiah",
+			"Hope"
+		],
+		"keyEvents": [
+			"Judgment on Samaria",
+			"False Prophets",
+			"Messiah's Birthplace",
+			"Future Restoration"
+		]
+	},
+	"nahum": {
+		"title": "Nahum",
+		"testament": "Old Testament",
+		"summary": "Nahum prophesies the fall of Nineveh, the capital of Assyria, as judgment for its cruelty and oppression. The book emphasizes God's justice and power, showing that no nation can escape His judgment. It provides comfort to Judah by announcing the end of Assyrian oppression.",
+		"keyThemes": [
+			"Justice",
+			"Power",
+			"Judgment",
+			"Comfort",
+			"Sovereignty"
+		],
+		"keyEvents": [
+			"Nineveh's Fall",
+			"Assyria's Judgment",
+			"Judah's Comfort",
+			"God's Power"
+		]
+	},
+	"habakkuk": {
+		"title": "Habakkuk",
+		"testament": "Old Testament",
+		"summary": "Habakkuk questions God about the injustice he sees and receives answers about God's use of Babylon to judge Judah. The book explores the problem of evil and God's sovereignty, concluding with a beautiful statement of faith in God's character and purposes.",
+		"keyThemes": [
+			"Justice",
+			"Sovereignty",
+			"Faith",
+			"Trust",
+			"Purpose"
+		],
+		"keyEvents": [
+			"Habakkuk's Questions",
+			"God's Answers",
+			"Babylon's Role",
+			"Song of Faith"
+		]
+	},
+	"zephaniah": {
+		"title": "Zephaniah",
+		"testament": "Old Testament",
+		"summary": "Zephaniah prophesies about the coming day of the Lord, a time of judgment for all nations including Judah. The book emphasizes the need for repentance and promises restoration for the remnant who seek the Lord. It balances judgment with hope for the future.",
+		"keyThemes": [
+			"Day of the Lord",
+			"Judgment",
+			"Repentance",
+			"Remnant",
+			"Restoration"
+		],
+		"keyEvents": [
+			"Universal Judgment",
+			"Judah's Condemnation",
+			"Call to Repentance",
+			"Future Joy"
+		]
+	},
+	"haggai": {
+		"title": "Haggai",
+		"testament": "Old Testament",
+		"summary": "Haggai encouraged the returned exiles to rebuild the temple in Jerusalem. The people had been focused on their own houses while God's house lay in ruins. The book emphasizes the priority of God's work and the blessings that come from obedience to His commands.",
+		"keyThemes": [
+			"Priority",
+			"Temple",
+			"Obedience",
+			"Blessing",
+			"Work"
+		],
+		"keyEvents": [
+			"Call to Rebuild",
+			"People's Response",
+			"Temple Rebuilding",
+			"Future Glory"
+		]
+	},
+	"zechariah": {
+		"title": "Zechariah",
+		"testament": "Old Testament",
+		"summary": "Zechariah encouraged the people to complete the temple rebuilding through a series of visions and prophecies. The book contains many messianic prophecies and emphasizes God's presence with His people. It looks forward to the coming of the Messiah and the establishment of His kingdom.",
+		"keyThemes": [
+			"Visions",
+			"Messiah",
+			"Kingdom",
+			"Presence",
+			"Future"
+		],
+		"keyEvents": [
+			"Visions of Encouragement",
+			"Messianic Prophecies",
+			"Temple Completion",
+			"Future Kingdom"
+		]
+	},
+	"malachi": {
+		"title": "Malachi",
+		"testament": "Old Testament",
+		"summary": "Malachi is the last book of the Old Testament, addressing the spiritual decline of the post-exilic community. It confronts issues like corrupt worship, divorce, and tithing, while promising the coming of Elijah before the great day of the Lord. The book emphasizes God's love and the need for faithfulness.",
+		"keyThemes": [
+			"Love",
+			"Faithfulness",
+			"Worship",
+			"Elijah",
+			"Day of the Lord"
+		],
+		"keyEvents": [
+			"God's Love",
+			"Corrupt Worship",
+			"Elijah's Coming",
+			"Day of the Lord"
+		]
+	},
+	"matthew": {
+		"title": "Matthew",
+		"testament": "New Testament",
+		"summary": "Matthew presents Jesus as the promised Messiah and King of the Jews. It includes the genealogy connecting Jesus to David and Abraham, the Sermon on the Mount, many parables, and the Great Commission. The book emphasizes Jesus' fulfillment of Old Testament prophecies and His authority as King.",
+		"keyThemes": [
+			"Messiah",
+			"Kingdom",
+			"Fulfillment",
+			"Authority",
+			"Discipleship"
+		],
+		"keyEvents": [
+			"Birth of Jesus",
+			"Sermon on the Mount",
+			"Miracles",
+			"Parables",
+			"Crucifixion",
+			"Resurrection"
+		]
+	},
+	"mark": {
+		"title": "Mark",
+		"testament": "New Testament",
+		"summary": "Mark presents Jesus as the suffering servant who came to serve and give His life as a ransom. It's the shortest and most action-packed Gospel, emphasizing Jesus' deeds over His teachings. The book shows Jesus' humanity, His power over nature and demons, and His ultimate sacrifice for humanity.",
+		"keyThemes": [
+			"Service",
+			"Sacrifice",
+			"Power",
+			"Humanity",
+			"Action"
+		],
+		"keyEvents": [
+			"Jesus' Ministry",
+			"Miracles",
+			"Teaching",
+			"Transfiguration",
+			"Passion Week"
+		]
+	},
+	"luke": {
+		"title": "Luke",
+		"testament": "New Testament",
+		"summary": "Luke presents Jesus as the perfect man and Savior of all people, including Gentiles. It includes unique stories like the birth narratives, the Good Samaritan, and the Prodigal Son. The book emphasizes Jesus' compassion for the poor, outcasts, and sinners, and His universal mission.",
+		"keyThemes": [
+			"Compassion",
+			"Universal Salvation",
+			"Perfect Humanity",
+			"Gentiles",
+			"Mercy"
+		],
+		"keyEvents": [
+			"Birth Stories",
+			"Jesus' Ministry",
+			"Parables",
+			"Healing",
+			"Crucifixion",
+			"Resurrection"
+		]
+	},
+	"john": {
+		"title": "John",
+		"testament": "New Testament",
+		"summary": "John presents Jesus as the eternal Word of God, the Son of God, and the source of eternal life. It includes seven 'I am' statements and seven signs that reveal Jesus' divine nature. The book emphasizes belief in Jesus for eternal life and the importance of love in the Christian life.",
+		"keyThemes": [
+			"Deity",
+			"Eternal Life",
+			"Belief",
+			"Love",
+			"Truth"
+		],
+		"keyEvents": [
+			"Seven Signs",
+			"I Am Statements",
+			"Upper Room Discourse",
+			"Crucifixion",
+			"Resurrection"
+		]
+	},
+	"acts": {
+		"title": "Acts",
+		"testament": "New Testament",
+		"summary": "Acts records the birth and growth of the early church, beginning with Jesus' ascension and the coming of the Holy Spirit at Pentecost. It follows the spread of the gospel from Jerusalem to Rome through the ministries of Peter and Paul. The book emphasizes the power of the Holy Spirit and the universal nature of the gospel.",
+		"keyThemes": [
+			"Holy Spirit",
+			"Church",
+			"Mission",
+			"Growth",
+			"Universal Gospel"
+		],
+		"keyEvents": [
+			"Pentecost",
+			"Peter's Ministry",
+			"Paul's Conversion",
+			"Gentile Mission",
+			"Paul's Journeys"
+		]
+	},
+	"romans": {
+		"title": "Romans",
+		"testament": "New Testament",
+		"summary": "Romans is Paul's most systematic presentation of the gospel, explaining the universal need for salvation, God's righteousness, and the doctrine of justification by faith. It addresses the relationship between Jews and Gentiles in God's plan and provides practical guidance for Christian living.",
+		"keyThemes": [
+			"Righteousness",
+			"Justification",
+			"Faith",
+			"Sin",
+			"Grace"
+		],
+		"keyEvents": [
+			"Universal Sin",
+			"Justification by Faith",
+			"Israel's Role",
+			"Christian Living"
+		]
+	},
+	"1corinthians": {
+		"title": "1 Corinthians",
+		"testament": "New Testament",
+		"summary": "1 Corinthians addresses various problems in the Corinthian church, including divisions, immorality, lawsuits, and confusion about spiritual gifts. Paul emphasizes the importance of love, unity, and proper worship. The book includes the famous 'love chapter' and teaching about the resurrection.",
+		"keyThemes": [
+			"Unity",
+			"Love",
+			"Spiritual Gifts",
+			"Worship",
+			"Resurrection"
+		],
+		"keyEvents": [
+			"Addressing Divisions",
+			"Love Chapter",
+			"Spiritual Gifts",
+			"Resurrection Teaching"
+		]
+	},
+	"2corinthians": {
+		"title": "2 Corinthians",
+		"testament": "New Testament",
+		"summary": "2 Corinthians reveals Paul's heart for the Corinthian church and his defense of his apostolic ministry. It includes his teaching on the new covenant, the ministry of reconciliation, and the collection for the Jerusalem church. The book emphasizes God's comfort in suffering and the sufficiency of His grace.",
+		"keyThemes": [
+			"Comfort",
+			"Ministry",
+			"Reconciliation",
+			"Suffering",
+			"Grace"
+		],
+		"keyEvents": [
+			"Paul's Defense",
+			"New Covenant",
+			"Ministry of Reconciliation",
+			"Collection"
+		]
+	},
+	"galatians": {
+		"title": "Galatians",
+		"testament": "New Testament",
+		"summary": "Galatians defends the gospel of grace against those who would add works to faith for salvation. Paul emphasizes that salvation is by faith alone and that believers are free from the law. The book includes his personal testimony and teaching about walking in the Spirit.",
+		"keyThemes": [
+			"Grace",
+			"Faith",
+			"Freedom",
+			"Law",
+			"Spirit"
+		],
+		"keyEvents": [
+			"Paul's Defense",
+			"Justification by Faith",
+			"Freedom from Law",
+			"Walking in Spirit"
+		]
+	},
+	"ephesians": {
+		"title": "Ephesians",
+		"testament": "New Testament",
+		"summary": "Ephesians explains the believer's position in Christ and the unity of the church. It includes teaching about spiritual blessings, the mystery of the church, and practical Christian living. The book emphasizes the believer's identity in Christ and the importance of spiritual warfare.",
+		"keyThemes": [
+			"Position",
+			"Unity",
+			"Blessings",
+			"Mystery",
+			"Warfare"
+		],
+		"keyEvents": [
+			"Spiritual Blessings",
+			"Church Unity",
+			"Armor of God",
+			"Christian Living"
+		]
+	},
+	"philippians": {
+		"title": "Philippians",
+		"testament": "New Testament",
+		"summary": "Philippians is Paul's letter of joy written from prison, encouraging the Philippian church to rejoice in all circumstances. It includes the famous 'Christ hymn' and teaching about humility, contentment, and the peace of God. The book emphasizes joy, unity, and the sufficiency of Christ.",
+		"keyThemes": [
+			"Joy",
+			"Unity",
+			"Humility",
+			"Contentment",
+			"Peace"
+		],
+		"keyEvents": [
+			"Paul's Joy",
+			"Christ Hymn",
+			"Unity Exhortation",
+			"Peace of God"
+		]
+	},
+	"colossians": {
+		"title": "Colossians",
+		"testament": "New Testament",
+		"summary": "Colossians emphasizes the supremacy and sufficiency of Christ against false teachings that threatened the church. It includes the famous 'Christ hymn' and teaching about the believer's completeness in Christ. The book emphasizes Christ's preeminence and the importance of proper doctrine.",
+		"keyThemes": [
+			"Supremacy",
+			"Sufficiency",
+			"Completeness",
+			"Preeminence",
+			"Doctrine"
+		],
+		"keyEvents": [
+			"Christ's Supremacy",
+			"False Teaching",
+			"Completeness in Christ",
+			"Christian Living"
+		]
+	},
+	"1thessalonians": {
+		"title": "1 Thessalonians",
+		"testament": "New Testament",
+		"summary": "1 Thessalonians encourages the young church in Thessalonica and addresses questions about the second coming of Christ. It emphasizes the importance of holy living, love for one another, and hope in Christ's return. The book provides comfort and instruction for believers facing persecution.",
+		"keyThemes": [
+			"Encouragement",
+			"Second Coming",
+			"Holiness",
+			"Love",
+			"Hope"
+		],
+		"keyEvents": [
+			"Paul's Ministry",
+			"Second Coming Teaching",
+			"Holy Living",
+			"Love Exhortation"
+		]
+	},
+	"2thessalonians": {
+		"title": "2 Thessalonians",
+		"testament": "New Testament",
+		"summary": "2 Thessalonians corrects misunderstandings about the second coming and addresses the problem of idleness in the church. It provides additional teaching about the day of the Lord and the man of lawlessness. The book emphasizes the importance of working and not being idle while waiting for Christ's return.",
+		"keyThemes": [
+			"Second Coming",
+			"Day of the Lord",
+			"Work",
+			"Idleness",
+			"Lawlessness"
+		],
+		"keyEvents": [
+			"Correction of Teaching",
+			"Day of the Lord",
+			"Man of Lawlessness",
+			"Work Exhortation"
+		]
+	},
+	"1timothy": {
+		"title": "1 Timothy",
+		"testament": "New Testament",
+		"summary": "1 Timothy provides instructions for church leadership and order, written to Timothy as a young pastor. It includes qualifications for elders and deacons, teaching about false doctrine, and guidance for proper worship. The book emphasizes the importance of sound doctrine and godly leadership.",
+		"keyThemes": [
+			"Leadership",
+			"Doctrine",
+			"Worship",
+			"Qualifications",
+			"Godliness"
+		],
+		"keyEvents": [
+			"Leadership Instructions",
+			"Elder Qualifications",
+			"False Doctrine Warning",
+			"Worship Guidelines"
+		]
+	},
+	"2timothy": {
+		"title": "2 Timothy",
+		"testament": "New Testament",
+		"summary": "2 Timothy is Paul's final letter, written from prison, encouraging Timothy to remain faithful and pass on the faith to others. It includes personal reflections on Paul's ministry and final instructions for Timothy. The book emphasizes the importance of perseverance, sound teaching, and mentoring others.",
+		"keyThemes": [
+			"Faithfulness",
+			"Perseverance",
+			"Teaching",
+			"Mentoring",
+			"Legacy"
+		],
+		"keyEvents": [
+			"Paul's Final Words",
+			"Faithfulness Exhortation",
+			"Teaching Instructions",
+			"Legacy Passing"
+		]
+	},
+	"titus": {
+		"title": "Titus",
+		"testament": "New Testament",
+		"summary": "Titus provides instructions for church organization and leadership on the island of Crete. It includes qualifications for elders, teaching about good works, and guidance for different groups in the church. The book emphasizes the importance of good works as evidence of genuine faith.",
+		"keyThemes": [
+			"Organization",
+			"Leadership",
+			"Good Works",
+			"Evidence",
+			"Groups"
+		],
+		"keyEvents": [
+			"Church Organization",
+			"Elder Qualifications",
+			"Good Works Teaching",
+			"Group Instructions"
+		]
+	},
+	"philemon": {
+		"title": "Philemon",
+		"testament": "New Testament",
+		"summary": "Philemon is a personal letter asking Philemon to forgive and accept his runaway slave Onesimus as a brother in Christ. It demonstrates the power of the gospel to transform relationships and break down social barriers. The book emphasizes forgiveness, reconciliation, and Christian love.",
+		"keyThemes": [
+			"Forgiveness",
+			"Reconciliation",
+			"Transformation",
+			"Love",
+			"Relationships"
+		],
+		"keyEvents": [
+			"Onesimus' Conversion",
+			"Paul's Request",
+			"Forgiveness Appeal",
+			"Brotherly Love"
+		]
+	},
+	"hebrews": {
+		"title": "Hebrews",
+		"testament": "New Testament",
+		"summary": "Hebrews demonstrates the superiority of Christ and the new covenant over the old covenant and its sacrifices. It includes the famous 'faith chapter' and warnings against apostasy. The book emphasizes Christ's high priesthood, the finality of His sacrifice, and the importance of persevering in faith.",
+		"keyThemes": [
+			"Superiority",
+			"Priesthood",
+			"Sacrifice",
+			"Faith",
+			"Perseverance"
+		],
+		"keyEvents": [
+			"Christ's Superiority",
+			"High Priesthood",
+			"Faith Chapter",
+			"Warning Against Apostasy"
+		]
+	},
+	"james": {
+		"title": "James",
+		"testament": "New Testament",
+		"summary": "James provides practical wisdom for Christian living, emphasizing the importance of good works as evidence of genuine faith. It addresses issues like favoritism, the tongue, and prayer. The book emphasizes that faith without works is dead and the importance of living out one's faith.",
+		"keyThemes": [
+			"Works",
+			"Wisdom",
+			"Faith",
+			"Tongue",
+			"Prayer"
+		],
+		"keyEvents": [
+			"Faith and Works",
+			"Tongue Control",
+			"Prayer Teaching",
+			"Practical Wisdom"
+		]
+	},
+	"1peter": {
+		"title": "1 Peter",
+		"testament": "New Testament",
+		"summary": "1 Peter encourages believers facing persecution and suffering, emphasizing their identity as God's chosen people and the hope they have in Christ. It includes teaching about submission, suffering, and the return of Christ. The book emphasizes the importance of holy living and standing firm in faith.",
+		"keyThemes": [
+			"Suffering",
+			"Identity",
+			"Hope",
+			"Submission",
+			"Holiness"
+		],
+		"keyEvents": [
+			"Encouragement in Suffering",
+			"Identity in Christ",
+			"Submission Teaching",
+			"Hope in Christ"
+		]
+	},
+	"2peter": {
+		"title": "2 Peter",
+		"testament": "New Testament",
+		"summary": "2 Peter warns against false teachers and emphasizes the importance of growing in knowledge and godliness. It includes teaching about the second coming and the inspiration of Scripture. The book emphasizes the importance of spiritual growth and being prepared for Christ's return.",
+		"keyThemes": [
+			"False Teachers",
+			"Growth",
+			"Knowledge",
+			"Second Coming",
+			"Scripture"
+		],
+		"keyEvents": [
+			"Warning Against False Teachers",
+			"Spiritual Growth",
+			"Second Coming Teaching",
+			"Scripture Inspiration"
+		]
+	},
+	"1john": {
+		"title": "1 John",
+		"testament": "New Testament",
+		"summary": "1 John emphasizes the importance of love, obedience, and fellowship with God and other believers. It includes tests for genuine faith and warnings against antichrists. The book emphasizes that God is love and that believers should love one another as evidence of their relationship with God.",
+		"keyThemes": [
+			"Love",
+			"Obedience",
+			"Fellowship",
+			"Tests",
+			"Antichrist"
+		],
+		"keyEvents": [
+			"Love Commandment",
+			"Tests of Faith",
+			"Antichrist Warning",
+			"Fellowship Teaching"
+		]
+	},
+	"2john": {
+		"title": "2 John",
+		"testament": "New Testament",
+		"summary": "2 John warns against false teachers and emphasizes the importance of truth and love in the Christian life. It's a brief letter encouraging believers to walk in truth and not receive those who deny Christ. The book emphasizes the connection between truth and love in Christian relationships.",
+		"keyThemes": [
+			"Truth",
+			"Love",
+			"False Teachers",
+			"Walking",
+			"Receiving"
+		],
+		"keyEvents": [
+			"Truth and Love",
+			"False Teacher Warning",
+			"Walking in Truth",
+			"Not Receiving False Teachers"
+		]
+	},
+	"3john": {
+		"title": "3 John",
+		"testament": "New Testament",
+		"summary": "3 John commends Gaius for his hospitality and warns against Diotrephes, who was causing problems in the church. It emphasizes the importance of supporting those who serve the Lord and the danger of pride and power in church leadership. The book encourages continued faithfulness and support for God's work.",
+		"keyThemes": [
+			"Hospitality",
+			"Support",
+			"Pride",
+			"Power",
+			"Faithfulness"
+		],
+		"keyEvents": [
+			"Commendation of Gaius",
+			"Warning Against Diotrephes",
+			"Support for Workers",
+			"Faithfulness Encouragement"
+		]
+	},
+	"jude": {
+		"title": "Jude",
+		"testament": "New Testament",
+		"summary": "Jude warns against false teachers who have infiltrated the church and are perverting the grace of God. It includes examples from the Old Testament of God's judgment on the ungodly. The book emphasizes the importance of contending for the faith and building up believers in their most holy faith.",
+		"keyThemes": [
+			"False Teachers",
+			"Judgment",
+			"Faith",
+			"Contending",
+			"Building"
+		],
+		"keyEvents": [
+			"Warning Against False Teachers",
+			"Old Testament Examples",
+			"Contending for Faith",
+			"Building Up Believers"
+		]
+	},
+	"revelation": {
+		"title": "Revelation",
+		"testament": "New Testament",
+		"summary": "Revelation is the final book of the Bible, containing John's vision of the end times and the ultimate triumph of God's kingdom. It includes messages to seven churches, visions of heaven, and prophecies about the return of Christ and the final judgment. The book emphasizes God's sovereignty and the ultimate victory of good over evil.",
+		"keyThemes": [
+			"End Times",
+			"Sovereignty",
+			"Victory",
+			"Judgment",
+			"New Creation"
+		],
+		"keyEvents": [
+			"Seven Churches",
+			"Heavenly Vision",
+			"End Times Prophecy",
+			"New Heaven and Earth"
+		]
+	}
+}
+

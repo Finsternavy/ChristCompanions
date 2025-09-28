@@ -1,0 +1,641 @@
+{
+  "id": "jonah",
+  "name": "Jonah",
+  "testament": "old",
+  "order": 32,
+  "chapterCount": 4,
+  "verseCount": 48,
+  "translation": "ISV",
+  "speakerStats": {
+    "jesusVerses": 0,
+    "godVerses": 0,
+    "narratorVerses": 48
+  },
+  "summary": {
+    "short": "Jonah contains 4 chapters",
+    "long": "Jonah is a book of the Old Testament.",
+    "keyThemes": [
+      "Mercy",
+      "Repentance",
+      "Mission",
+      "Salvation"
+    ],
+    "keyCharacters": [
+      "Jonah",
+      "Ninevites",
+      "Fish"
+    ]
+  },
+  "author": {
+    "name": "Jonah",
+    "confidence": "high",
+    "notes": ""
+  },
+  "dateWritten": {
+    "estimated": "760 BC",
+    "confidence": "high",
+    "notes": ""
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "summary": "Chapter 1 of Jonah",
+      "verses": [
+        {
+          "id": "isv_jonah_1_1",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 1,
+          "text": "Now this message from the Lord came to Amittai’s son Jonah:",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_1_2",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 2,
+          "text": "“Get up and go to Nineveh, that great city! Then cry out in protest against it, because their evil has come to my attention.”",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_1_3",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 3,
+          "text": "But Jonah got up and fled from the Lord to Tarshish. He went down to Joppa, secured passage on a ship bound for Tarshish, paid the fare, and boarded, intending to go with the mariners to Tarshish to escape from the Lord.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_1_4",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 4,
+          "text": "Then the Lord sent a great wind over the sea, and a severe storm broke out. It seemed as if the ship were about to break up.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_1_5",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 5,
+          "text": "At this point the mariners became terrified, and each man cried out to his gods. They began to throw the cargo into the sea in order to lighten the vessel. But Jonah had gone down into the vessel’s hold, had lain down, and was fast asleep.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_1_6",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 6,
+          "text": "So the captain approached him, and told him, “What are you doing asleep? Get up! Call on your gods! Maybe your god will think about us so we won’t die!”",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_1_7",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 7,
+          "text": "Meanwhile, each crewman told another, “Come on! Let’s cast lots to find out whose fault it is that we’re in this trouble.” So they cast lots, and the lot indicated Jonah!",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_1_8",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 8,
+          "text": "So they interrogated him: “Tell us, why has this trouble come upon us? What’s your occupation? Where’d you come from? What’s your home country? What’s your nationality?”",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_1_9",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 9,
+          "text": "“I’m a Hebrew,” he replied, “and I’m afraid of the Lord God of heaven, who made the sea—along with the dry land!”",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_1_10",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 10,
+          "text": "In mounting terror, the men asked him, “What have you done?” The men were aware that he was fleeing from the Lord, because he had admitted this to them.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_1_11",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 11,
+          "text": "Because the sea was growing more and more stormy, they asked him, “What do we have to do to you so the sea will calm down for us?”",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_1_12",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 12,
+          "text": "Jonah told them, “Pick me up and toss me into the sea. Then the sea will calm down for you, because I know that it’s my fault that this mighty storm has come upon you.”",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_1_13",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 13,
+          "text": "Even so, the crewmen rowed hard to bring the ship toward dry land, but they were unsuccessful, because the sea was growing more and more stormy.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_1_14",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 14,
+          "text": "At last they cried out to the Lord, “Please, Lord, do not let us perish because of this man’s life, and do not hold us responsible for innocent blood, because you, Lord, have done what pleased you.”",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_1_15",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 15,
+          "text": "So they picked up Jonah and tossed him into the sea, and the sea stopped raging.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_1_16",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 16,
+          "text": "Then the men feared the Lord greatly, offered a sacrifice to the Lord, and made vows.",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_1_17",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 1,
+          "verse": 17,
+          "text": "Now the Lord had prepared a large sea creature to swallow Jonah, and Jonah was inside the sea creature for three days and three nights.",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "Chapter 2 of Jonah",
+      "verses": [
+        {
+          "id": "isv_jonah_2_1",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 2,
+          "verse": 1,
+          "text": "Then Jonah prayed to the Lord his God from inside the sea creature.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_2_2",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 2,
+          "verse": 2,
+          "text": "He said:\n“I called out to the Lord from the midst of affliction directed at me,\n    and he answered me.\nFrom the depths of death I cried out for help;\n    and you heard my cry.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_2_3",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 2,
+          "verse": 3,
+          "text": "You cast me into the deep—\n    into the heart of the sea.\nFlood waters engulfed me.\n    All your breakers and your waves swirled over me.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_2_4",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 2,
+          "verse": 4,
+          "text": "So I told myself, ‘I have been driven away from you.\n    How will I again gaze on your holy Temple?’",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_2_5",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 2,
+          "verse": 5,
+          "text": "Flood waters encompassed me,\n    the deep surrounded me\n        while seaweed wrapped around my head.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_2_6",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 2,
+          "verse": 6,
+          "text": "I sank to the roots of the mountains;\n    the earth’s prison bars closed around me forever.\n        Yet you resurrect the dead from the Pit, Lord my God!",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_2_7",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 2,
+          "verse": 7,
+          "text": "“As my life was fading away,\n    I remembered the Lord;\n        and my prayer came to you in your holy Temple.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_2_8",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 2,
+          "verse": 8,
+          "text": "Those who cling to vain idols\n    leave behind the gracious love that could have been theirs.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_2_9",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 2,
+          "verse": 9,
+          "text": "But as for me, with a voice of thanksgiving I will sacrifice to you;\n    what I have vowed I will pay.\nDeliverance is the Lord’s!”",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_2_10",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 2,
+          "verse": 10,
+          "text": "Then the Lord spoke to the sea creature, and it spewed Jonah onto the dry land.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "Chapter 3 of Jonah",
+      "verses": [
+        {
+          "id": "isv_jonah_3_1",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 3,
+          "verse": 1,
+          "text": "This message from the Lord came to Jonah a second time:",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_3_2",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 3,
+          "verse": 2,
+          "text": "“Get up and go to Nineveh, that great city, and proclaim to it the message that I tell you.”",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_3_3",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 3,
+          "verse": 3,
+          "text": "So Jonah got up and went to Nineveh to do what the Lord had ordered.\nNow Nineveh was a very large city, requiring a three-day journey to cross through it.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_3_4",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 3,
+          "verse": 4,
+          "text": "As Jonah started into the city on the first day’s journey, he proclaimed the message, “40 days more and Nineveh will be overthrown!”",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_3_5",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 3,
+          "verse": 5,
+          "text": "The people of Nineveh believed God. They called for a fast and put on sackcloth, from the greatest of them to the least important.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_3_6",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 3,
+          "verse": 6,
+          "text": "When the message reached the king of Nineveh, he got up from his throne, removed his royal garments, covered himself with sackcloth, and sat down in ashes.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_3_7",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 3,
+          "verse": 7,
+          "text": "Then he had this proclamation published throughout Nineveh:\n“By decree of the king and his nobles: \nNo man or animal, herd or flock, is to taste anything, graze, or drink water.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_3_8",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 3,
+          "verse": 8,
+          "text": "Instead, let both man and animal clothe themselves with sackcloth and cry out to God forcefully. Let every person turn from his evil ways and from his tendency to do violence.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_3_9",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 3,
+          "verse": 9,
+          "text": "Who knows but that God may relent, have compassion, and turn from his fierce anger, so that we are not exterminated?”",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_3_10",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 3,
+          "verse": 10,
+          "text": "God took note of what they did—that they turned from their evil ways. Because God relented concerning the trouble about which he had warned them, he did not carry it out.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "summary": "Chapter 4 of Jonah",
+      "verses": [
+        {
+          "id": "isv_jonah_4_1",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 1,
+          "text": "Greatly displeased, Jonah flew into a rage.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_4_2",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 2,
+          "text": "So he prayed to the Lord, “Lord, isn’t this what I said while I was still in my home country? That’s why I fled previously to Tarshish, because I knew you’re a compassionate God, slow to anger, overflowing with gracious love, and reluctant to send trouble.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_4_3",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 3,
+          "text": "Therefore, Lord, please kill me, because it’s better for me to die than to live!”",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_4_4",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 4,
+          "text": "The Lord replied, “Does being angry make you right?”",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_4_5",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 5,
+          "text": "Then Jonah left the city and sat down on the eastern side. There he made a shelter for himself and sat down under its shade to see what would happen to the city.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_4_6",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 6,
+          "text": "The Lord God prepared a vine plant, and it grew over Jonah to shade his head and provide relief from his misery. Jonah was happy—indeed, he was ecstatic—about the vine plant.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_4_7",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 7,
+          "text": "But at dawn the next day, God provided a worm that attacked the vine plant so that it withered away.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_4_8",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 8,
+          "text": "When the sun rose, God prepared a harsh east wind. The sun beat down on Jonah’s head, he became faint, and he begged to die. “It is better for me to die than to live!” he said.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_4_9",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 9,
+          "text": "Then God asked Jonah, “Is your anger about the vine plant justified?”\nAnd he answered, “Absolutely! I’m so angry I could die!”",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_4_10",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 10,
+          "text": "But the Lord asked, “You cared about a vine plant that you neither worked on nor cultivated? A vine plant that grew up overnight and died overnight?",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_jonah_4_11",
+          "translation": "ISV",
+          "book": "jonah",
+          "bookName": "Jonah",
+          "chapter": 4,
+          "verse": 11,
+          "text": "So why shouldn’t I be concerned about Nineveh, that great city, in which there are more than 120,000 human beings who do not know their right hand from their left, as well as a lot of livestock?",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    }
+  ]
+}

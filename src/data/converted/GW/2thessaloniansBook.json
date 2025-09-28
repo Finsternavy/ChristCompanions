@@ -1,0 +1,622 @@
+{
+  "id": "2thessalonians",
+  "name": "2 Thessalonians",
+  "testament": "new",
+  "order": 53,
+  "chapterCount": 3,
+  "verseCount": 47,
+  "translation": "GW",
+  "speakerStats": {
+    "jesusVerses": 0,
+    "godVerses": 0,
+    "narratorVerses": 47
+  },
+  "summary": {
+    "short": "2 Thessalonians contains 3 chapters",
+    "long": "2 Thessalonians is a book of the New Testament.",
+    "keyThemes": [
+      "Second Coming",
+      "End Times",
+      "Perseverance"
+    ],
+    "keyCharacters": [
+      "Paul",
+      "Silas",
+      "Timothy"
+    ]
+  },
+  "author": {
+    "name": "Paul",
+    "confidence": "high",
+    "notes": ""
+  },
+  "dateWritten": {
+    "estimated": "52 AD",
+    "confidence": "high",
+    "notes": ""
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "summary": "Chapter 1 of 2 Thessalonians",
+      "verses": [
+        {
+          "id": "gw_2thessalonians_1_1",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 1,
+          "verse": 1,
+          "text": "From Paul, Silas, and Timothy.\nTo the church at Thessalonica united with God our Father and the Lord Jesus Christ.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_1_2",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 1,
+          "verse": 2,
+          "text": "Good will  and peace from God our Father and the Lord Jesus Christ are yours!",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_1_3",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 1,
+          "verse": 3,
+          "text": "We always have to thank God for you, brothers and sisters. It’s right to do this because your faith is showing remarkable growth and your love for each other is increasing.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_1_4",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 1,
+          "verse": 4,
+          "text": "That’s why we brag in God’s churches about your endurance and faith in all the persecutions and suffering you are experiencing.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_1_5",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 1,
+          "verse": 5,
+          "text": "Your suffering proves that God’s judgment is right and that you are considered worthy of his kingdom.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_1_6",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 1,
+          "verse": 6,
+          "text": "Certainly, it is right for God to give suffering to those who cause you to suffer.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_1_7",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 1,
+          "verse": 7,
+          "text": "It is also right for God to give all of us relief from our suffering. He will do this when the Lord Jesus is revealed, coming from heaven with his mighty angels in a blazing fire.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_1_8",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 1,
+          "verse": 8,
+          "text": "He will take revenge on those who refuse to acknowledge God and on those who refuse to respond to the Good News about our Lord Jesus.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_1_9",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 1,
+          "verse": 9,
+          "text": "They will pay the penalty by being destroyed forever, by being separated from the Lord’s presence and from his glorious power.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_1_10",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 1,
+          "verse": 10,
+          "text": "This will happen on that day when he comes to be honored among all his holy people and admired by all who have believed in him. This includes you because you believed the testimony we gave you.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_1_11",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 1,
+          "verse": 11,
+          "text": "With this in mind, we always pray that our God will make you worthy of his call. We also pray that through his power he will help you accomplish every good desire and help you do everything your faith produces.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_1_12",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 1,
+          "verse": 12,
+          "text": "That way the name of our Lord Jesus will be honored among you. Then, because of the good will of Jesus Christ, our God and Lord, you will be honored by him.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "Chapter 2 of 2 Thessalonians",
+      "verses": [
+        {
+          "id": "gw_2thessalonians_2_1",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 2,
+          "verse": 1,
+          "text": "Brothers and sisters, we have this request to make of you about our Lord Jesus Christ’s coming and our gathering to meet him.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_2_2",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 2,
+          "verse": 2,
+          "text": "Don’t get upset right away or alarmed when someone claims that we said through some spirit, conversation, or letter that the day of the Lord has already come.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_2_3",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 2,
+          "verse": 3,
+          "text": "Don’t let anyone deceive you about this in any way. That day cannot come unless a revolt takes place first, and the man of sin, the man of destruction, is revealed.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_2_4",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 2,
+          "verse": 4,
+          "text": "He opposes every so-called god or anything that is worshiped and places himself above them, sitting in God’s temple and claiming to be God.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_2_5",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 2,
+          "verse": 5,
+          "text": "Don’t you remember that I told you about these things when I was still with you?",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_2_6",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 2,
+          "verse": 6,
+          "text": "You know what it is that now holds him back, so that he will be revealed when his time comes.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_2_7",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 2,
+          "verse": 7,
+          "text": "The mystery of this sin is already at work. But it cannot work effectively until the person now holding it back gets out of the way.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_2_8",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 2,
+          "verse": 8,
+          "text": "Then the man of sin will be revealed and the Lord Jesus will destroy him by what he says. When the Lord Jesus comes, his appearance will put an end to this man.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_2_9",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 2,
+          "verse": 9,
+          "text": "The man of sin will come with the power of Satan. He will use every kind of power, including miraculous and wonderful signs. But they will be lies.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_2_10",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 2,
+          "verse": 10,
+          "text": "He will use everything that God disapproves of to deceive those who are dying, those who refused to love the truth that would save them.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_2_11",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 2,
+          "verse": 11,
+          "text": "That’s why God will send them a powerful delusion so that they will believe a lie.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_2_12",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 2,
+          "verse": 12,
+          "text": "Then everyone who did not believe the truth, but was delighted with what God disapproves of, will be condemned.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_2_13",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 2,
+          "verse": 13,
+          "text": "We always have to thank God for you, brothers and sisters. You are loved by the Lord and we thank God that in the beginning he chose you to be saved through a life of spiritual devotion and faith in the truth.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_2_14",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 2,
+          "verse": 14,
+          "text": "With this in mind he called you by the Good News which we told you so that you would obtain the glory of our Lord Jesus Christ.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_2_15",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 2,
+          "verse": 15,
+          "text": "Then, brothers and sisters, firmly hold on to the traditions we taught you either when we spoke to you or in our letter.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_2_16",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 2,
+          "verse": 16,
+          "text": "God our Father loved us and by his kindness  gave us everlasting encouragement and good hope. Together with our Lord Jesus Christ,",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_2_17",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 2,
+          "verse": 17,
+          "text": "may he encourage and strengthen you to do and say everything that is good.",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "Chapter 3 of 2 Thessalonians",
+      "verses": [
+        {
+          "id": "gw_2thessalonians_3_1",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 3,
+          "verse": 1,
+          "text": "Finally, brothers and sisters, pray that we spread the Lord’s word rapidly and that it will be honored the way it was among you.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_3_2",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 3,
+          "verse": 2,
+          "text": "Also pray that we may be rescued from worthless and evil people, since not everyone shares our faith.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_3_3",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 3,
+          "verse": 3,
+          "text": "But the Lord is faithful and will strengthen you and protect you against the evil one.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_3_4",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 3,
+          "verse": 4,
+          "text": "The Lord gives us confidence that you are doing and will continue to do what we ordered you to do.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_3_5",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 3,
+          "verse": 5,
+          "text": "May the Lord direct your lives as you show God’s love and Christ’s endurance.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_3_6",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 3,
+          "verse": 6,
+          "text": "Brothers and sisters, in the name of our Lord Jesus Christ we order you not to associate with any believer who doesn’t live a disciplined life and doesn’t follow the tradition you received from us.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_3_7",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 3,
+          "verse": 7,
+          "text": "You know what you must do to imitate us. We lived a disciplined life among you.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_3_8",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 3,
+          "verse": 8,
+          "text": "We didn’t eat anyone’s food without paying for it. Instead, we worked hard and struggled night and day in order not to be a burden to any of you.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_3_9",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 3,
+          "verse": 9,
+          "text": "It’s not as though we didn’t have a right to receive support. Rather, we wanted to set an example for you to follow.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_3_10",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 3,
+          "verse": 10,
+          "text": "While we were with you, we gave you the order: “Whoever doesn’t want to work shouldn’t be allowed to eat.”",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_3_11",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 3,
+          "verse": 11,
+          "text": "We hear that some of you are not living disciplined lives. You’re not working, so you go around interfering in other people’s lives.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_3_12",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 3,
+          "verse": 12,
+          "text": "We order and encourage such people by the Lord Jesus Christ to pay attention to their own work so they can support themselves.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_3_13",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 3,
+          "verse": 13,
+          "text": "Brothers and sisters, we can’t allow ourselves to get tired of doing what is right.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_3_14",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 3,
+          "verse": 14,
+          "text": "It may be that some people will not listen to what we say in this letter. Take note of them and don’t associate with them so that they will feel ashamed.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_3_15",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 3,
+          "verse": 15,
+          "text": "Yet, don’t treat them like enemies, but instruct them like brothers and sisters.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_3_16",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 3,
+          "verse": 16,
+          "text": "May the Lord of peace give you his peace at all times and in every way. The Lord be with all of you.",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_3_17",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 3,
+          "verse": 17,
+          "text": "I, Paul, am writing this greeting with my own hand. In every letter that I send, this is proof that I wrote it.",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_2thessalonians_3_18",
+          "translation": "GW",
+          "book": "2thessalonians",
+          "bookName": "2 Thessalonians",
+          "chapter": 3,
+          "verse": 18,
+          "text": "The good will  of our Lord Jesus Christ be with all of you.",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+	"id": "matthew",
+	"name": "Matthew",
+	"testament": "new",
+	"order": 40,
+	"chapterCount": 28,
+	"verseCount": 1071,
+	"summary": {
+		"short": "The Gospel of Matthew - Jesus as the Messiah",
+		"long": "Matthew presents Jesus as the promised Messiah, showing how He fulfills Old Testament prophecies and establishes the Kingdom of Heaven.",
+		"keyThemes": [
+			"messiah",
+			"kingdom",
+			"fulfillment",
+			"discipleship",
+			"judgment"
+		],
+		"keyCharacters": [
+			"Jesus",
+			"John the Baptist",
+			"Peter",
+			"James",
+			"John",
+			"Judas",
+			"Pilate"
+		]
+	},
+	"chapters": [
+		{
+			"id": "kjv_mat_1",
+			"book": "matthew",
+			"number": 1,
+			"verseCount": 25,
+			"paragraphCount": 3,
+			"summary": "The genealogy and birth of Jesus"
+		},
+		{
+			"id": "kjv_mat_2",
+			"book": "matthew",
+			"number": 2,
+			"verseCount": 23,
+			"paragraphCount": 4,
+			"summary": "The visit of the wise men and flight to Egypt"
+		},
+		{
+			"id": "kjv_mat_3",
+			"book": "matthew",
+			"number": 3,
+			"verseCount": 17,
+			"paragraphCount": 3,
+			"summary": "John the Baptist prepares the way"
+		},
+		{
+			"id": "kjv_mat_4",
+			"book": "matthew",
+			"number": 4,
+			"verseCount": 25,
+			"paragraphCount": 4,
+			"summary": "Jesus' temptation and beginning of ministry"
+		},
+		{
+			"id": "kjv_mat_5",
+			"book": "matthew",
+			"number": 5,
+			"verseCount": 48,
+			"paragraphCount": 1,
+			"summary": "The Sermon on the Mount - Beatitudes"
+		},
+		{
+			"id": "kjv_mat_6",
+			"book": "matthew",
+			"number": 6,
+			"verseCount": 34,
+			"paragraphCount": 1,
+			"summary": "The Sermon on the Mount - Prayer and fasting"
+		},
+		{
+			"id": "kjv_mat_7",
+			"book": "matthew",
+			"number": 7,
+			"verseCount": 29,
+			"paragraphCount": 1,
+			"summary": "The Sermon on the Mount - Judging others"
+		},
+		{
+			"id": "kjv_mat_8",
+			"book": "matthew",
+			"number": 8,
+			"verseCount": 34,
+			"paragraphCount": 4,
+			"summary": "Jesus heals many and calms the storm"
+		},
+		{
+			"id": "kjv_mat_9",
+			"book": "matthew",
+			"number": 9,
+			"verseCount": 38,
+			"paragraphCount": 4,
+			"summary": "More healings and calling of Matthew"
+		},
+		{
+			"id": "kjv_mat_10",
+			"book": "matthew",
+			"number": 10,
+			"verseCount": 42,
+			"paragraphCount": 1,
+			"summary": "Jesus sends out the twelve apostles"
+		},
+		{
+			"id": "kjv_mat_11",
+			"book": "matthew",
+			"number": 11,
+			"verseCount": 30,
+			"paragraphCount": 3,
+			"summary": "John's question and Jesus' response"
+		},
+		{
+			"id": "kjv_mat_12",
+			"book": "matthew",
+			"number": 12,
+			"verseCount": 50,
+			"paragraphCount": 4,
+			"summary": "Jesus and the Sabbath"
+		},
+		{
+			"id": "kjv_mat_13",
+			"book": "matthew",
+			"number": 13,
+			"verseCount": 58,
+			"paragraphCount": 1,
+			"summary": "Parables of the Kingdom"
+		},
+		{
+			"id": "kjv_mat_14",
+			"book": "matthew",
+			"number": 14,
+			"verseCount": 36,
+			"paragraphCount": 3,
+			"summary": "John the Baptist's death and feeding the 5000"
+		},
+		{
+			"id": "kjv_mat_15",
+			"book": "matthew",
+			"number": 15,
+			"verseCount": 39,
+			"paragraphCount": 3,
+			"summary": "Tradition and the feeding of 4000"
+		},
+		{
+			"id": "kjv_mat_16",
+			"book": "matthew",
+			"number": 16,
+			"verseCount": 28,
+			"paragraphCount": 3,
+			"summary": "Peter's confession and Jesus predicts His death"
+		},
+		{
+			"id": "kjv_mat_17",
+			"book": "matthew",
+			"number": 17,
+			"verseCount": 27,
+			"paragraphCount": 3,
+			"summary": "The transfiguration"
+		},
+		{
+			"id": "kjv_mat_18",
+			"book": "matthew",
+			"number": 18,
+			"verseCount": 35,
+			"paragraphCount": 1,
+			"summary": "Teaching about children and forgiveness"
+		},
+		{
+			"id": "kjv_mat_19",
+			"book": "matthew",
+			"number": 19,
+			"verseCount": 30,
+			"paragraphCount": 3,
+			"summary": "Marriage, divorce, and the rich young man"
+		},
+		{
+			"id": "kjv_mat_20",
+			"book": "matthew",
+			"number": 20,
+			"verseCount": 34,
+			"paragraphCount": 3,
+			"summary": "Parable of the workers and Jesus predicts His death again"
+		},
+		{
+			"id": "kjv_mat_21",
+			"book": "matthew",
+			"number": 21,
+			"verseCount": 46,
+			"paragraphCount": 4,
+			"summary": "Triumphal entry and cleansing the temple"
+		},
+		{
+			"id": "kjv_mat_22",
+			"book": "matthew",
+			"number": 22,
+			"verseCount": 46,
+			"paragraphCount": 4,
+			"summary": "Parable of the wedding banquet and questions"
+		},
+		{
+			"id": "kjv_mat_23",
+			"book": "matthew",
+			"number": 23,
+			"verseCount": 39,
+			"paragraphCount": 1,
+			"summary": "Woes to the Pharisees"
+		},
+		{
+			"id": "kjv_mat_24",
+			"book": "matthew",
+			"number": 24,
+			"verseCount": 51,
+			"paragraphCount": 1,
+			"summary": "Signs of the end of the age"
+		},
+		{
+			"id": "kjv_mat_25",
+			"book": "matthew",
+			"number": 25,
+			"verseCount": 46,
+			"paragraphCount": 1,
+			"summary": "Parables of the ten virgins and talents"
+		},
+		{
+			"id": "kjv_mat_26",
+			"book": "matthew",
+			"number": 26,
+			"verseCount": 75,
+			"paragraphCount": 6,
+			"summary": "The Last Supper and Jesus' arrest"
+		},
+		{
+			"id": "kjv_mat_27",
+			"book": "matthew",
+			"number": 27,
+			"verseCount": 66,
+			"paragraphCount": 4,
+			"summary": "Jesus' trial and crucifixion"
+		},
+		{
+			"id": "kjv_mat_28",
+			"book": "matthew",
+			"number": 28,
+			"verseCount": 20,
+			"paragraphCount": 2,
+			"summary": "The resurrection and Great Commission"
+		}
+	]
+}

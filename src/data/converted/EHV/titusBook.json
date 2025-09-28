@@ -1,0 +1,613 @@
+{
+  "id": "titus",
+  "name": "Titus",
+  "testament": "new",
+  "order": 56,
+  "chapterCount": 3,
+  "verseCount": 46,
+  "translation": "EHV",
+  "speakerStats": {
+    "jesusVerses": 0,
+    "godVerses": 0,
+    "narratorVerses": 46
+  },
+  "summary": {
+    "short": "Titus contains 3 chapters",
+    "long": "Titus is a book of the New Testament.",
+    "keyThemes": [
+      "Good Works",
+      "Sound Doctrine",
+      "Leadership"
+    ],
+    "keyCharacters": [
+      "Paul",
+      "Titus",
+      "Artemas",
+      "Tychicus",
+      "Zenas",
+      "Apollos"
+    ]
+  },
+  "author": {
+    "name": "Paul",
+    "confidence": "high",
+    "notes": ""
+  },
+  "dateWritten": {
+    "estimated": "64 AD",
+    "confidence": "high",
+    "notes": ""
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "summary": "Chapter 1 of Titus",
+      "verses": [
+        {
+          "id": "ehv_titus_1_1",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 1,
+          "text": "Paul, a servant of God and an apostle of Jesus Christ, for the faith of God’s elect people and the knowledge of the truth that conforms to godliness,",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_1_2",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 2,
+          "text": "based on the hope of eternal life, which God, who cannot lie, promised before time began.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_1_3",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 3,
+          "text": "At the proper time he revealed this in his word, in the preaching that was entrusted to me by the command of God our Savior,",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_1_4",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 4,
+          "text": "To Titus, my true child in our common faith:\nGrace and peace from God our Father and Christ Jesus our Savior.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_1_5",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 5,
+          "text": "The reason I left you in Crete was so that you would set in order the things that were left unfinished and appoint elders in every city, as I directed you.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_1_6",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 6,
+          "text": "Such a man is to be blameless, the husband of only one wife, and to have believing children who are not open to a charge of wild living or disobedience.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_1_7",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 7,
+          "text": "Indeed an overseer, since he is God’s steward, must be blameless, not arrogant, not quick-tempered, not a drunkard, not violent, not eager for dishonest gain.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_1_8",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 8,
+          "text": "Instead, he must be hospitable, loving what is good, self-controlled, upright, devout, and disciplined.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_1_9",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 9,
+          "text": "He must cling to the trustworthy message as it has been taught, so that he will be able both to encourage people by the sound teaching and also to correct those who oppose him.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_1_10",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 10,
+          "text": "For there are many who are rebellious, whose words are empty, and who deceive, especially those of the circumcision party.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_1_11",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 11,
+          "text": "The mouths of these people must be stopped, because they are ruining whole households by teaching what they should not teach, for the sake of dishonest gain.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_1_12",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 12,
+          "text": "One of their own prophets said, “Cretans are always liars, vicious beasts, and lazy gluttons.”",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_1_13",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 13,
+          "text": "This testimony is true. For this reason, correct them sharply so that they may be sound in the faith,",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_1_14",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 14,
+          "text": "not paying attention to Jewish myths or the commands of people who turn their backs on the truth.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_1_15",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 15,
+          "text": "All things are pure to those who are pure. But nothing is pure to those who are defiled and do not believe; rather, both their minds and consciences are defiled.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_1_16",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 16,
+          "text": "They claim to know God, but by their actions they deny him. They are detestable, disobedient, and unfit to do anything good.",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "Chapter 2 of Titus",
+      "verses": [
+        {
+          "id": "ehv_titus_2_1",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 1,
+          "text": "But as for you, speak what is appropriate for sound doctrine.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_2_2",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 2,
+          "text": "Encourage older men to be temperate, worthy of respect, self-controlled, and sound in faith, love, and patient endurance.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_2_3",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 3,
+          "text": "Likewise, encourage older women to be reverent in their behavior, not slanderers, not enslaved to much wine, but teachers of what is good,",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_2_4",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 4,
+          "text": "so that they can train the younger women to love their husbands and children,",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_2_5",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 5,
+          "text": "to be self-controlled, pure, busy at home, kind, and submitting to their own husbands, that the word of God might not be slandered.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_2_6",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 6,
+          "text": "Likewise, encourage younger men to be self-controlled.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_2_7",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 7,
+          "text": "In all things show yourself to be an example of good works. In your teaching show integrity, seriousness,",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_2_8",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 8,
+          "text": "and sound speech that cannot be condemned, so that the one who opposes us will be put to shame, because he has nothing bad to say about us.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_2_9",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 9,
+          "text": "Encourage slaves to submit to their masters in everything, to be pleasing to them, not to be argumentative with them,",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_2_10",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 10,
+          "text": "not to steal from them, but to demonstrate their complete trustworthiness, so that they may show the teaching of God our Savior to be attractive in every way.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_2_11",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 11,
+          "text": "For the grace of God has appeared, bringing salvation to all people.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_2_12",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 12,
+          "text": "It trains us to reject ungodliness and worldly lusts and to live self-controlled, upright, and godly lives in this present age,",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_2_13",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 13,
+          "text": "while we wait for the blessed hope, that is, the glorious appearance of our great God and Savior, Jesus Christ.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_2_14",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 14,
+          "text": "He gave himself for us, to redeem us from all lawlessness and to purify for himself a people who are his own chosen people, eager to do good works.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_2_15",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 15,
+          "text": "Keep telling people these things. Continue to encourage and rebuke with full authority. Let no one ignore you.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "Chapter 3 of Titus",
+      "verses": [
+        {
+          "id": "ehv_titus_3_1",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 1,
+          "text": "Remind them to be subject to rulers and authorities, to obey, to be ready to do any good work,",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_3_2",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 2,
+          "text": "to speak evil of no one, to be peaceable, to be gentle, and to display every courtesy toward all people.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_3_3",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 3,
+          "text": "For at one time we ourselves were also foolish, disobedient, deceived, enslaved by many kinds of evil desires and pleasures, living in malice and jealousy, being hated and hating one another.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_3_4",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 4,
+          "text": "But when the kindness and love of God our Savior toward mankind appeared,",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_3_5",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 5,
+          "text": "he saved us—not by righteous works that we did ourselves, but because of his mercy. He saved us through the washing of rebirth and the renewal by the Holy Spirit,",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_3_6",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 6,
+          "text": "whom he poured out on us abundantly through Jesus Christ our Savior,",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_3_7",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 7,
+          "text": "so that, having been justified by his grace, we might become heirs in keeping with the hope of eternal life.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_3_8",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 8,
+          "text": "This saying is trustworthy. And I want you to insist on these things, so that those who believe in God are intent on keeping busy with good works. These things are honorable and useful for the people.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_3_9",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 9,
+          "text": "But avoid foolish controversies, genealogies, rivalries, and quarrels about the law, because these are useless and fruitless.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_3_10",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 10,
+          "text": "Reject a divisive person after a first and second warning,",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_3_11",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 11,
+          "text": "because you know that such a man is twisted and is sinning. He condemns himself.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_3_12",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 12,
+          "text": "When I send Artemas or Tychicus to you, make every effort to come to me at Nicopolis, for I have decided to spend the winter there.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_3_13",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 13,
+          "text": "Do your best to help Zenas the lawyer and Apollos for their journey, so that they are not lacking anything.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_3_14",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 14,
+          "text": "Let our people also learn to busy themselves with good works when urgent needs arise, so that they are not unfruitful.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "ehv_titus_3_15",
+          "translation": "EHV",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 15,
+          "text": "Everyone with me sends you greetings. Greet those who love us in the faith. Grace be with you all.\nAmen.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    }
+  ]
+}

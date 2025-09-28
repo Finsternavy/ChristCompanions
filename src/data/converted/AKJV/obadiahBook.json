@@ -1,0 +1,300 @@
+{
+  "id": "obadiah",
+  "name": "Obadiah",
+  "testament": "old",
+  "order": 31,
+  "chapterCount": 1,
+  "verseCount": 21,
+  "translation": "AKJV",
+  "speakerStats": {
+    "jesusVerses": 0,
+    "godVerses": 0,
+    "narratorVerses": 21
+  },
+  "summary": {
+    "short": "Obadiah contains 1 chapters",
+    "long": "Obadiah is a book of the Old Testament.",
+    "keyThemes": [
+      "Judgment",
+      "Pride",
+      "Day of Lord",
+      "Restoration"
+    ],
+    "keyCharacters": [
+      "Obadiah",
+      "Edom",
+      "Esau",
+      "Jacob"
+    ]
+  },
+  "author": {
+    "name": "Obadiah",
+    "confidence": "high",
+    "notes": ""
+  },
+  "dateWritten": {
+    "estimated": "840 BC",
+    "confidence": "high",
+    "notes": ""
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "summary": "Chapter 1 of Obadiah",
+      "verses": [
+        {
+          "id": "akjv_obadiah_1_1",
+          "translation": "AKJV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 1,
+          "text": "The vision of Obadiah. Thus saith the Lord God concerning Edom;\nWe have heard a rumour from the Lord,\nand an ambassador is sent among the heathen,\nArise ye, and let us rise up against her in battle.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "akjv_obadiah_1_2",
+          "translation": "AKJV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 2,
+          "text": "Behold, I have made thee small among the heathen:\nthou art greatly despised.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "akjv_obadiah_1_3",
+          "translation": "AKJV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 3,
+          "text": "The pride of thine heart hath deceived thee,\nthou that dwellest in the clefts of the rock,\nwhose habitation is high;\nthat saith in his heart, Who shall bring me down to the ground?",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "akjv_obadiah_1_4",
+          "translation": "AKJV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 4,
+          "text": "Though thou exalt thyself as the eagle,\nand though thou set thy nest among the stars,\nthence will I bring thee down, saith the Lord.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "akjv_obadiah_1_5",
+          "translation": "AKJV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 5,
+          "text": "If thieves came to thee, if robbers by night,\n(how art thou cut off!)\nwould they not have stolen till they had enough?\nif the grapegatherers came to thee,\nwould they not leave some grapes?",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "akjv_obadiah_1_6",
+          "translation": "AKJV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 6,
+          "text": "How are the things of Esau searched out!\nhow are his hidden things sought up!",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "akjv_obadiah_1_7",
+          "translation": "AKJV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 7,
+          "text": "All the men of thy confederacy have brought thee even to the border:\nthe men that were at peace with thee have deceived thee,\nand prevailed against thee;\nthey that eat thy bread have laid a wound under thee:\nthere is none understanding in him.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "akjv_obadiah_1_8",
+          "translation": "AKJV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 8,
+          "text": "Shall I not in that day, saith the Lord,\neven destroy the wise men out of Edom,\nand understanding out of the mount of Esau?",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "akjv_obadiah_1_9",
+          "translation": "AKJV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 9,
+          "text": "And thy mighty men, O Teman, shall be dismayed,\nto the end that every one of the mount of Esau may be cut off by slaughter.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "akjv_obadiah_1_10",
+          "translation": "AKJV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 10,
+          "text": "For thy violence against thy brother Jacob shame shall cover thee,\nand thou shalt be cut off for ever.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "akjv_obadiah_1_11",
+          "translation": "AKJV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 11,
+          "text": "In the day that thou stoodest on the other side,\nin the day that the strangers carried away captive his forces,\nand foreigners entered into his gates,\nand cast lots upon Jerusalem, even thou wast as one of them.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "akjv_obadiah_1_12",
+          "translation": "AKJV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 12,
+          "text": "But thou shouldest not have looked on the day of thy brother\nin the day that he became a stranger;\nneither shouldest thou have rejoiced over the children of Judah\nin the day of their destruction;\nneither shouldest thou have spoken proudly in the day of distress.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "akjv_obadiah_1_13",
+          "translation": "AKJV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 13,
+          "text": "Thou shouldest not have entered into the gate of my people\nin the day of their calamity;\nyea, thou shouldest not have looked on their affliction\nin the day of their calamity,\nnor have laid hands on their substance\nin the day of their calamity;",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "akjv_obadiah_1_14",
+          "translation": "AKJV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 14,
+          "text": "neither shouldest thou have stood in the crossway,\nto cut off those of his that did escape;\nneither shouldest thou have delivered up those of his that did remain in the day of distress.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "akjv_obadiah_1_15",
+          "translation": "AKJV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 15,
+          "text": "For the day of the Lord is near upon all the heathen:\nas thou hast done, it shall be done unto thee:\nthy reward shall return upon thine own head.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "akjv_obadiah_1_16",
+          "translation": "AKJV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 16,
+          "text": "For as ye have drunk upon my holy mountain,\nso shall all the heathen drink continually,\nyea, they shall drink, and they shall swallow down,\nand they shall be as though they had not been.",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "akjv_obadiah_1_17",
+          "translation": "AKJV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 17,
+          "text": "But upon mount Zion shall be deliverance,\nand there shall be holiness;\nand the house of Jacob shall possess their possessions.",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "akjv_obadiah_1_18",
+          "translation": "AKJV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 18,
+          "text": "And the house of Jacob shall be a fire,\nand the house of Joseph a flame,\nand the house of Esau for stubble,\nand they shall kindle in them, and devour them;\nand there shall not be any remaining of the house of Esau;\nfor the Lord hath spoken it.",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "akjv_obadiah_1_19",
+          "translation": "AKJV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 19,
+          "text": "And they of the south shall possess the mount of Esau; and they of the plain the Philistines: and they shall possess the fields of Ephraim, and the fields of Samaria: and Benjamin shall possess Gilead.",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "akjv_obadiah_1_20",
+          "translation": "AKJV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 20,
+          "text": "And the captivity of this host of the children of Israel shall possess that of the Canaanites, even unto Zarephath; and the captivity of Jerusalem, which is in Sepharad, shall possess the cities of the south.",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "akjv_obadiah_1_21",
+          "translation": "AKJV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 21,
+          "text": "And saviours shall come up on mount Zion to judge the mount of Esau; and the kingdom shall be the Lord’s.",
+          "paragraph": 5,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    }
+  ]
+}

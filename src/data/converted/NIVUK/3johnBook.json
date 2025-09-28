@@ -1,0 +1,215 @@
+{
+  "id": "3john",
+  "name": "3 John",
+  "testament": "new",
+  "order": 64,
+  "chapterCount": 1,
+  "verseCount": 14,
+  "translation": "NIVUK",
+  "speakerStats": {
+    "jesusVerses": 0,
+    "godVerses": 0,
+    "narratorVerses": 14
+  },
+  "summary": {
+    "short": "3 John contains 1 chapters",
+    "long": "3 John is a book of the New Testament.",
+    "keyThemes": [
+      "Hospitality",
+      "Truth",
+      "Good Works"
+    ],
+    "keyCharacters": [
+      "John",
+      "Gaius",
+      "Diotrephes",
+      "Demetrius"
+    ]
+  },
+  "author": {
+    "name": "John",
+    "confidence": "high",
+    "notes": ""
+  },
+  "dateWritten": {
+    "estimated": "85-95 AD",
+    "confidence": "high",
+    "notes": ""
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "summary": "Chapter 1 of 3 John",
+      "verses": [
+        {
+          "id": "nivuk_3john_1_1",
+          "translation": "NIVUK",
+          "book": "3john",
+          "bookName": "3 John",
+          "chapter": 1,
+          "verse": 1,
+          "text": "The elder,\nTo my dear friend Gaius, whom I love in the truth.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nivuk_3john_1_2",
+          "translation": "NIVUK",
+          "book": "3john",
+          "bookName": "3 John",
+          "chapter": 1,
+          "verse": 2,
+          "text": "Dear friend, I pray that you may enjoy good health and that all may go well with you, just as you are progressing spiritually.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nivuk_3john_1_3",
+          "translation": "NIVUK",
+          "book": "3john",
+          "bookName": "3 John",
+          "chapter": 1,
+          "verse": 3,
+          "text": "It gave me great joy when some believers came and testified about your faithfulness to the truth, telling how you continue to walk in it.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nivuk_3john_1_4",
+          "translation": "NIVUK",
+          "book": "3john",
+          "bookName": "3 John",
+          "chapter": 1,
+          "verse": 4,
+          "text": "I have no greater joy than to hear that my children are walking in the truth.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nivuk_3john_1_5",
+          "translation": "NIVUK",
+          "book": "3john",
+          "bookName": "3 John",
+          "chapter": 1,
+          "verse": 5,
+          "text": "Dear friend, you are faithful in what you are doing for the brothers and sisters, even though they are strangers to you.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nivuk_3john_1_6",
+          "translation": "NIVUK",
+          "book": "3john",
+          "bookName": "3 John",
+          "chapter": 1,
+          "verse": 6,
+          "text": "They have told the church about your love. Please send them on their way in a manner that honours God.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nivuk_3john_1_7",
+          "translation": "NIVUK",
+          "book": "3john",
+          "bookName": "3 John",
+          "chapter": 1,
+          "verse": 7,
+          "text": "It was for the sake of the Name that they went out, receiving no help from the pagans.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nivuk_3john_1_8",
+          "translation": "NIVUK",
+          "book": "3john",
+          "bookName": "3 John",
+          "chapter": 1,
+          "verse": 8,
+          "text": "We ought therefore to show hospitality to such people so that we may work together for the truth.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nivuk_3john_1_9",
+          "translation": "NIVUK",
+          "book": "3john",
+          "bookName": "3 John",
+          "chapter": 1,
+          "verse": 9,
+          "text": "I wrote to the church, but Diotrephes, who loves to be first, will not welcome us.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nivuk_3john_1_10",
+          "translation": "NIVUK",
+          "book": "3john",
+          "bookName": "3 John",
+          "chapter": 1,
+          "verse": 10,
+          "text": "So when I come, I will call attention to what he is doing, spreading malicious nonsense about us. Not satisfied with that, he even refuses to welcome other believers. He also stops those who want to do so and puts them out of the church.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nivuk_3john_1_11",
+          "translation": "NIVUK",
+          "book": "3john",
+          "bookName": "3 John",
+          "chapter": 1,
+          "verse": 11,
+          "text": "Dear friend, do not imitate what is evil but what is good. Anyone who does what is good is from God. Anyone who does what is evil has not seen God.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nivuk_3john_1_12",
+          "translation": "NIVUK",
+          "book": "3john",
+          "bookName": "3 John",
+          "chapter": 1,
+          "verse": 12,
+          "text": "Demetrius is well spoken of by everyone – and even by the truth itself. We also speak well of him, and you know that our testimony is true.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nivuk_3john_1_13",
+          "translation": "NIVUK",
+          "book": "3john",
+          "bookName": "3 John",
+          "chapter": 1,
+          "verse": 13,
+          "text": "I have much to write to you, but I do not want to do so with pen and ink.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nivuk_3john_1_14",
+          "translation": "NIVUK",
+          "book": "3john",
+          "bookName": "3 John",
+          "chapter": 1,
+          "verse": 14,
+          "text": "I hope to see you soon, and we will talk face to face.\nPeace to you. The friends here send their greetings. Greet the friends there by name.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    }
+  ]
+}

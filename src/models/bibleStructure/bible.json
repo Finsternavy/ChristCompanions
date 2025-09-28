@@ -1,0 +1,37 @@
+{
+  "id": "kjv",
+  "name": "King James Version",
+  "language": "en",
+  "year": 1611,
+  "description": "The classic English translation",
+  "books": [
+    {
+      "id": "matthew",
+      "name": "Matthew",
+      "testament": "new",
+      "order": 40,
+      "chapterCount": 28,
+      "verseCount": 1071,
+      "summary": {
+        "short": "The Gospel of Matthew - Jesus as the Messiah",
+        "long": "Matthew presents Jesus as the promised Messiah, showing how He fulfills Old Testament prophecies and establishes the Kingdom of Heaven.",
+        "keyThemes": [
+          "messiah",
+          "kingdom",
+          "fulfillment",
+          "discipleship",
+          "judgment"
+        ],
+        "keyCharacters": [
+          "Jesus",
+          "John the Baptist",
+          "Peter",
+          "James",
+          "John",
+          "Judas",
+          "Pilate"
+        ]
+      }
+    }
+  ]
+}

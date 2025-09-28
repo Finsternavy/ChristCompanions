@@ -1,0 +1,202 @@
+{
+  "id": "2john",
+  "name": "2 John",
+  "testament": "new",
+  "order": 63,
+  "chapterCount": 1,
+  "verseCount": 13,
+  "translation": "MEV",
+  "speakerStats": {
+    "jesusVerses": 0,
+    "godVerses": 0,
+    "narratorVerses": 13
+  },
+  "summary": {
+    "short": "2 John contains 1 chapters",
+    "long": "2 John is a book of the New Testament.",
+    "keyThemes": [
+      "Truth",
+      "Love",
+      "Deception"
+    ],
+    "keyCharacters": [
+      "John",
+      "Elect lady",
+      "Her children"
+    ]
+  },
+  "author": {
+    "name": "John",
+    "confidence": "high",
+    "notes": ""
+  },
+  "dateWritten": {
+    "estimated": "85-95 AD",
+    "confidence": "high",
+    "notes": ""
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "summary": "Chapter 1 of 2 John",
+      "verses": [
+        {
+          "id": "mev_2john_1_1",
+          "translation": "MEV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 1,
+          "text": "The elder,\nTo the elect lady and her children, whom I love in the truth, and not I only, but also all those who know the truth,",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "mev_2john_1_2",
+          "translation": "MEV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 2,
+          "text": "for the sake of the truth, which remains in us, and will be with us forever:",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "mev_2john_1_3",
+          "translation": "MEV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 3,
+          "text": "Grace, mercy, and peace will be with you from God the Father and from the Lord Jesus Christ, the Son of the Father, in truth and love.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "mev_2john_1_4",
+          "translation": "MEV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 4,
+          "text": "I greatly rejoiced that I found some of your children walking in truth as we were commanded by the Father.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "mev_2john_1_5",
+          "translation": "MEV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 5,
+          "text": "And now I ask you, lady, not as though I wrote a new commandment to you, but that which we have had from the beginning, that we love one another.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "mev_2john_1_6",
+          "translation": "MEV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 6,
+          "text": "And this is love: that we walk according to His commandments. This is the commandment, that as you have heard from the beginning, you should walk in it.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "mev_2john_1_7",
+          "translation": "MEV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 7,
+          "text": "For many deceivers, who do not confess that Jesus Christ has come in the flesh, have gone out into the world. Each one is a deceiver and an antichrist.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "mev_2john_1_8",
+          "translation": "MEV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 8,
+          "text": "Watch yourselves, so that we do not lose those things for which we have worked, but that we receive a full reward.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "mev_2john_1_9",
+          "translation": "MEV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 9,
+          "text": "Whoever transgresses and does not remain in the teaching of Christ does not have God. Whoever remains in the teaching of Christ has both the Father and the Son.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "mev_2john_1_10",
+          "translation": "MEV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 10,
+          "text": "If anyone comes to you and does not bring this teaching, do not receive him into your house, nor greet him.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "mev_2john_1_11",
+          "translation": "MEV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 11,
+          "text": "For whoever greets him takes part in his evil deeds.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "mev_2john_1_12",
+          "translation": "MEV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 12,
+          "text": "I have many things to write to you, but I prefer not to write with paper and ink. Instead, I hope to come to you and speak face to face that our joy may be complete.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "mev_2john_1_13",
+          "translation": "MEV",
+          "book": "2john",
+          "bookName": "2 John",
+          "chapter": 1,
+          "verse": 13,
+          "text": "The children of your elect sister greet you. Amen.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    }
+  ]
+}

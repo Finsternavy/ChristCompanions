@@ -1,0 +1,142 @@
+[
+	{
+		"id": "q_001",
+		"verseId": "kjv_mat_1_1",
+		"question": "Why does Matthew start with a genealogy when the other gospels don't?",
+		"userId": "user_123",
+		"createdAt": "2024-01-15T12:00:00Z",
+		"status": "open",
+		"tags": [
+			"genealogy",
+			"matthew",
+			"gospel differences"
+		]
+	},
+	{
+		"id": "q_002",
+		"verseId": "kjv_mat_1_16",
+		"question": "Why is Joseph called the 'husband of Mary' instead of 'father of Jesus'?",
+		"userId": "user_123",
+		"createdAt": "2024-01-15T12:05:00Z",
+		"status": "open",
+		"tags": [
+			"joseph",
+			"mary",
+			"virgin birth",
+			"genealogy"
+		]
+	},
+	{
+		"id": "q_003",
+		"verseId": "kjv_mat_1_17",
+		"question": "What is the significance of the three sets of 14 generations?",
+		"userId": "user_123",
+		"createdAt": "2024-01-15T12:10:00Z",
+		"status": "answered",
+		"tags": [
+			"genealogy",
+			"numbers",
+			"symbolism",
+			"salvation history"
+		]
+	},
+	{
+		"id": "q_004",
+		"verseId": "kjv_mat_1_18",
+		"question": "What does 'espoused' mean in this context?",
+		"userId": "user_123",
+		"createdAt": "2024-01-15T12:15:00Z",
+		"status": "open",
+		"tags": [
+			"marriage",
+			"joseph",
+			"mary",
+			"cultural context"
+		]
+	},
+	{
+		"id": "q_005",
+		"verseId": "kjv_mat_1_21",
+		"question": "Why was the name Jesus chosen specifically?",
+		"userId": "user_123",
+		"createdAt": "2024-01-15T12:20:00Z",
+		"status": "open",
+		"tags": [
+			"jesus",
+			"name",
+			"salvation",
+			"meaning"
+		]
+	},
+	{
+		"id": "q_006",
+		"verseId": "kjv_mat_2_1",
+		"question": "How long after Jesus' birth did the wise men arrive?",
+		"userId": "user_123",
+		"createdAt": "2024-01-15T12:25:00Z",
+		"status": "open",
+		"tags": [
+			"wise men",
+			"timing",
+			"birth",
+			"chronology"
+		]
+	},
+	{
+		"id": "q_007",
+		"verseId": "kjv_mat_2_2",
+		"question": "What star did the wise men follow and how did they know it was significant?",
+		"userId": "user_123",
+		"createdAt": "2024-01-15T12:30:00Z",
+		"status": "open",
+		"tags": [
+			"star",
+			"wise men",
+			"astronomy",
+			"significance"
+		]
+	},
+	{
+		"id": "q_008",
+		"verseId": "kjv_mat_2_11",
+		"question": "What is the symbolic meaning of the three gifts brought by the wise men?",
+		"userId": "user_123",
+		"createdAt": "2024-01-15T12:35:00Z",
+		"status": "open",
+		"tags": [
+			"gifts",
+			"symbolism",
+			"gold",
+			"frankincense",
+			"myrrh"
+		]
+	},
+	{
+		"id": "q_009",
+		"verseId": "kjv_mat_2_16",
+		"question": "How many children were killed in the massacre of the innocents?",
+		"userId": "user_123",
+		"createdAt": "2024-01-15T12:40:00Z",
+		"status": "open",
+		"tags": [
+			"massacre",
+			"herod",
+			"children",
+			"bethlehem"
+		]
+	},
+	{
+		"id": "q_010",
+		"verseId": "kjv_mat_2_23",
+		"question": "Why did Jesus grow up in Nazareth when He was born in Bethlehem?",
+		"userId": "user_123",
+		"createdAt": "2024-01-15T12:45:00Z",
+		"status": "open",
+		"tags": [
+			"nazareth",
+			"bethlehem",
+			"childhood",
+			"geography"
+		]
+	}
+]

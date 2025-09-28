@@ -1,0 +1,623 @@
+{
+  "id": "nahum",
+  "name": "Nahum",
+  "testament": "old",
+  "order": 34,
+  "chapterCount": 3,
+  "verseCount": 47,
+  "translation": "NET",
+  "speakerStats": {
+    "jesusVerses": 0,
+    "godVerses": 0,
+    "narratorVerses": 47
+  },
+  "summary": {
+    "short": "Nahum contains 3 chapters",
+    "long": "Nahum is a book of the Old Testament.",
+    "keyThemes": [
+      "Judgment",
+      "Justice",
+      "Comfort",
+      "Deliverance"
+    ],
+    "keyCharacters": [
+      "Nahum",
+      "Nineveh",
+      "Assyria"
+    ]
+  },
+  "author": {
+    "name": "Nahum",
+    "confidence": "high",
+    "notes": ""
+  },
+  "dateWritten": {
+    "estimated": "650 BC",
+    "confidence": "high",
+    "notes": ""
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "summary": "Chapter 1 of Nahum",
+      "verses": [
+        {
+          "id": "net_nahum_1_1",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 1,
+          "verse": 1,
+          "text": "This is an oracle about Nineveh; the book of the vision of Nahum the Elkoshite:",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_1_2",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 1,
+          "verse": 2,
+          "text": "The Lord is a zealous and avenging God;\nthe Lord is avenging and very angry.\nThe Lord takes vengeance against his foes;\nhe sustains his rage against his enemies.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_1_3",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 1,
+          "verse": 3,
+          "text": "The Lord is slow to anger but great in power;\nthe Lord will certainly not allow the wicked to go unpunished. \nHe marches out in the whirlwind and the raging storm;\ndark storm clouds billow like dust under his feet.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_1_4",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 1,
+          "verse": 4,
+          "text": "He shouts a battle cry against the sea and makes it dry up;\nhe makes all the rivers run dry.\nBashan and Carmel wither;\nthe blossom of Lebanon withers.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_1_5",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 1,
+          "verse": 5,
+          "text": "The mountains tremble before him,\nthe hills convulse;\nthe earth is laid waste before him,\nthe world and all its inhabitants are laid waste.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_1_6",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 1,
+          "verse": 6,
+          "text": "No one can withstand his indignation!\nNo one can resist his fierce anger!\nHis wrath is poured out like volcanic fire,\nboulders are broken up as he approaches.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_1_7",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 1,
+          "verse": 7,
+          "text": "The Lord is good—\nindeed, he is a fortress in time of distress,\nand he protects those who seek refuge in him.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_1_8",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 1,
+          "verse": 8,
+          "text": "But with an overwhelming flood\nhe will make a complete end of Nineveh;\nhe will drive his enemies into darkness.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_1_9",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 1,
+          "verse": 9,
+          "text": "Whatever you plot against the Lord, he will completely destroy!\nDistress will not arise a second time.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_1_10",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 1,
+          "verse": 10,
+          "text": "Surely they will be totally consumed\nlike entangled thorn bushes,\nlike the drink of drunkards,\nlike very dry stubble.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_1_11",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 1,
+          "verse": 11,
+          "text": "From you, O Nineveh, one has marched forth who plots evil against the Lord,\na wicked military strategist.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_1_12",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 1,
+          "verse": 12,
+          "text": "This is what the Lord says:\n“Even though they are powerful—\nand what is more, even though their army is numerous—\nnevertheless, they will be destroyed and trickle away!\nAlthough I afflicted you,\nI will afflict you no more.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_1_13",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 1,
+          "verse": 13,
+          "text": "And now, I will break Assyria’s yoke bar from your neck;\nI will tear apart the shackles that are on you.”",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_1_14",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 1,
+          "verse": 14,
+          "text": "The Lord has issued a decree against you:\n“Your dynasty will come to an end.\nI will destroy the idols and images in the temples of your gods.\nI will desecrate your grave, because you are accursed!”",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_1_15",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 1,
+          "verse": 15,
+          "text": "(2:1) Look! A herald is running on the mountains!\nA messenger is proclaiming deliverance:\n“Celebrate your sacred festivals, O Judah!\nFulfill your sacred vows to praise God!\nFor never again will the wicked Assyrians invade you;\nthey have been completely destroyed.”",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "Chapter 2 of Nahum",
+      "verses": [
+        {
+          "id": "net_nahum_2_1",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 2,
+          "verse": 1,
+          "text": "(2:2) An enemy who will scatter you, Nineveh, has advanced against you!\nGuard the rampart!\nWatch the road!\nPrepare yourselves for battle!\nMuster your mighty strength!",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_2_2",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 2,
+          "verse": 2,
+          "text": "For the Lord is about to restore the majesty of Jacob,\nas well as the majesty of Israel,\nthough their enemies have plundered them\nand have destroyed their fields.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_2_3",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 2,
+          "verse": 3,
+          "text": "The shields of his warriors are dyed red;\nthe mighty soldiers are dressed in scarlet garments.\nThe chariots are in flashing metal fittings\non the day of battle;\nthe soldiers brandish their spears.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_2_4",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 2,
+          "verse": 4,
+          "text": "The chariots race madly through the streets,\nthey rush back and forth in the broad plazas;\nthey look like lightning bolts,\nthey dash here and there like flashes of lightning.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_2_5",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 2,
+          "verse": 5,
+          "text": "The commander orders his officers;\nthey stumble as they advance;\nthey rush to the city wall,\nand they set up the covered siege tower.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_2_6",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 2,
+          "verse": 6,
+          "text": "The sluice gates are opened;\nthe royal palace is deluged and dissolves.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_2_7",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 2,
+          "verse": 7,
+          "text": "Nineveh is taken into exile and is led away;\nher slave girls moan like doves while they beat their breasts.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_2_8",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 2,
+          "verse": 8,
+          "text": "Nineveh was like a pool of water throughout her days,\nbut now her people are running away;\nshe cries out: “Stop! Stop!”—\nbut no one turns back.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_2_9",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 2,
+          "verse": 9,
+          "text": "Her conquerors cry out:\n“Plunder the silver! Plunder the gold!”\nThere is no end to the treasure;\nriches of every kind of precious thing.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_2_10",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 2,
+          "verse": 10,
+          "text": "Destruction, devastation, and desolation!\nHearts faint, knees tremble;\nevery stomach churns, all their faces have turned pale!",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_2_11",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 2,
+          "verse": 11,
+          "text": "Where now is the den of the lions\nand the feeding place of the young lions,\nwhere the lion, lioness, and lion cub once prowled\nand no one disturbed them?",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_2_12",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 2,
+          "verse": 12,
+          "text": "The lion tore apart as much prey as his cubs needed\nand strangled prey for his lionesses;\nhe filled his lairs with prey\nand his dens with torn flesh.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_2_13",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 2,
+          "verse": 13,
+          "text": "“I am against you!” declares the Lord of Heaven’s Armies:\n“I will burn your chariots with fire;\nthe sword will devour your young lions.\nYou will no longer prey upon the land;\nthe voices of your messengers will no longer be heard.”",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "Chapter 3 of Nahum",
+      "verses": [
+        {
+          "id": "net_nahum_3_1",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 3,
+          "verse": 1,
+          "text": "Woe to the city guilty of bloodshed!\nShe is full of lies;\nshe is filled with plunder;\nshe has hoarded her spoil!",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_3_2",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 3,
+          "verse": 2,
+          "text": "The chariot drivers will crack their whips;\nthe chariot wheels will shake the ground.\nThe chariot horses will gallop;\nthe war chariots will bolt forward!",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_3_3",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 3,
+          "verse": 3,
+          "text": "The charioteers will charge ahead;\ntheir swords will flash\nand their spears will glimmer!\nThere will be many people slain;\nthere will be piles of the dead\nand countless casualties—\nso many that people will stumble over the corpses.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_3_4",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 3,
+          "verse": 4,
+          "text": "Because you have acted like a wanton prostitute—\na seductive mistress who practices sorcery,\nwho enslaves nations by her harlotry,\nand entices peoples by her sorcery—",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_3_5",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 3,
+          "verse": 5,
+          "text": "“I am against you,” declares the Lord of Heaven’s Armies.\n“I will strip off your clothes!\nI will show your nakedness to the nations\nand your shame to the kingdoms.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_3_6",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 3,
+          "verse": 6,
+          "text": "I will pelt you with filth;\nI will treat you with contempt;\nI will make you a public spectacle.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_3_7",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 3,
+          "verse": 7,
+          "text": "Everyone who sees you will turn away from you in disgust;\nthey will say, ‘Nineveh has been devastated!\nWho will lament for her?’\nThere will be no one to comfort you!”",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_3_8",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 3,
+          "verse": 8,
+          "text": "You are no more secure than Thebes—\nshe was located on the banks of the Nile;\nthe waters surrounded her—\nher rampart was the sea,\nthe water was her wall.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_3_9",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 3,
+          "verse": 9,
+          "text": "Cush and Egypt had limitless strength;\nPut and the Libyans were among her allies.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_3_10",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 3,
+          "verse": 10,
+          "text": "Yet she went into captivity as an exile;\neven her infants were smashed to pieces at the head of every street.\nThey cast lots for her nobility;\nall her dignitaries were bound with chains.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_3_11",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 3,
+          "verse": 11,
+          "text": "You too will act like drunkards;\nyou will go into hiding;\nyou too will seek refuge from the enemy.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_3_12",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 3,
+          "verse": 12,
+          "text": "All your fortifications will be like fig trees with first-ripe fruit:\nIf they are shaken, their figs will fall into the mouth of the eater.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_3_13",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 3,
+          "verse": 13,
+          "text": "Your warriors will be like women in your midst;\nthe gates of your land will be wide open to your enemies;\nfire will consume the bars of your gates.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_3_14",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 3,
+          "verse": 14,
+          "text": "Draw yourselves water for a siege!\nStrengthen your fortifications!\nTrample the mud and tread the clay!\nMake mud bricks to strengthen your walls!",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_3_15",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 3,
+          "verse": 15,
+          "text": "There the fire will consume you;\nthe sword will cut you down;\nit will devour you like the young locust would. \nMultiply yourself like the young locust;\nmultiply yourself like the flying locust!",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_3_16",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 3,
+          "verse": 16,
+          "text": "Increase your merchants more than the stars of heaven!\nThey are like the young locust that sheds its skin and flies away.",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_3_17",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 3,
+          "verse": 17,
+          "text": "Your courtiers are like locusts,\nyour officials are like a swarm of locusts!\nThey encamp in the walls on a cold day,\nyet when the sun rises, they fly away,\nand no one knows where they are.",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_3_18",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 3,
+          "verse": 18,
+          "text": "Your shepherds are sleeping, O king of Assyria.\nYour officers are slumbering!\nYour people are scattered like sheep on the mountains,\nand there is no one to regather them.",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "net_nahum_3_19",
+          "translation": "NET",
+          "book": "nahum",
+          "bookName": "Nahum",
+          "chapter": 3,
+          "verse": 19,
+          "text": "Your destruction is like an incurable wound;\nyour demise is like a fatal injury.\nAll who hear what has happened to you will clap their hands for joy,\nfor no one ever escaped your endless cruelty!",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    }
+  ]
+}

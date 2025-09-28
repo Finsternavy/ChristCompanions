@@ -1,0 +1,38 @@
+{
+	"id": "mark",
+	"name": "Mark",
+	"testament": "new",
+	"order": 41,
+	"chapterCount": 16,
+	"verseCount": 678,
+	"summary": {
+		"short": "The Gospel of Mark - Jesus the Servant",
+		"long": "Mark presents Jesus as the suffering servant, emphasizing His actions and miracles. It's the shortest Gospel and focuses on what Jesus did rather than what He said.",
+		"keyThemes": [
+			"servant",
+			"action",
+			"miracles",
+			"suffering",
+			"discipleship"
+		],
+		"keyCharacters": [
+			"Jesus",
+			"John the Baptist",
+			"Peter",
+			"James",
+			"John",
+			"Herod",
+			"Pilate"
+		]
+	},
+	"chapters": [
+		{
+			"id": "kjv_mark_1",
+			"book": "mark",
+			"number": 1,
+			"verseCount": 45,
+			"paragraphCount": 4,
+			"summary": "John the Baptist prepares the way and Jesus begins His ministry"
+		}
+	]
+}

@@ -1,0 +1,349 @@
+{
+  "id": "jude",
+  "name": "Jude",
+  "testament": "new",
+  "order": 65,
+  "chapterCount": 1,
+  "verseCount": 25,
+  "translation": "LEB",
+  "speakerStats": {
+    "jesusVerses": 0,
+    "godVerses": 0,
+    "narratorVerses": 25
+  },
+  "summary": {
+    "short": "Jude contains 1 chapters",
+    "long": "Jude is a book of the New Testament.",
+    "keyThemes": [
+      "Contending for Faith",
+      "False Teachers",
+      "Mercy"
+    ],
+    "keyCharacters": [
+      "Jude",
+      "Michael",
+      "Moses",
+      "Cain",
+      "Balaam",
+      "Korah"
+    ]
+  },
+  "author": {
+    "name": "Jude",
+    "confidence": "high",
+    "notes": ""
+  },
+  "dateWritten": {
+    "estimated": "65-80 AD",
+    "confidence": "high",
+    "notes": ""
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "summary": "Chapter 1 of Jude",
+      "verses": [
+        {
+          "id": "leb_jude_1_1",
+          "translation": "LEB",
+          "book": "jude",
+          "bookName": "Jude",
+          "chapter": 1,
+          "verse": 1,
+          "text": "Jude, a slave of Jesus Christ and brother of James, to those who are called, loved in God the Father and kept for Jesus Christ.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "leb_jude_1_2",
+          "translation": "LEB",
+          "book": "jude",
+          "bookName": "Jude",
+          "chapter": 1,
+          "verse": 2,
+          "text": "May mercy and peace and love be multiplied to you.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "leb_jude_1_3",
+          "translation": "LEB",
+          "book": "jude",
+          "bookName": "Jude",
+          "chapter": 1,
+          "verse": 3,
+          "text": "Dear friends, although I was making every effort to write to you concerning our common salvation, I considered it a necessity to write to you to encourage you to contend for the faith delivered once and for all to the saints.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "leb_jude_1_4",
+          "translation": "LEB",
+          "book": "jude",
+          "bookName": "Jude",
+          "chapter": 1,
+          "verse": 4,
+          "text": "For certain men have slipped in stealthily, who were designated long ago for this condemnation, ungodly ones, who change the grace of our God into licentiousness and who deny our only Master and Lord Jesus Christ.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "leb_jude_1_5",
+          "translation": "LEB",
+          "book": "jude",
+          "bookName": "Jude",
+          "chapter": 1,
+          "verse": 5,
+          "text": "Now I want to remind you, although you know everything once and for all, that Jesus, having saved the people out of the land of Egypt, the second time destroyed those who did not believe.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "leb_jude_1_6",
+          "translation": "LEB",
+          "book": "jude",
+          "bookName": "Jude",
+          "chapter": 1,
+          "verse": 6,
+          "text": "And the angels who did not keep to their own domain but deserted their proper dwelling place, he has kept in eternal bonds under deep gloom for the judgment of the great day,",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "leb_jude_1_7",
+          "translation": "LEB",
+          "book": "jude",
+          "bookName": "Jude",
+          "chapter": 1,
+          "verse": 7,
+          "text": "as Sodom and Gomorrah and the towns around them indulged in sexual immorality and pursued unnatural desire in the same way as these, are exhibited as an example by undergoing the punishment of eternal fire.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "leb_jude_1_8",
+          "translation": "LEB",
+          "book": "jude",
+          "bookName": "Jude",
+          "chapter": 1,
+          "verse": 8,
+          "text": "Despite that, in the same way also these men, because of their dreams, defile the flesh and reject authority and blaspheme majestic beings.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "leb_jude_1_9",
+          "translation": "LEB",
+          "book": "jude",
+          "bookName": "Jude",
+          "chapter": 1,
+          "verse": 9,
+          "text": "But Michael the archangel, when he argued with the devil, disputing concerning the body of Moses, did not dare to pronounce a blasphemous judgment, but said, “The Lord rebuke you!”",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "leb_jude_1_10",
+          "translation": "LEB",
+          "book": "jude",
+          "bookName": "Jude",
+          "chapter": 1,
+          "verse": 10,
+          "text": "But these persons blaspheme all that they do not understand, and all that they understand by instinct like the irrational animals, by these things they are being destroyed.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "leb_jude_1_11",
+          "translation": "LEB",
+          "book": "jude",
+          "bookName": "Jude",
+          "chapter": 1,
+          "verse": 11,
+          "text": "Woe to them! For they have traveled in the way of Cain, and have given themselves up to the error of Balaam for gain, and have perished in the rebellion of Korah.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "leb_jude_1_12",
+          "translation": "LEB",
+          "book": "jude",
+          "bookName": "Jude",
+          "chapter": 1,
+          "verse": 12,
+          "text": "These are the ones feasting together without reverence, hidden reefs at your love feasts, caring for themselves, waterless clouds carried away by winds, late autumn trees without fruit, twice dead, uprooted,",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "leb_jude_1_13",
+          "translation": "LEB",
+          "book": "jude",
+          "bookName": "Jude",
+          "chapter": 1,
+          "verse": 13,
+          "text": "wild waves of the sea foaming up their own shameful deeds, wandering stars, for whom the deep gloom of darkness has been reserved for eternity.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "leb_jude_1_14",
+          "translation": "LEB",
+          "book": "jude",
+          "bookName": "Jude",
+          "chapter": 1,
+          "verse": 14,
+          "text": "And Enoch, the seventh from Adam, also prophesied about these people, saying, “Behold, the Lord came with tens of thousands of his holy ones",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "leb_jude_1_15",
+          "translation": "LEB",
+          "book": "jude",
+          "bookName": "Jude",
+          "chapter": 1,
+          "verse": 15,
+          "text": "to execute judgment against all, and to convict all the ungodly concerning all their ungodly deeds that they have committed in an ungodly way, and concerning all the harsh things that ungodly sinners have spoken against him.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "leb_jude_1_16",
+          "translation": "LEB",
+          "book": "jude",
+          "bookName": "Jude",
+          "chapter": 1,
+          "verse": 16,
+          "text": "These people are grumblers, discontented, proceeding according to their desires, and their mouths speaking pompous words, showing partiality to gain an advantage.",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "leb_jude_1_17",
+          "translation": "LEB",
+          "book": "jude",
+          "bookName": "Jude",
+          "chapter": 1,
+          "verse": 17,
+          "text": "But you, dear friends, remember the words proclaimed beforehand by the apostles of our Lord Jesus Christ,",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "leb_jude_1_18",
+          "translation": "LEB",
+          "book": "jude",
+          "bookName": "Jude",
+          "chapter": 1,
+          "verse": 18,
+          "text": "for they said to you, “In the end time there will be scoffers following according to their own ungodly desires.”",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "leb_jude_1_19",
+          "translation": "LEB",
+          "book": "jude",
+          "bookName": "Jude",
+          "chapter": 1,
+          "verse": 19,
+          "text": "These are the ones who cause divisions, worldly, not having the Spirit.",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "leb_jude_1_20",
+          "translation": "LEB",
+          "book": "jude",
+          "bookName": "Jude",
+          "chapter": 1,
+          "verse": 20,
+          "text": "But you, dear friends, by building yourselves up in your most holy faith, by praying in the Holy Spirit,",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "leb_jude_1_21",
+          "translation": "LEB",
+          "book": "jude",
+          "bookName": "Jude",
+          "chapter": 1,
+          "verse": 21,
+          "text": "keep yourselves in the love of God, looking forward to the mercy of our Lord Jesus Christ to eternal life.",
+          "paragraph": 5,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "leb_jude_1_22",
+          "translation": "LEB",
+          "book": "jude",
+          "bookName": "Jude",
+          "chapter": 1,
+          "verse": 22,
+          "text": "And have mercy on those who doubt,",
+          "paragraph": 5,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "leb_jude_1_23",
+          "translation": "LEB",
+          "book": "jude",
+          "bookName": "Jude",
+          "chapter": 1,
+          "verse": 23,
+          "text": "and save others by snatching them from the fire, and have mercy on others with fear, hating even the tunic stained by the flesh.",
+          "paragraph": 5,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "leb_jude_1_24",
+          "translation": "LEB",
+          "book": "jude",
+          "bookName": "Jude",
+          "chapter": 1,
+          "verse": 24,
+          "text": "Now to the one who is able to protect you from stumbling and make you to stand before his glory blameless with exultation,",
+          "paragraph": 5,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "leb_jude_1_25",
+          "translation": "LEB",
+          "book": "jude",
+          "bookName": "Jude",
+          "chapter": 1,
+          "verse": 25,
+          "text": "to the only God our Savior, through Jesus Christ our Lord, be glory, majesty, power, and authority before all time and now and for all eternity. Amen.",
+          "paragraph": 5,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    }
+  ]
+}

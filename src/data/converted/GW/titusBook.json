@@ -1,0 +1,613 @@
+{
+  "id": "titus",
+  "name": "Titus",
+  "testament": "new",
+  "order": 56,
+  "chapterCount": 3,
+  "verseCount": 46,
+  "translation": "GW",
+  "speakerStats": {
+    "jesusVerses": 0,
+    "godVerses": 0,
+    "narratorVerses": 46
+  },
+  "summary": {
+    "short": "Titus contains 3 chapters",
+    "long": "Titus is a book of the New Testament.",
+    "keyThemes": [
+      "Good Works",
+      "Sound Doctrine",
+      "Leadership"
+    ],
+    "keyCharacters": [
+      "Paul",
+      "Titus",
+      "Artemas",
+      "Tychicus",
+      "Zenas",
+      "Apollos"
+    ]
+  },
+  "author": {
+    "name": "Paul",
+    "confidence": "high",
+    "notes": ""
+  },
+  "dateWritten": {
+    "estimated": "64 AD",
+    "confidence": "high",
+    "notes": ""
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "summary": "Chapter 1 of Titus",
+      "verses": [
+        {
+          "id": "gw_titus_1_1",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 1,
+          "text": "From Paul, a servant of God and an apostle of Jesus Christ. I was sent to lead God’s chosen people to faith and to the knowledge of the truth that leads to a godly life.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_1_2",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 2,
+          "text": "My message is based on the confidence of eternal life. God, who never lies, promised this eternal life before the world began.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_1_3",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 3,
+          "text": "God has revealed this in every era by spreading his word. I was entrusted with this word by the command of God our Savior.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_1_4",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 4,
+          "text": "To Titus, a genuine child in the faith we share.\nGood will  and peace from God the Father and from Christ Jesus our Savior are yours!",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_1_5",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 5,
+          "text": "I left you in Crete to do what still needed to be done—appointing spiritual leaders  in every city as I directed you.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_1_6",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 6,
+          "text": "A spiritual leader must have a good reputation. He must have only one wife and have children who are believers. His children shouldn’t be known for having wild lifestyles or being rebellious.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_1_7",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 7,
+          "text": "Because a bishop is a supervisor appointed by God, he must have a good reputation. He must not be a stubborn or irritable person. He must not drink too much or be a violent person. He must not use shameful ways to make money.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_1_8",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 8,
+          "text": "Instead, he must be hospitable, love what is good, use good judgment, be fair and moral, and have self-control.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_1_9",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 9,
+          "text": "He must be devoted to the trustworthy message we teach. Then he can use these accurate teachings to encourage people and correct those who oppose the word.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_1_10",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 10,
+          "text": "There are many believers, especially converts from Judaism, who are rebellious. They speak nonsense and deceive people.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_1_11",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 11,
+          "text": "They must be silenced because they are ruining whole families by teaching what they shouldn’t teach. This is the shameful way they make money.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_1_12",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 12,
+          "text": "Even one of their own prophets said, “Cretans are always liars, savage animals, and lazy gluttons.”",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_1_13",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 13,
+          "text": "That statement is true. For this reason, sharply correct believers so that they continue to have faith that is alive and well.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_1_14",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 14,
+          "text": "They shouldn’t pay attention to Jewish myths or commands given by people who are always rejecting the truth.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_1_15",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 15,
+          "text": "Everything is clean  to those who are clean. But nothing is clean to corrupt unbelievers. Indeed, their minds and their consciences are corrupted.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_1_16",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 1,
+          "verse": 16,
+          "text": "They claim to know God, but they deny him by what they do. They are detestable, disobedient, and unfit to do anything good.",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "Chapter 2 of Titus",
+      "verses": [
+        {
+          "id": "gw_titus_2_1",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 1,
+          "text": "Tell believers to live the kind of life that goes along with accurate teachings.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_2_2",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 2,
+          "text": "Tell older men to be sober. Tell them to be men of good character, to use good judgment, and to be well-grounded in faith, love, and endurance.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_2_3",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 3,
+          "text": "Tell older women to live their lives in a way that shows they are dedicated to God. Tell them not to be gossips or addicted to alcohol, but to be examples of virtue.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_2_4",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 4,
+          "text": "In this way they will teach young women to show love to their husbands and children,",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_2_5",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 5,
+          "text": "to use good judgment, and to be morally pure. Also, tell them to teach young women to be homemakers, to be kind, and to place themselves under their husbands’ authority. Then no one can speak evil of God’s word.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_2_6",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 6,
+          "text": "Encourage young men to use good judgment.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_2_7",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 7,
+          "text": "Always set an example by doing good things. When you teach, be an example of moral purity and dignity.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_2_8",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 8,
+          "text": "Speak an accurate message that cannot be condemned. Then those who oppose us will be ashamed because they cannot say anything bad about us.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_2_9",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 9,
+          "text": "Tell slaves who are believers to place themselves under their masters’ authority in everything they do. Tell them to please their masters, not to argue with them",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_2_10",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 10,
+          "text": "or steal from them. Instead, tell slaves to show their masters how good and completely loyal they can be. Then they will show the beauty of the teachings about God our Savior in everything they do.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_2_11",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 11,
+          "text": "After all, God’s saving kindness  has appeared for the benefit of all people.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_2_12",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 12,
+          "text": "It trains us to avoid ungodly lives filled with worldly desires so that we can live self-controlled, moral, and godly lives in this present world.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_2_13",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 13,
+          "text": "At the same time we can expect what we hope for—the appearance of the glory of our great God and Savior, Jesus Christ.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_2_14",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 14,
+          "text": "He gave himself for us to set us free from every sin and to cleanse us so that we can be his special people who are enthusiastic about doing good things.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_2_15",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 2,
+          "verse": 15,
+          "text": "Tell these things to the believers. Encourage and correct them, using your full authority. Don’t let anyone ignore you.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "summary": "Chapter 3 of Titus",
+      "verses": [
+        {
+          "id": "gw_titus_3_1",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 1,
+          "text": "Remind believers to willingly place themselves under the authority of government officials. Believers should obey them and be ready to help them with every good thing they do.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_3_2",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 2,
+          "text": "Believers shouldn’t curse anyone or be quarrelsome, but they should be gentle and show courtesy to everyone.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_3_3",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 3,
+          "text": "Indeed, we, too, were once stupid, disobedient, and misled. We were slaves to many kinds of lusts and pleasures. We were mean and jealous. We were hated, and we hated each other.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_3_4",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 4,
+          "text": "However, when God our Savior made his kindness and love for humanity appear,",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_3_5",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 5,
+          "text": "he saved us, but not because of anything we had done to gain his approval. Instead, because of his mercy he saved us through the washing in which the Holy Spirit gives us new birth and renewal.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_3_6",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 6,
+          "text": "God poured a generous amount of the Spirit on us through Jesus Christ our Savior.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_3_7",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 7,
+          "text": "As a result, God in his kindness  has given us his approval and we have become heirs who have the confidence that we have everlasting life.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_3_8",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 8,
+          "text": "This is a statement that can be trusted. I want you to insist on these things so that those who believe in God can concentrate on setting an example by doing good things. This is good and helps other people.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_3_9",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 9,
+          "text": "Avoid foolish controversies, arguments about genealogies, quarrels, and fights about Moses’ Teachings. This is useless and worthless.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_3_10",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 10,
+          "text": "Have nothing to do with people who continue to teach false doctrine after you have warned them once or twice.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_3_11",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 11,
+          "text": "You know that people like this are corrupt. They are sinners condemned by their own actions.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_3_12",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 12,
+          "text": "When I send Artemas or Tychicus to you, hurry to visit me in the city of Nicopolis. I have decided to spend the winter there.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_3_13",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 13,
+          "text": "Give Zenas the lawyer and Apollos your best support for their trip so that they will have everything they need.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_3_14",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 14,
+          "text": "Our people should also learn how to set an example by doing good things when urgent needs arise so that they can live productive lives.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "gw_titus_3_15",
+          "translation": "GW",
+          "book": "titus",
+          "bookName": "Titus",
+          "chapter": 3,
+          "verse": 15,
+          "text": "Everyone with me sends you greetings. Greet our faithful friends.\nGod’s good will  be with all of you.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    }
+  ]
+}

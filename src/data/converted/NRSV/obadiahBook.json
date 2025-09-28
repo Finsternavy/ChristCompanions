@@ -1,0 +1,300 @@
+{
+  "id": "obadiah",
+  "name": "Obadiah",
+  "testament": "old",
+  "order": 31,
+  "chapterCount": 1,
+  "verseCount": 21,
+  "translation": "NRSV",
+  "speakerStats": {
+    "jesusVerses": 0,
+    "godVerses": 0,
+    "narratorVerses": 21
+  },
+  "summary": {
+    "short": "Obadiah contains 1 chapters",
+    "long": "Obadiah is a book of the Old Testament.",
+    "keyThemes": [
+      "Judgment",
+      "Pride",
+      "Day of Lord",
+      "Restoration"
+    ],
+    "keyCharacters": [
+      "Obadiah",
+      "Edom",
+      "Esau",
+      "Jacob"
+    ]
+  },
+  "author": {
+    "name": "Obadiah",
+    "confidence": "high",
+    "notes": ""
+  },
+  "dateWritten": {
+    "estimated": "840 BC",
+    "confidence": "high",
+    "notes": ""
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "summary": "Chapter 1 of Obadiah",
+      "verses": [
+        {
+          "id": "nrsv_obadiah_1_1",
+          "translation": "NRSV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 1,
+          "text": "The vision of Obadiah.\nThus says the Lord God concerning Edom:\nWe have heard a report from the Lord,\n    and a messenger has been sent among the nations:\n“Rise up! Let us rise against it for battle!”",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_obadiah_1_2",
+          "translation": "NRSV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 2,
+          "text": "I will surely make you least among the nations;\n    you shall be utterly despised.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_obadiah_1_3",
+          "translation": "NRSV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 3,
+          "text": "Your proud heart has deceived you,\n    you who live in the clefts of the rock,\n    whose dwelling is in the heights.\nYou say in your heart,\n    “Who will bring me down to the ground?”",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_obadiah_1_4",
+          "translation": "NRSV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 4,
+          "text": "Though you soar aloft like the eagle,\n    though your nest is set among the stars,\n    from there I will bring you down,\n            says the Lord.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_obadiah_1_5",
+          "translation": "NRSV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 5,
+          "text": "If thieves came to you,\n    if plunderers by night\n    —how you have been destroyed!—\n    would they not steal only what they wanted?\nIf grape gatherers came to you,\n    would they not leave gleanings?",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_obadiah_1_6",
+          "translation": "NRSV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 6,
+          "text": "How Esau has been pillaged,\n    his treasures searched out!",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_obadiah_1_7",
+          "translation": "NRSV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 7,
+          "text": "All your allies have deceived you;\n    they have driven you to the border;\nyour confederates have prevailed against you;\n    those who ate your food have set a trap for you—\n    there is no understanding.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_obadiah_1_8",
+          "translation": "NRSV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 8,
+          "text": "On that day, says the Lord,\n    I will destroy the wise out of Edom\n    and understanding out of Mount Esau.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_obadiah_1_9",
+          "translation": "NRSV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 9,
+          "text": "Your warriors shall be shattered, O Teman,\n    so that everyone from Mount Esau will be cut off.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_obadiah_1_10",
+          "translation": "NRSV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 10,
+          "text": "For the slaughter and violence done to your brother Jacob,\n    shame shall cover you,\n    and you shall be cut off forever.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_obadiah_1_11",
+          "translation": "NRSV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 11,
+          "text": "On the day that you stood aside,\n    on the day that strangers carried off his wealth\nand foreigners entered his gates\n    and cast lots for Jerusalem,\n    you, too, were one of them.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_obadiah_1_12",
+          "translation": "NRSV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 12,
+          "text": "But you should not have gloated over your brother\n    on the day of his misfortune;\nyou should not have rejoiced over the people of Judah\n    on the day of their ruin;\nyou should not have boasted\n    on the day of distress.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_obadiah_1_13",
+          "translation": "NRSV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 13,
+          "text": "You should not have entered the gate of my people\n    on the day of their calamity;\nyou should not have joined in the gloating over Judah’s disaster\n    on the day of his calamity;\nyou should not have stolen his goods\n    on the day of his calamity.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_obadiah_1_14",
+          "translation": "NRSV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 14,
+          "text": "You should not have stood at the crossings\n    to cut off his fugitives;\nyou should not have handed over his survivors\n    on the day of distress.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_obadiah_1_15",
+          "translation": "NRSV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 15,
+          "text": "For the day of the Lord is near against all the nations.\nAs you have done, it shall be done to you;\n    your deeds shall return on your own head.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_obadiah_1_16",
+          "translation": "NRSV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 16,
+          "text": "For as you have drunk on my holy mountain,\n    all the nations shall drink continually;\nthey shall drink and gulp down\n    and shall be as though they had never been.",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_obadiah_1_17",
+          "translation": "NRSV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 17,
+          "text": "But on Mount Zion there shall be those who escape,\n    and it shall be holy,\nand the house of Jacob shall take possession of those who dispossessed them.",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_obadiah_1_18",
+          "translation": "NRSV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 18,
+          "text": "The house of Jacob shall be a fire,\n    the house of Joseph a flame,\n    and the house of Esau stubble;\nthey shall burn them and consume them,\n    and there shall be no survivor of the house of Esau,\n            for the Lord has spoken.",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_obadiah_1_19",
+          "translation": "NRSV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 19,
+          "text": "Those of the Negeb shall possess Mount Esau,\n    and those of the Shephelah the land of the Philistines;\nthey shall possess the land of Ephraim and the land of Samaria,\n    and Benjamin shall possess Gilead.",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_obadiah_1_20",
+          "translation": "NRSV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 20,
+          "text": "The exiles of the Israelites who are in Halah\n    shall possess Phoenicia as far as Zarephath,\nand the exiles of Jerusalem who are in Sepharad\n    shall possess the towns of the Negeb.",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "nrsv_obadiah_1_21",
+          "translation": "NRSV",
+          "book": "obadiah",
+          "bookName": "Obadiah",
+          "chapter": 1,
+          "verse": 21,
+          "text": "Those who have been saved shall go up to Mount Zion\n    to rule Mount Esau,\n    and the kingdom shall be the Lord’s.",
+          "paragraph": 5,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    }
+  ]
+}

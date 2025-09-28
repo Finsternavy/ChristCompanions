@@ -1,0 +1,23 @@
+{
+	"id": "",
+	"name": "",
+	"testament": "",
+	"order": 0,
+	"author": {
+		"name": "",
+		"confidence": "",
+		"notes": ""
+	},
+	"dateWritten": {
+		"estimated": "",
+		"confidence": "",
+		"notes": ""
+	},
+	"summary": {
+		"short": "",
+		"long": "",
+		"keyThemes": [],
+		"keyCharacters": []
+	},
+	"chapters": []
+}

@@ -1,0 +1,509 @@
+{
+  "id": "haggai",
+  "name": "Haggai",
+  "testament": "old",
+  "order": 37,
+  "chapterCount": 2,
+  "verseCount": 38,
+  "translation": "ISV",
+  "speakerStats": {
+    "jesusVerses": 0,
+    "godVerses": 0,
+    "narratorVerses": 38
+  },
+  "summary": {
+    "short": "Haggai contains 2 chapters",
+    "long": "Haggai is a book of the Old Testament.",
+    "keyThemes": [
+      "Temple",
+      "Priority",
+      "Blessing",
+      "Glory"
+    ],
+    "keyCharacters": [
+      "Haggai",
+      "Zerubbabel",
+      "Joshua"
+    ]
+  },
+  "author": {
+    "name": "Haggai",
+    "confidence": "high",
+    "notes": ""
+  },
+  "dateWritten": {
+    "estimated": "520 BC",
+    "confidence": "high",
+    "notes": ""
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "summary": "Chapter 1 of Haggai",
+      "verses": [
+        {
+          "id": "isv_haggai_1_1",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 1,
+          "verse": 1,
+          "text": "On the first day of the sixth month of the second year of the reign of King Darius, this message from the Lord came by Haggai the prophet to Shealtiel’s son Zerubbabel, governor of Judah, and to Jehozadak’s son Joshua, the high priest:",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_1_2",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 1,
+          "verse": 2,
+          "text": "“This is what the Lord of the Heavenly Armies says: ‘These people keep saying, “No, the right time for rebuilding the Lord’s Temple has not yet come.”’”",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_1_3",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 1,
+          "verse": 3,
+          "text": "Then this message from the Lord came by Haggai the prophet:",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_1_4",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 1,
+          "verse": 4,
+          "text": "“Is it the right time for all of you to live in your own paneled houses while this house remains in ruins?”",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_1_5",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 1,
+          "verse": 5,
+          "text": "“Now this is what the Lord of the Heavenly Armies, says: ‘Carefully consider your ways:",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_1_6",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 1,
+          "verse": 6,
+          "text": "You have sowed much\n    but have reaped little.\nYou have eaten\n    but don’t have enough to become satisfied.\nYou have drunk\n    but don’t have enough to become intoxicated.\nYou have clothed yourself\n    but don’t have enough to keep warm.\nAnd the hired laborer deposits his salary\n    in a bag full of holes!’”",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_1_7",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 1,
+          "verse": 7,
+          "text": "“This is what the Lord of the Heavenly Armies says: ‘Carefully consider your ways:",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_1_8",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 1,
+          "verse": 8,
+          "text": "Go up into the mountains, bring timber, and reconstruct my house. Then I will be pleased with it and I will be honored,’ says the Lord.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_1_9",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 1,
+          "verse": 9,
+          "text": "‘You turned away in pursuit of abundance, but look at how little you found! What you did manage to bring home, I blew away! And why?’ declares the Lord of the Heavenly Armies. ‘It’s because of my house! It lies in ruins while each of you runs off to his own house!",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_1_10",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 1,
+          "verse": 10,
+          "text": "That is why the heavens keep withholding dew from you, and the earth withholds her fruit.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_1_11",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 1,
+          "verse": 11,
+          "text": "I sent a drought on the land, on the mountains, on your grain, on your new wines, on your oil—on everything the ground produces—on men, on livestock, and on everything you do!’”",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_1_12",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 1,
+          "verse": 12,
+          "text": "Then Shealtiel’s son Zerubbabel, Jehozadak’s son Joshua the high priest, and all the rest of the people obeyed the Lord their God and the words of Haggai the prophet, because the Lord their God had sent him. And the people feared the Lord.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_1_13",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 1,
+          "verse": 13,
+          "text": "Haggai, the messenger of the Lord, spoke to the people with a special commission from the Lord: “‘I am with you,’ declares the Lord.”",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_1_14",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 1,
+          "verse": 14,
+          "text": "Then the Lord revitalized the spirit of Shealtiel’s son Zerubbabel, governor of Judah, the spirit of Jehozadak’s son Joshua the high priest, and the spirit of all the rest of the people, so they came and began to work on the house of their God, the Lord of the Heavenly Armies.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_1_15",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 1,
+          "verse": 15,
+          "text": "This took place on the twenty-fourth day of the sixth month of the second year of the reign of King Darius.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "summary": "Chapter 2 of Haggai",
+      "verses": [
+        {
+          "id": "isv_haggai_2_1",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 1,
+          "text": "On the twenty-first day of the seventh month, this message from the Lord came by Haggai the prophet:",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_2_2",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 2,
+          "text": "“Speak to Shealtiel’s son Zerubbabel, governor of Judah, to Jehozadak’s son Joshua, the high priest, and to the rest of the people, asking,",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_2_3",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 3,
+          "text": "‘Who is left among you who saw this house in its former glory? And what does it look like now? From what you can see, it seems like nothing, doesn’t it?",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_2_4",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 4,
+          "text": "Now be strong, Zerubbabel,’ declares the Lord, ‘and be strong, Joshua son of Jehozadak, the high priest, and be strong, all you people of the land,’ declares the Lord. ‘Go to work, because I am with you,’ declares the Lord of the Heavenly Armies.",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_2_5",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 5,
+          "text": "‘My Spirit continues to dwell among you, according to the covenant I established when you came out from Egypt. Don’t be afraid!’",
+          "paragraph": 1,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_2_6",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 6,
+          "text": "“For this is what the Lord of the Heavenly Armies says: ‘Once more, in a little while, I will make the heavens, the earth, the sea, and the dry land to shake.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_2_7",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 7,
+          "text": "I will shake all nations, and the One desired by all nations will come. Then I will fill this house with glory,’ says the Lord of the Heavenly Armies.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_2_8",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 8,
+          "text": "“The silver belongs to me, as does the gold,” declares the Lord of the Heavenly Armies.",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_2_9",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 9,
+          "text": "“The glory of this present house will be greater than was the former,” declares the Lord of the Heavenly Armies. “And in this place I will grant peace,” declares the Lord of the Heavenly Armies.”",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_2_10",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 10,
+          "text": "On the twenty-fourth day of the ninth month of the second year of the reign of King Darius, this message from the Lord came to Haggai the prophet:",
+          "paragraph": 2,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_2_11",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 11,
+          "text": "“This is what the Lord of the Heavenly Armies says: ‘Ask the priests about what the Law says:",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_2_12",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 12,
+          "text": "“If a man carries consecrated meat in the folds of his garment, and if his garment touches bread, stew, wine, oil, or any other edible thing, will these things become consecrated?”’”\nThe priests answered, “No.”",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_2_13",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 13,
+          "text": "So Haggai responded, “If someone who is unclean because of contact with a dead body were to touch any of these things, would they become unclean?”\nThe priests responded, “They would be unclean.”",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_2_14",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 14,
+          "text": "Then Haggai answered, “‘That’s how I look at this people and this nation,’ declares the Lord. ‘And that’s how it is with everything they undertake and with what they offer there—it is unclean.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_2_15",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 15,
+          "text": "Pay attention from now on to how things used to be before one stone had been laid upon another in the Temple of the Lord.",
+          "paragraph": 3,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_2_16",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 16,
+          "text": "When someone came to a pile of grain to get 20 measures, there were only ten. Or when someone approached the wine press to siphon out 50 measures, there were only 20.",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_2_17",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 17,
+          "text": "I punished you and everything that you undertook—with scorching wind, with mildew, and with hail, and you still did not return to me,’ declares the Lord.",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_2_18",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 18,
+          "text": "‘Pay attention from now on, from this twenty-fourth day of the ninth month, when the foundation of the Lord’s Temple was laid. Pay attention!",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_2_19",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 19,
+          "text": "Is there seed left in the granary? Up until now, neither the vine, the fig tree, the pomegranate, nor the olive tree has borne fruit, but from this very day I will bless you.’”",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_2_20",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 20,
+          "text": "This message from the Lord came a second time to Haggai on the twenty-fourth day of the month:",
+          "paragraph": 4,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_2_21",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 21,
+          "text": "“Speak to Zerubbabel, governor of Judah. Tell him, ‘I’m going to shake the heavens and the earth.",
+          "paragraph": 5,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_2_22",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 22,
+          "text": "I will overthrow royal thrones. I will annihilate the strength of national governments. I will overthrow chariots along with those who drive them. Both horses and their riders will fall, each one by means of his comrade’s weapon.",
+          "paragraph": 5,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        },
+        {
+          "id": "isv_haggai_2_23",
+          "translation": "ISV",
+          "book": "haggai",
+          "bookName": "Haggai",
+          "chapter": 2,
+          "verse": 23,
+          "text": "On that day,’ declares the Lord of the Heavenly Armies, ‘I will take you, my servant Zerubbabel son of Shealtiel,’ declares the Lord, ‘and I will set you in place like a signet ring. For I have chosen you,’ declares the Lord of the Heavenly Armies.”",
+          "paragraph": 5,
+          "speaker": "Narrator",
+          "isRedLetter": false
+        }
+      ]
+    }
+  ]
+}
