@@ -14,13 +14,13 @@ export const useBibleStore = defineStore('bibleStore', () => {
   const activeVerse = ref(null)
   const isLoading = ref(false)
 
-  // User content
-  const userNotes = ref({})
-  const userQuestions = ref({})
-  const chapterNotes = ref({})
-  const chapterQuestions = ref({})
-  const bookNotes = ref({})
-  const bookQuestions = ref({})
+  // User content - changed to arrays to support multiple notes/questions per verse
+  const userNotes = ref([])
+  const userQuestions = ref([])
+  const chapterNotes = ref([])
+  const chapterQuestions = ref([])
+  const bookNotes = ref([])
+  const bookQuestions = ref([])
   const activeNote = ref(null)
   const activeQuestions = ref(null)
 
@@ -390,113 +390,199 @@ export const useBibleStore = defineStore('bibleStore', () => {
   // Add or update a note
   function addOrUpdateNote(verse, noteText, noteId = null) {
     const noteKey = getNoteKeyFromVerse(verse)
-    userNotes.value[noteKey] = {
-      id: noteId || userNotes.value[noteKey]?.id || '',
+
+    if (noteId) {
+      // Update existing note
+      const existingIndex = userNotes.value.findIndex((note) => note.id === noteId)
+      if (existingIndex !== -1) {
+        userNotes.value[existingIndex].text = noteText
+        return userNotes.value[existingIndex]
+      }
+    }
+
+    // Add new note
+    const newNote = {
+      id: noteId || crypto.randomUUID(),
       text: noteText,
       book: currentBookId.value,
       chapter: activeChapter.value?.number,
       verse: verse.verse,
       noteKey: noteKey,
     }
-    return userNotes.value[noteKey]
+    userNotes.value.push(newNote)
+    return newNote
   }
 
   // Add or update a question
   function addOrUpdateQuestion(verse, questionText, questionId = null) {
     const noteKey = getNoteKeyFromVerse(verse)
-    userQuestions.value[noteKey] = {
-      id: questionId || userQuestions.value[noteKey]?.id || '',
+
+    if (questionId) {
+      // Update existing question
+      const existingIndex = userQuestions.value.findIndex((question) => question.id === questionId)
+      if (existingIndex !== -1) {
+        userQuestions.value[existingIndex].text = questionText
+        return userQuestions.value[existingIndex]
+      }
+    }
+
+    // Add new question
+    const newQuestion = {
+      id: questionId || crypto.randomUUID(),
       text: questionText,
       book: currentBookId.value,
       chapter: activeChapter.value?.number,
       verse: verse.verse,
       noteKey: noteKey,
     }
-    return userQuestions.value[noteKey]
+    userQuestions.value.push(newQuestion)
+    return newQuestion
+  }
+
+  // Delete a note
+  function deleteNote(noteId) {
+    const index = userNotes.value.findIndex((note) => note.id === noteId)
+    if (index !== -1) {
+      userNotes.value.splice(index, 1)
+    }
+  }
+
+  // Delete a question
+  function deleteQuestion(questionId) {
+    const index = userQuestions.value.findIndex((question) => question.id === questionId)
+    if (index !== -1) {
+      userQuestions.value.splice(index, 1)
+    }
   }
 
   // Add or update a chapter note
   function addOrUpdateChapterNote(bookId, chapterNumber, noteText, noteId = null) {
     const noteKey = getChapterNoteKey(bookId, chapterNumber)
-    chapterNotes.value[noteKey] = {
-      id: noteId || chapterNotes.value[noteKey]?.id || '',
+
+    if (noteId) {
+      // Update existing note
+      const existingIndex = chapterNotes.value.findIndex((note) => note.id === noteId)
+      if (existingIndex !== -1) {
+        chapterNotes.value[existingIndex].text = noteText
+        return chapterNotes.value[existingIndex]
+      }
+    }
+
+    // Add new note
+    const newNote = {
+      id: noteId || crypto.randomUUID(),
       text: noteText,
       book: bookId,
       chapter: chapterNumber,
       noteKey: noteKey,
     }
-    return chapterNotes.value[noteKey]
+    chapterNotes.value.push(newNote)
+    return newNote
   }
 
   // Add or update a chapter question
   function addOrUpdateChapterQuestion(bookId, chapterNumber, questionText, questionId = null) {
     const noteKey = getChapterNoteKey(bookId, chapterNumber)
-    chapterQuestions.value[noteKey] = {
-      id: questionId || chapterQuestions.value[noteKey]?.id || '',
+
+    if (questionId) {
+      // Update existing question
+      const existingIndex = chapterQuestions.value.findIndex(
+        (question) => question.id === questionId,
+      )
+      if (existingIndex !== -1) {
+        chapterQuestions.value[existingIndex].text = questionText
+        return chapterQuestions.value[existingIndex]
+      }
+    }
+
+    // Add new question
+    const newQuestion = {
+      id: questionId || crypto.randomUUID(),
       text: questionText,
       book: bookId,
       chapter: chapterNumber,
       noteKey: noteKey,
     }
-    return chapterQuestions.value[noteKey]
+    chapterQuestions.value.push(newQuestion)
+    return newQuestion
   }
 
   // Add or update a book note
   function addOrUpdateBookNote(bookId, noteText, noteId = null) {
     const noteKey = getBookNoteKey(bookId)
-    bookNotes.value[noteKey] = {
-      id: noteId || bookNotes.value[noteKey]?.id || '',
+
+    if (noteId) {
+      // Update existing note
+      const existingIndex = bookNotes.value.findIndex((note) => note.id === noteId)
+      if (existingIndex !== -1) {
+        bookNotes.value[existingIndex].text = noteText
+        return bookNotes.value[existingIndex]
+      }
+    }
+
+    // Add new note
+    const newNote = {
+      id: noteId || crypto.randomUUID(),
       text: noteText,
       book: bookId,
       noteKey: noteKey,
     }
-    return bookNotes.value[noteKey]
+    bookNotes.value.push(newNote)
+    return newNote
   }
 
   // Add or update a book question
   function addOrUpdateBookQuestion(bookId, questionText, questionId = null) {
     const noteKey = getBookNoteKey(bookId)
-    bookQuestions.value[noteKey] = {
-      id: questionId || bookQuestions.value[noteKey]?.id || '',
+
+    if (questionId) {
+      // Update existing question
+      const existingIndex = bookQuestions.value.findIndex((question) => question.id === questionId)
+      if (existingIndex !== -1) {
+        bookQuestions.value[existingIndex].text = questionText
+        return bookQuestions.value[existingIndex]
+      }
+    }
+
+    // Add new question
+    const newQuestion = {
+      id: questionId || crypto.randomUUID(),
       text: questionText,
       book: bookId,
       noteKey: noteKey,
     }
-    return bookQuestions.value[noteKey]
+    bookQuestions.value.push(newQuestion)
+    return newQuestion
   }
 
   // Get filtered notes
   function getFilteredNotes() {
-    return Object.values(userNotes.value).filter((note) => note.text)
+    return userNotes.value.filter((note) => note.text)
   }
 
   // Get filtered questions
   function getFilteredQuestions() {
-    return Object.values(userQuestions.value).filter((question) => question.text)
+    return userQuestions.value.filter((question) => question.text)
   }
 
   // Get filtered chapter notes
   function getFilteredChapterNotes(bookId) {
-    return Object.values(chapterNotes.value).filter((note) => note.text && note.book === bookId)
+    return chapterNotes.value.filter((note) => note.text && note.book === bookId)
   }
 
   // Get filtered chapter questions
   function getFilteredChapterQuestions(bookId) {
-    return Object.values(chapterQuestions.value).filter(
-      (question) => question.text && question.book === bookId,
-    )
+    return chapterQuestions.value.filter((question) => question.text && question.book === bookId)
   }
 
   // Get filtered book notes
   function getFilteredBookNotes(bookId) {
-    return Object.values(bookNotes.value).filter((note) => note.text && note.book === bookId)
+    return bookNotes.value.filter((note) => note.text && note.book === bookId)
   }
 
   // Get filtered book questions
   function getFilteredBookQuestions(bookId) {
-    return Object.values(bookQuestions.value).filter(
-      (question) => question.text && question.book === bookId,
-    )
+    return bookQuestions.value.filter((question) => question.text && question.book === bookId)
   }
 
   // Load a specific verse from a different version for comparison
@@ -579,6 +665,8 @@ export const useBibleStore = defineStore('bibleStore', () => {
     navigateToVerseFromNote,
     addOrUpdateNote,
     addOrUpdateQuestion,
+    deleteNote,
+    deleteQuestion,
     addOrUpdateChapterNote,
     addOrUpdateChapterQuestion,
     addOrUpdateBookNote,

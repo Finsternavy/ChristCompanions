@@ -3,7 +3,7 @@ import { ref, computed, onMounted, watch, nextTick } from 'vue'
 import { useRouter } from 'vue-router'
 import ChapterViewer from '@/components/ChapterViewer.vue'
 import { useBibleStore } from '@/stores/bibleStore'
-import * as HeroIcons from '@heroicons/vue/24/outline'
+import * as HeroIcons from '@heroicons/vue/24/solid'
 // use uuidv4
 import { v4 as uuidv4 } from 'uuid'
 import SideNav from '@/components/SideNav.vue'
@@ -36,6 +36,15 @@ const activeStudyTool = ref('notes')
 const activeStudyLevel = ref('verse') // 'verse', 'chapter', 'book'
 const tmpNote = ref('')
 const tmpQuestion = ref('')
+const editingNote = ref(null) // Track which note is being edited
+const editingQuestion = ref(null) // Track which question is being edited
+const editingNoteText = ref('') // Text for editing note
+const editingQuestionText = ref('') // Text for editing question
+
+// Delete confirmation modal
+const showDeleteModal = ref(false)
+const itemToDelete = ref(null)
+const deleteType = ref('') // 'note' or 'question'
 const isLoading = computed(() => bibleStore.isLoading)
 
 // Ref for verses container
@@ -98,6 +107,56 @@ const filteredUserQuestions = computed(() => {
       // Then sort by verse
       return a.verse - b.verse
     })
+})
+
+// Group notes by verse
+const groupedUserNotes = computed(() => {
+  const notes = filteredUserNotes.value
+  const grouped = {}
+
+  notes.forEach((note) => {
+    const key = `${note.chapter}_${note.verse}`
+    if (!grouped[key]) {
+      grouped[key] = {
+        chapter: note.chapter,
+        verse: note.verse,
+        notes: [],
+      }
+    }
+    grouped[key].notes.push(note)
+  })
+
+  return Object.values(grouped).sort((a, b) => {
+    if (a.chapter !== b.chapter) {
+      return a.chapter - b.chapter
+    }
+    return a.verse - b.verse
+  })
+})
+
+// Group questions by verse
+const groupedUserQuestions = computed(() => {
+  const questions = filteredUserQuestions.value
+  const grouped = {}
+
+  questions.forEach((question) => {
+    const key = `${question.chapter}_${question.verse}`
+    if (!grouped[key]) {
+      grouped[key] = {
+        chapter: question.chapter,
+        verse: question.verse,
+        questions: [],
+      }
+    }
+    grouped[key].questions.push(question)
+  })
+
+  return Object.values(grouped).sort((a, b) => {
+    if (a.chapter !== b.chapter) {
+      return a.chapter - b.chapter
+    }
+    return a.verse - b.verse
+  })
 })
 
 // Chapter level notes and questions
@@ -213,6 +272,98 @@ const findActiveVerse = (note) => {
       }
     }, 100)
   })
+}
+
+const findActiveVerseFromQuestion = (question) => {
+  bibleStore.navigateToVerseFromNote(question)
+  tmpQuestion.value = question.text || ''
+
+  // Scroll to the verse after navigation
+  nextTick(() => {
+    setTimeout(() => {
+      // Use version-independent key to find the verse
+      const versionIndependentKey = `${question.book}_${question.chapter}_${question.verse}`
+      const verseElement = document.querySelector(`[data-verse-id$="${versionIndependentKey}"]`)
+      if (verseElement) {
+        verseElement.scrollIntoView({
+          behavior: 'smooth',
+          block: 'center',
+        })
+      }
+    }, 100)
+  })
+}
+
+// Inline editing functions
+const startEditingNote = (note) => {
+  editingNote.value = note.id
+  editingNoteText.value = note.text || ''
+}
+
+const startEditingQuestion = (question) => {
+  editingQuestion.value = question.id
+  editingQuestionText.value = question.text || ''
+}
+
+const cancelEditingNote = () => {
+  editingNote.value = null
+  editingNoteText.value = ''
+}
+
+const cancelEditingQuestion = () => {
+  editingQuestion.value = null
+  editingQuestionText.value = ''
+}
+
+const saveEditedNote = () => {
+  if (editingNote.value && editingNoteText.value.trim()) {
+    // Find the note in the filtered list
+    const note = filteredUserNotes.value.find((n) => n.id === editingNote.value)
+    if (note) {
+      bibleStore.addOrUpdateNote(note, editingNoteText.value, note.id)
+    }
+  }
+  cancelEditingNote()
+}
+
+const saveEditedQuestion = () => {
+  if (editingQuestion.value && editingQuestionText.value.trim()) {
+    // Find the question in the filtered list
+    const question = filteredUserQuestions.value.find((q) => q.id === editingQuestion.value)
+    if (question) {
+      bibleStore.addOrUpdateQuestion(question, editingQuestionText.value, question.id)
+    }
+  }
+  cancelEditingQuestion()
+}
+
+// Delete functions
+const deleteNote = (note) => {
+  itemToDelete.value = note
+  deleteType.value = 'note'
+  showDeleteModal.value = true
+}
+
+const deleteQuestion = (question) => {
+  itemToDelete.value = question
+  deleteType.value = 'question'
+  showDeleteModal.value = true
+}
+
+// Modal functions
+const confirmDelete = () => {
+  if (deleteType.value === 'note' && itemToDelete.value) {
+    bibleStore.deleteNote(itemToDelete.value.id)
+  } else if (deleteType.value === 'question' && itemToDelete.value) {
+    bibleStore.deleteQuestion(itemToDelete.value.id)
+  }
+  closeDeleteModal()
+}
+
+const closeDeleteModal = () => {
+  showDeleteModal.value = false
+  itemToDelete.value = null
+  deleteType.value = ''
 }
 
 // Chapter carousel navigation functions
@@ -771,7 +922,7 @@ watch(comparisonData, () => {
       </div>
       <div class="flex grow gap-4 min-h-0 flex-1 h-full">
         <div
-          class="grow bg-white/60 rounded-xl shadow-lg p-8 flex flex-col gap-8 min-w-0 min-h-0 overflow-hidden"
+          class="flex-[3] bg-white/60 rounded-xl shadow-lg p-8 flex flex-col gap-8 min-w-0 min-h-0 overflow-hidden"
         >
           <div class="flex flex-col gap-2">
             <div v-if="activeChapter" class="text-2xl text-center font-bold capitalize">
@@ -1023,7 +1174,7 @@ watch(comparisonData, () => {
           <!-- {{ versesData }} -->
         </div>
         <div
-          class="w-[300px] bg-white/60 rounded-xl shadow-lg p-8 flex flex-col gap-8 overflow-hidden flex-shrink-0 mr-2"
+          class="flex-[1] bg-white/60 rounded-xl shadow-lg p-8 flex flex-col gap-8 overflow-hidden flex-shrink-0 mr-2"
         >
           <!-- Book Summary Section -->
           <div class="flex-shrink-0">
@@ -1090,21 +1241,78 @@ watch(comparisonData, () => {
                   </div>
                   <ul class="flex flex-col gap-2">
                     <li
-                      v-for="note in filteredUserNotes"
-                      :key="note.id"
-                      class="bg-neutral-20 p-2 rounded-md cursor-pointer hover:bg-neutral-30 transition-colors"
+                      v-for="group in groupedUserNotes"
+                      :key="`${group.chapter}_${group.verse}`"
+                      class="bg-neutral-20 p-2 rounded-md transition-colors"
                       :class="{
-                        'bg-secondary':
+                        'bg-secondary-lt shadow-md':
                           activeVerse &&
-                          activeVerse.chapter === note.chapter &&
-                          activeVerse.verse === note.verse,
+                          activeVerse.chapter === group.chapter &&
+                          activeVerse.verse === group.verse,
                       }"
-                      @click="findActiveVerse(note)"
                     >
-                      <p class="font-bold text-sm">
-                        Chapter {{ note.chapter }}, Verse {{ note.verse }}
-                      </p>
-                      <p class="text-sm text-wrap mt-1">{{ note.text }}</p>
+                      <div class="mb-2">
+                        <p class="font-bold text-sm">
+                          Chapter {{ group.chapter }}, Verse {{ group.verse }}
+                        </p>
+                      </div>
+                      <div class="space-y-2">
+                        <div
+                          v-for="note in group.notes"
+                          :key="note.id"
+                          class="p-2 rounded hover:bg-black/5 transition-colors"
+                        >
+                          <div
+                            v-if="editingNote !== note.id"
+                            class="cursor-pointer"
+                            @click="findActiveVerse(note)"
+                          >
+                            <div class="flex justify-between items-start">
+                              <div class="flex-1">
+                                <p class="text-sm text-wrap">{{ note.text }}</p>
+                              </div>
+                              <div class="flex gap-1">
+                                <button
+                                  @click.stop="startEditingNote(note)"
+                                  class="p-1 text-xs text-neutral-60 rounded hover:bg-black/10 transition-colors"
+                                  title="Edit note"
+                                >
+                                  <HeroIcons.PencilIcon class="w-4 h-4" />
+                                </button>
+                                <button
+                                  @click.stop="deleteNote(note)"
+                                  class="p-1 text-xs text-neutral-60 rounded hover:bg-black/10 hover:text-red-400 transition-colors"
+                                  title="Delete note"
+                                >
+                                  <HeroIcons.TrashIcon class="w-4 h-4" />
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                          <div v-else class="space-y-2">
+                            <textarea
+                              v-model="editingNoteText"
+                              class="w-full p-2 text-sm border rounded-md resize-none bg-white text-black"
+                              rows="3"
+                              placeholder="Edit your note..."
+                            ></textarea>
+                            <div class="flex gap-2">
+                              <button
+                                @click="saveEditedNote"
+                                class="px-2 py-1 text-xs bg-green-500 text-white rounded hover:bg-green-600 transition-colors"
+                              >
+                                Save
+                              </button>
+                              <button
+                                @click="cancelEditingNote"
+                                class="px-2 py-1 text-xs bg-gray-500 text-white rounded hover:bg-gray-600 transition-colors"
+                              >
+                                Cancel
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </li>
                   </ul>
                 </div>
@@ -1229,21 +1437,78 @@ watch(comparisonData, () => {
                   </div>
                   <ul class="flex flex-col gap-2">
                     <li
-                      v-for="question in filteredUserQuestions"
-                      :key="question.id"
-                      class="bg-neutral-20 rounded-md p-2 cursor-pointer hover:bg-neutral-30 transition-colors"
+                      v-for="group in groupedUserQuestions"
+                      :key="`${group.chapter}_${group.verse}`"
+                      class="bg-neutral-20 rounded-md p-2 transition-colors"
                       :class="{
-                        'bg-secondary':
+                        'bg-secondary-lt shadow-md':
                           activeVerse &&
-                          activeVerse.chapter === question.chapter &&
-                          activeVerse.verse === question.verse,
+                          activeVerse.chapter === group.chapter &&
+                          activeVerse.verse === group.verse,
                       }"
-                      @click="findActiveVerse(question)"
                     >
-                      <p class="font-bold text-sm">
-                        Chapter {{ question.chapter }}, Verse {{ question.verse }}
-                      </p>
-                      <p class="text-sm mt-1">{{ question.text }}</p>
+                      <div class="mb-2">
+                        <p class="font-bold text-sm">
+                          Chapter {{ group.chapter }}, Verse {{ group.verse }}
+                        </p>
+                      </div>
+                      <div class="space-y-2">
+                        <div
+                          v-for="question in group.questions"
+                          :key="question.id"
+                          class="p-2 rounded hover:bg-black/5 transition-colors"
+                        >
+                          <div
+                            v-if="editingQuestion !== question.id"
+                            class="cursor-pointer"
+                            @click="findActiveVerseFromQuestion(question)"
+                          >
+                            <div class="flex justify-between items-start">
+                              <div class="flex-1">
+                                <p class="text-sm mt-1">{{ question.text }}</p>
+                              </div>
+                              <div class="flex gap-1">
+                                <button
+                                  @click.stop="startEditingQuestion(question)"
+                                  class="p-1 text-xs text-neutral-60 rounded hover:bg-black/10 transition-colors"
+                                  title="Edit question"
+                                >
+                                  <HeroIcons.PencilIcon class="w-4 h-4" />
+                                </button>
+                                <button
+                                  @click.stop="deleteQuestion(question)"
+                                  class="p-1 text-xs text-neutral-60 rounded hover:bg-black/10 hover:text-red-400 transition-colors"
+                                  title="Delete question"
+                                >
+                                  <HeroIcons.TrashIcon class="w-4 h-4" />
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                          <div v-else class="space-y-2">
+                            <textarea
+                              v-model="editingQuestionText"
+                              class="w-full p-2 text-sm border rounded-md resize-none bg-white text-black"
+                              rows="3"
+                              placeholder="Edit your question..."
+                            ></textarea>
+                            <div class="flex gap-2">
+                              <button
+                                @click="saveEditedQuestion"
+                                class="px-2 py-1 text-xs bg-green-500 text-white rounded hover:bg-green-600 transition-colors"
+                              >
+                                Save
+                              </button>
+                              <button
+                                @click="cancelEditingQuestion"
+                                class="px-2 py-1 text-xs bg-gray-500 text-white rounded hover:bg-gray-600 transition-colors"
+                              >
+                                Cancel
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </li>
                   </ul>
                 </div>
@@ -1569,6 +1834,43 @@ watch(comparisonData, () => {
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Delete Confirmation Modal -->
+  <div
+    v-if="showDeleteModal"
+    class="fixed inset-0 bg-black/50 flex items-center justify-center z-50"
+    @click="closeDeleteModal"
+  >
+    <div class="bg-white rounded-lg p-6 max-w-md mx-4 shadow-xl" @click.stop>
+      <div class="flex items-center gap-3 mb-4">
+        <div class="p-2 bg-red-100 rounded-full">
+          <HeroIcons.ExclamationTriangleIcon class="w-6 h-6 text-red-600" />
+        </div>
+        <h3 class="text-lg font-semibold text-gray-900">
+          Delete {{ deleteType === 'note' ? 'Note' : 'Question' }}
+        </h3>
+      </div>
+
+      <p class="text-gray-600 mb-6">
+        Are you sure you want to delete this {{ deleteType }}? This action cannot be undone.
+      </p>
+
+      <div class="flex gap-3 justify-end">
+        <button
+          @click="closeDeleteModal"
+          class="px-4 py-2 text-gray-700 bg-gray-100 rounded-md hover:bg-gray-200 transition-colors"
+        >
+          Cancel
+        </button>
+        <button
+          @click="confirmDelete"
+          class="px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors"
+        >
+          Delete
+        </button>
       </div>
     </div>
   </div>
