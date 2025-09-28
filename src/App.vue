@@ -1,21 +1,69 @@
 <script setup>
-import { ref, onMounted, provide } from 'vue'
-import { RouterView } from 'vue-router'
+import { ref, onMounted, provide, watch } from 'vue'
+import { RouterView, useRoute, useRouter } from 'vue-router'
 import TheNav from '@/components/TheNav.vue'
 
+const route = useRoute()
+const router = useRouter()
 const logoAnimationComplete = ref(false)
 const showContent = ref(false)
+const hasPlayedAnimation = ref(false) // Track if animation has been played
+
+// Only play animation on home route and only once
+const shouldPlayAnimation = ref(route.path === '/' && !hasPlayedAnimation.value)
 
 onMounted(() => {
-  // Start the logo animation sequence
-  setTimeout(() => {
-    logoAnimationComplete.value = true
-    // Show content after logo animation completes
+  if (shouldPlayAnimation.value) {
+    // Start the logo animation sequence only on home route and only once
+    hasPlayedAnimation.value = true // Mark animation as played
     setTimeout(() => {
-      showContent.value = true
-    }, 1000) // Wait for logo to move to top-left
-  }, 2000) // Logo stays centered for 2 seconds
+      logoAnimationComplete.value = true
+      // Show content after logo animation completes
+      setTimeout(() => {
+        showContent.value = true
+      }, 1000) // Wait for logo to move to top-left
+    }, 2000) // Logo stays centered for 2 seconds
+  } else {
+    // Skip animation on other routes or if already played
+    logoAnimationComplete.value = true
+    showContent.value = true
+  }
 })
+
+// Watch for route changes
+watch(route, (newRoute) => {
+  if (newRoute.path === '/') {
+    // Only play animation if it hasn't been played yet
+    if (!hasPlayedAnimation.value) {
+      shouldPlayAnimation.value = true
+      hasPlayedAnimation.value = true
+      // Reset animation state for home route
+      logoAnimationComplete.value = false
+      showContent.value = false
+      // Play animation
+      setTimeout(() => {
+        logoAnimationComplete.value = true
+        setTimeout(() => {
+          showContent.value = true
+        }, 1000)
+      }, 2000)
+    } else {
+      // Animation already played, just show content
+      shouldPlayAnimation.value = false
+      logoAnimationComplete.value = true
+      showContent.value = true
+    }
+  } else {
+    shouldPlayAnimation.value = false
+    logoAnimationComplete.value = true
+    showContent.value = true
+  }
+})
+
+// Navigate to home when logo is clicked
+const navigateToHome = () => {
+  router.push('/')
+}
 
 // Provide the animation state to child components
 provide('showContent', showContent)
@@ -25,11 +73,12 @@ provide('showContent', showContent)
   <div class="min-h-screen bg-gradient-to-br from-blue-50 to-secondary-lt relative overflow-hidden">
     <!-- Animated Logo -->
     <div
-      class="fixed transition-all duration-1000 ease-in-out z-50"
+      class="fixed transition-all duration-1000 ease-in-out z-50 cursor-pointer"
       :class="{
         'top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2': !logoAnimationComplete,
         'top-6 left-6 transform-none opacity-0': logoAnimationComplete,
       }"
+      @click="navigateToHome"
     >
       <div class="flex items-center gap-3">
         <!-- Logo Icon -->

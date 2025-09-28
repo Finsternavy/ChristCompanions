@@ -38,11 +38,6 @@ const tmpNote = ref('')
 const tmpQuestion = ref('')
 const isLoading = computed(() => bibleStore.isLoading)
 
-// Key people highlighting functionality
-const highlightedPerson = ref(null)
-const highlightedVerses = ref([])
-const personVerses = ref([])
-
 // Ref for verses container
 const versesContainer = ref(null)
 
@@ -196,6 +191,8 @@ const setActiveVerse = (verse) => {
   tmpNote.value = activeNote.value?.text || ''
   // Clear the flag when manually selecting a verse
   activeVerseSetDuringReading.value = false
+  // Auto-switch to verse level when a verse is clicked
+  activeStudyLevel.value = 'verse'
 }
 
 const findActiveVerse = (note) => {
@@ -602,74 +599,6 @@ const addQuestionForLevel = () => {
   }
 }
 
-// Key people highlighting functions
-const highlightPerson = (personName) => {
-  // If clicking on the same person, clear the selection
-  if (highlightedPerson.value === personName) {
-    clearHighlighting()
-    return
-  }
-
-  highlightedPerson.value = personName
-  highlightedVerses.value = []
-  personVerses.value = []
-
-  // Find all verses that mention this person across all chapters in the current book
-  if (compiledData.value) {
-    compiledData.value.forEach((chapter) => {
-      if (chapter.verses) {
-        chapter.verses.forEach((verse) => {
-          if (verse.text && containsPersonName(verse.text, personName)) {
-            highlightedVerses.value.push(verse.id)
-            // Store verse info for the person verses list
-            personVerses.value.push({
-              ...verse,
-              chapterNumber: chapter.number,
-              bookName: currentBookId.value,
-            })
-          }
-        })
-      }
-    })
-  }
-}
-
-// Helper function to check if a verse text contains a person's name
-const containsPersonName = (text, personName) => {
-  const lowerText = text.toLowerCase()
-  const lowerPersonName = personName.toLowerCase()
-
-  // Create a regex that matches the person's name as a whole word
-  // This prevents "every" from matching "Eve"
-  const nameRegex = new RegExp(
-    `\\b${lowerPersonName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`,
-    'i',
-  )
-
-  // Also check for common variations and possessive forms
-  const variations = [
-    lowerPersonName,
-    lowerPersonName + "'s", // possessive
-    lowerPersonName + 's', // plural
-    lowerPersonName + "'", // possessive without s
-  ]
-
-  // Check if any variation matches as a whole word
-  return variations.some((variation) => {
-    const variationRegex = new RegExp(
-      `\\b${variation.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`,
-      'i',
-    )
-    return variationRegex.test(lowerText)
-  })
-}
-
-const clearHighlighting = () => {
-  highlightedPerson.value = null
-  highlightedVerses.value = []
-  personVerses.value = []
-}
-
 // Navigate to a specific verse
 const navigateToVerse = (verse) => {
   // Find the chapter in compiled data
@@ -699,10 +628,6 @@ const scrollToVerse = (verseId) => {
       block: 'center',
     })
   }
-}
-
-const isVerseHighlighted = (verse) => {
-  return highlightedVerses.value.includes(verse.id)
 }
 
 // Verse comparison functions
@@ -844,84 +769,6 @@ watch(comparisonData, () => {
           <span class="text-sm text-gray-600">Loading Bible data...</span>
         </div>
       </div>
-
-      <!-- <ChapterViewer :chapterData="chapterData" /> -->
-      <div v-else class="w-full bg-white/60 rounded-xl shadow-lg p-8">
-        <div class="flex gap-2 items-center mb-4">
-          <p class="font-bold">Key People:</p>
-          <ul class="flex flex-wrap gap-1">
-            <li
-              v-for="character in bookData?.summary?.keyCharacters"
-              class="px-2 py-1 text-xs outline outline-1 outline-primary rounded-full w-fit cursor-pointer transition-all duration-200 hover:bg-primary hover:text-white"
-              :class="{
-                'bg-primary text-white': highlightedPerson === character,
-                'hover:bg-primary-lt': highlightedPerson !== character,
-              }"
-              @click="highlightPerson(character)"
-            >
-              {{ character }}
-            </li>
-          </ul>
-          <button
-            v-if="highlightedPerson"
-            @click="clearHighlighting"
-            class="px-2 py-1 bg-red-500 text-white rounded-full text-sm hover:bg-red-600 transition-colors"
-          >
-            Clear
-          </button>
-        </div>
-
-        <div class="flex gap-4">
-          <!-- Summary Section -->
-          <div class="flex-1">
-            <p class="font-bold mb-2">Summary:</p>
-            <p class="text-lg">
-              {{ bookSummary?.summary || bookData?.summary?.long || 'No summary available.' }}
-            </p>
-          </div>
-
-          <!-- Person Verses Section -->
-          <transition
-            enter-active-class="transition-all duration-300 ease-out"
-            enter-from-class="opacity-0 transform translate-x-8 scale-95"
-            enter-to-class="opacity-100 transform translate-x-0 scale-100"
-            leave-active-class="transition-all duration-200 ease-in"
-            leave-from-class="opacity-100 transform translate-x-0 scale-100"
-            leave-to-class="opacity-0 transform translate-x-8 scale-95"
-          >
-            <div
-              v-if="highlightedPerson && personVerses.length > 0"
-              class="w-72 bg-neutral-20 rounded-lg p-3 border border-gray-200"
-            >
-              <div class="flex items-center justify-between mb-2">
-                <h3 class="font-bold text-base">{{ highlightedPerson }} Verses</h3>
-                <span class="text-xs text-gray-600"
-                  >{{ personVerses.length }} verse{{ personVerses.length !== 1 ? 's' : '' }}</span
-                >
-              </div>
-
-              <div class="max-h-48 overflow-y-auto space-y-1">
-                <transition-group name="verse-item" tag="div" class="space-y-1">
-                  <div
-                    v-for="(verse, index) in personVerses"
-                    :key="`${verse.chapterNumber}-${verse.verse}`"
-                    @click="navigateToVerse(verse)"
-                    class="px-3 py-2 bg-white rounded-md border border-gray-200 cursor-pointer hover:bg-gray-50 hover:border-primary transition-all duration-200"
-                    :style="{ 'animation-delay': `${index * 30}ms` }"
-                  >
-                    <div class="flex items-center justify-between">
-                      <span class="text-sm font-semibold text-primary"
-                        >Chapter {{ verse.chapterNumber }}, Verse {{ verse.verse }}</span
-                      >
-                      <span class="text-xs text-gray-500">{{ verse.bookName }}</span>
-                    </div>
-                  </div>
-                </transition-group>
-              </div>
-            </div>
-          </transition>
-        </div>
-      </div>
       <div class="flex grow gap-4 min-h-0 flex-1 h-full">
         <div
           class="grow bg-white/60 rounded-xl shadow-lg p-8 flex flex-col gap-8 min-w-0 min-h-0 overflow-hidden"
@@ -976,7 +823,9 @@ watch(comparisonData, () => {
                     v-for="chapter in visibleChapters"
                     :key="chapter.number"
                     class="w-10 h-8 bg-neutral-20 rounded-md transition-all duration-200 hover:bg-secondary-lt flex items-center justify-center text-sm font-medium flex-shrink-0"
-                    :class="{ '!bg-secondary ': activeChapter?.number === chapter.number }"
+                    :class="{
+                      '!bg-secondary': activeChapter?.number === chapter.number,
+                    }"
                     @click="setActiveChapter(chapter)"
                   >
                     {{ chapter.number }}
@@ -1100,8 +949,6 @@ watch(comparisonData, () => {
                     'jesus-speaking':
                       verse.speaker === 'Jesus' && currentReadingVerse?.id !== verse.id,
                     'god-speaking': verse.speaker === 'God' && currentReadingVerse?.id !== verse.id,
-                    'person-highlighted':
-                      isVerseHighlighted(verse) && currentReadingVerse?.id !== verse.id,
                   }"
                   @click="setActiveVerse(verse)"
                 >
@@ -1178,6 +1025,14 @@ watch(comparisonData, () => {
         <div
           class="w-[300px] bg-white/60 rounded-xl shadow-lg p-8 flex flex-col gap-8 overflow-hidden flex-shrink-0 mr-2"
         >
+          <!-- Book Summary Section -->
+          <div class="flex-shrink-0">
+            <h3 class="text-sm font-bold mb-2">Summary</h3>
+            <p class="text-xs text-gray-700 leading-relaxed">
+              {{ bookSummary?.summary || bookData?.summary?.long || 'No summary available.' }}
+            </p>
+          </div>
+
           <div class="flex gap-2">
             <button
               class="flex-1 px-2 py-1 bg-neutral-20 rounded-md w-fit"
@@ -1199,24 +1054,24 @@ watch(comparisonData, () => {
           <div class="flex gap-1">
             <button
               class="flex-1 px-2 py-1 text-xs bg-neutral-20 rounded-md"
-              :class="{ '!bg-secondary text-white': activeStudyLevel === 'verse' }"
-              @click="activeStudyLevel = 'verse'"
+              :class="{ '!bg-secondary': activeStudyLevel === 'book' }"
+              @click="activeStudyLevel = 'book'"
             >
-              Verse
+              Book
             </button>
             <button
               class="flex-1 px-2 py-1 text-xs bg-neutral-20 rounded-md"
-              :class="{ '!bg-secondary text-white': activeStudyLevel === 'chapter' }"
+              :class="{ '!bg-secondary': activeStudyLevel === 'chapter' }"
               @click="activeStudyLevel = 'chapter'"
             >
               Chapter
             </button>
             <button
               class="flex-1 px-2 py-1 text-xs bg-neutral-20 rounded-md"
-              :class="{ '!bg-secondary text-white': activeStudyLevel === 'book' }"
-              @click="activeStudyLevel = 'book'"
+              :class="{ '!bg-secondary': activeStudyLevel === 'verse' }"
+              @click="activeStudyLevel = 'verse'"
             >
-              Book
+              Verse
             </button>
           </div>
           <div
@@ -1239,7 +1094,10 @@ watch(comparisonData, () => {
                       :key="note.id"
                       class="bg-neutral-20 p-2 rounded-md cursor-pointer hover:bg-neutral-30 transition-colors"
                       :class="{
-                        'bg-secondary text-white': activeVerse?.id === note.noteKey,
+                        'bg-secondary':
+                          activeVerse &&
+                          activeVerse.chapter === note.chapter &&
+                          activeVerse.verse === note.verse,
                       }"
                       @click="findActiveVerse(note)"
                     >
@@ -1375,7 +1233,10 @@ watch(comparisonData, () => {
                       :key="question.id"
                       class="bg-neutral-20 rounded-md p-2 cursor-pointer hover:bg-neutral-30 transition-colors"
                       :class="{
-                        'bg-secondary text-white': activeVerse?.id === question.noteKey,
+                        'bg-secondary':
+                          activeVerse &&
+                          activeVerse.chapter === question.chapter &&
+                          activeVerse.verse === question.verse,
                       }"
                       @click="findActiveVerse(question)"
                     >

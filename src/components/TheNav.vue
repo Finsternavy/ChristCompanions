@@ -1,6 +1,8 @@
 <script setup>
 import { ref, onMounted } from 'vue'
+import { useRouter } from 'vue-router'
 
+const router = useRouter()
 const showTopNav = ref(false)
 
 onMounted(() => {
@@ -9,6 +11,11 @@ onMounted(() => {
     showTopNav.value = true
   }, 500) // Small delay to ensure smooth transition
 })
+
+// Navigate to home when logo is clicked
+const navigateToHome = () => {
+  router.push('/')
+}
 </script>
 
 <template>
@@ -22,7 +29,7 @@ onMounted(() => {
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16">
         <!-- Logo in Top Nav -->
-        <div class="flex items-center gap-3">
+        <div class="flex items-center gap-3 cursor-pointer" @click="navigateToHome">
           <div
             class="w-8 h-8 bg-white rounded-lg flex items-center justify-center border border-gray-200"
           >
