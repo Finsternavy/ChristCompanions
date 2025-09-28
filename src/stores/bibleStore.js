@@ -455,6 +455,38 @@ export const useBibleStore = defineStore('bibleStore', () => {
     }
   }
 
+  // Delete a chapter note
+  function deleteChapterNote(noteId) {
+    const index = chapterNotes.value.findIndex((note) => note.id === noteId)
+    if (index !== -1) {
+      chapterNotes.value.splice(index, 1)
+    }
+  }
+
+  // Delete a chapter question
+  function deleteChapterQuestion(questionId) {
+    const index = chapterQuestions.value.findIndex((question) => question.id === questionId)
+    if (index !== -1) {
+      chapterQuestions.value.splice(index, 1)
+    }
+  }
+
+  // Delete a book note
+  function deleteBookNote(noteId) {
+    const index = bookNotes.value.findIndex((note) => note.id === noteId)
+    if (index !== -1) {
+      bookNotes.value.splice(index, 1)
+    }
+  }
+
+  // Delete a book question
+  function deleteBookQuestion(questionId) {
+    const index = bookQuestions.value.findIndex((question) => question.id === questionId)
+    if (index !== -1) {
+      bookQuestions.value.splice(index, 1)
+    }
+  }
+
   // Add or update a chapter note
   function addOrUpdateChapterNote(bookId, chapterNumber, noteText, noteId = null) {
     const noteKey = getChapterNoteKey(bookId, chapterNumber)
@@ -667,6 +699,10 @@ export const useBibleStore = defineStore('bibleStore', () => {
     addOrUpdateQuestion,
     deleteNote,
     deleteQuestion,
+    deleteChapterNote,
+    deleteChapterQuestion,
+    deleteBookNote,
+    deleteBookQuestion,
     addOrUpdateChapterNote,
     addOrUpdateChapterQuestion,
     addOrUpdateBookNote,

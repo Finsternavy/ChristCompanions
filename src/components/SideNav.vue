@@ -231,7 +231,7 @@ const navigateToVerse = (verse) => {
 </script>
 
 <template>
-  <div class="bg-white/60 rounded-xl shadow-lg p-2">
+  <div class="bg-white/60 rounded-xl shadow-lg p-2 w-80 flex-shrink-0">
     <div class="flex flex-col h-full">
       <!-- Bible Version Selector -->
       <div class="flex-shrink-0 mb-2">
@@ -295,7 +295,7 @@ const navigateToVerse = (verse) => {
 
           <div
             v-if="oldTestamentOpen || shouldExpandOldTestament"
-            class="max-h-48 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100"
+            class="max-h-48 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100 bg-black/5 rounded-md p-2"
           >
             <ul class="space-y-1">
               <li
@@ -332,7 +332,7 @@ const navigateToVerse = (verse) => {
 
           <div
             v-if="newTestamentOpen || shouldExpandNewTestament"
-            class="max-h-48 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100"
+            class="max-h-48 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100 bg-black/5 rounded-md p-2"
           >
             <ul class="space-y-1">
               <li
@@ -380,7 +380,7 @@ const navigateToVerse = (verse) => {
 
           <div
             v-if="keyPeopleOpen && bookSummary?.keyCharacters"
-            class="max-h-48 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100"
+            class="max-h-48 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100 bg-black/5 rounded-md p-2"
           >
             <div class="space-y-1">
               <button
@@ -388,7 +388,7 @@ const navigateToVerse = (verse) => {
                 :key="character"
                 class="w-full text-left text-xs rounded px-2 py-1 cursor-pointer transition-colors"
                 :class="{
-                  'bg-primary text-white hover:bg-primary-dk': highlightedPerson === character,
+                  'bg-secondary text-black': highlightedPerson === character,
                   'text-gray-700 hover:bg-gray-100': highlightedPerson !== character,
                 }"
                 @click="highlightPerson(character)"
