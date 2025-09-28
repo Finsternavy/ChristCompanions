@@ -834,9 +834,9 @@ watch(comparisonData, () => {
 </script>
 
 <template>
-  <div class="flex gap-4">
+  <div class="flex gap-4 pt-20 px-4 pb-2 h-[calc(100vh-88px)] overflow-hidden">
     <SideNav />
-    <div class="w-fit mx-auto flex flex-col gap-4 max-w-[1400px]">
+    <div class="w-fit mx-auto flex flex-col gap-4 max-w-[1400px] h-full flex-1">
       <!-- Loading indicator -->
       <div v-if="isLoading" class="w-full bg-white/60 rounded-xl shadow-lg p-8 text-center">
         <div class="flex items-center justify-center gap-2">
@@ -922,7 +922,7 @@ watch(comparisonData, () => {
           </transition>
         </div>
       </div>
-      <div class="flex grow gap-4 min-h-0">
+      <div class="flex grow gap-4 min-h-0 flex-1 h-full">
         <div
           class="grow bg-white/60 rounded-xl shadow-lg p-8 flex flex-col gap-8 min-w-0 min-h-0 overflow-hidden"
         >
@@ -1085,7 +1085,7 @@ watch(comparisonData, () => {
             <div class="flex-1 flex flex-col min-h-0">
               <ul
                 ref="versesContainer"
-                class="flex p-1 flex-col gap-2 overflow-y-auto max-h-[calc(100vh-500px)] bg-neutral-20 rounded-md min-h-0 flex-1"
+                class="flex p-1 flex-col gap-2 overflow-y-auto bg-neutral-20 rounded-md min-h-0 flex-1"
               >
                 <li
                   v-for="verse in activeChapter.verses"
@@ -1176,7 +1176,7 @@ watch(comparisonData, () => {
           <!-- {{ versesData }} -->
         </div>
         <div
-          class="w-[300px] bg-white/60 rounded-xl shadow-lg p-8 flex flex-col gap-8 overflow-hidden flex-shrink-0"
+          class="w-[300px] bg-white/60 rounded-xl shadow-lg p-8 flex flex-col gap-8 overflow-hidden flex-shrink-0 mr-2"
         >
           <div class="flex gap-2">
             <button
