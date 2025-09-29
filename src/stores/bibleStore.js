@@ -414,6 +414,7 @@ export const useBibleStore = defineStore('bibleStore', () => {
       chapter: activeChapter.value?.number,
       verse: verse.verse,
       noteKey: noteKey,
+      createdAt: new Date().toISOString(),
     }
     userNotes.value.push(newNote)
     console.log('userNotes.value', userNotes.value)
@@ -441,6 +442,7 @@ export const useBibleStore = defineStore('bibleStore', () => {
       chapter: activeChapter.value?.number,
       verse: verse.verse,
       noteKey: noteKey,
+      createdAt: new Date().toISOString(),
     }
     userQuestions.value.push(newQuestion)
     return newQuestion
@@ -514,6 +516,7 @@ export const useBibleStore = defineStore('bibleStore', () => {
       book: bookId,
       chapter: chapterNumber,
       noteKey: noteKey,
+      createdAt: new Date().toISOString(),
     }
     chapterNotes.value.push(newNote)
     return newNote
@@ -541,6 +544,7 @@ export const useBibleStore = defineStore('bibleStore', () => {
       book: bookId,
       chapter: chapterNumber,
       noteKey: noteKey,
+      createdAt: new Date().toISOString(),
     }
     chapterQuestions.value.push(newQuestion)
     return newQuestion
@@ -565,6 +569,7 @@ export const useBibleStore = defineStore('bibleStore', () => {
       text: noteText,
       book: bookId,
       noteKey: noteKey,
+      createdAt: new Date().toISOString(),
     }
     bookNotes.value.push(newNote)
     return newNote
@@ -589,6 +594,7 @@ export const useBibleStore = defineStore('bibleStore', () => {
       text: questionText,
       book: bookId,
       noteKey: noteKey,
+      createdAt: new Date().toISOString(),
     }
     bookQuestions.value.push(newQuestion)
     return newQuestion
