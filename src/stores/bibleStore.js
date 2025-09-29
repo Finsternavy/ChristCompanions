@@ -14,7 +14,7 @@ export const useBibleStore = defineStore('bibleStore', () => {
   const activeVerse = ref(null)
   const isLoading = ref(false)
 
-  // User content - changed to arrays to support multiple notes/questions per verse
+  // User content - arrays to support multiple notes/questions per verse
   const userNotes = ref([])
   const userQuestions = ref([])
   const chapterNotes = ref([])
@@ -23,6 +23,18 @@ export const useBibleStore = defineStore('bibleStore', () => {
   const bookQuestions = ref([])
   const activeNote = ref(null)
   const activeQuestions = ref(null)
+
+  // Clean up any old object-based structure on store initialization
+  if (userNotes.value && typeof userNotes.value === 'object' && !Array.isArray(userNotes.value)) {
+    userNotes.value = []
+  }
+  if (
+    userQuestions.value &&
+    typeof userQuestions.value === 'object' &&
+    !Array.isArray(userQuestions.value)
+  ) {
+    userQuestions.value = []
+  }
 
   // Verse comparison
   const comparisonCache = ref({})
@@ -256,7 +268,7 @@ export const useBibleStore = defineStore('bibleStore', () => {
 
   // Check if a book is available
   function isBookAvailable(bookId) {
-    return bookDataMap.hasOwnProperty(bookId)
+    return booksList.some((book) => book.id.toLowerCase() === bookId.toLowerCase())
   }
 
   // Get current book info
@@ -288,34 +300,25 @@ export const useBibleStore = defineStore('bibleStore', () => {
     activeVerse.value = verse
 
     if (verse) {
-      const noteKey = getNoteKeyFromVerse(verse)
+      // Find existing note for this verse
+      const existingNote = userNotes.value.find(
+        (note) =>
+          note.book === currentBookId.value &&
+          note.chapter === activeChapter.value?.number &&
+          note.verse === verse.verse,
+      )
 
-      // Initialize note if it doesn't exist
-      if (!userNotes.value[noteKey]) {
-        userNotes.value[noteKey] = {
-          id: '',
-          text: '',
-          book: currentBookId.value,
-          chapter: activeChapter.value?.number,
-          verse: verse.verse,
-          noteKey: noteKey,
-        }
-      }
+      // Find existing question for this verse
+      const existingQuestion = userQuestions.value.find(
+        (question) =>
+          question.book === currentBookId.value &&
+          question.chapter === activeChapter.value?.number &&
+          question.verse === verse.verse,
+      )
 
-      // Initialize question if it doesn't exist
-      if (!userQuestions.value[noteKey]) {
-        userQuestions.value[noteKey] = {
-          id: '',
-          text: '',
-          book: currentBookId.value,
-          chapter: activeChapter.value?.number,
-          verse: verse.verse,
-          noteKey: noteKey,
-        }
-      }
-
-      activeNote.value = userNotes.value[noteKey]
-      activeQuestions.value = userQuestions.value[noteKey]
+      // Set active note and questions
+      activeNote.value = existingNote || null
+      activeQuestions.value = existingQuestion || null
     } else {
       activeNote.value = null
       activeQuestions.value = null
@@ -328,23 +331,26 @@ export const useBibleStore = defineStore('bibleStore', () => {
     const targetChapter = note.chapter
     const targetVerse = note.verse
 
+    // Convert book name to book ID (lowercase)
+    const targetBookId = targetBook.toLowerCase()
+
     // Check if we need to switch books
-    if (targetBook && targetBook !== currentBookId.value) {
-      if (!isBookAvailable(targetBook)) {
-        console.error(`Book ${targetBook} is not available`)
+    if (targetBookId && targetBookId !== currentBookId.value) {
+      if (!isBookAvailable(targetBookId)) {
+        console.error(`Book ${targetBookId} is not available`)
         return
       }
 
       // Switch to the correct book
-      setBookData({ id: targetBook })
+      setBookData({ id: targetBookId })
 
       // Wait for data compilation, then navigate
       setTimeout(() => {
-        navigateToSpecificVerse(targetBook, targetChapter, targetVerse)
+        navigateToSpecificVerse(targetBookId, targetChapter, targetVerse)
       }, 50)
     } else {
       // Book is already correct, navigate immediately
-      navigateToSpecificVerse(targetBook, targetChapter, targetVerse)
+      navigateToSpecificVerse(targetBookId, targetChapter, targetVerse)
     }
   }
 
@@ -410,6 +416,7 @@ export const useBibleStore = defineStore('bibleStore', () => {
       noteKey: noteKey,
     }
     userNotes.value.push(newNote)
+    console.log('userNotes.value', userNotes.value)
     return newNote
   }
 
@@ -587,6 +594,52 @@ export const useBibleStore = defineStore('bibleStore', () => {
     return newQuestion
   }
 
+  // Clean up old object-based structure
+  function cleanupNotesStructure() {
+    console.log('🧹 Cleaning up notes structure...')
+    console.log('Before cleanup:', userNotes.value)
+
+    // Convert any object-based entries to array format
+    const arrayNotes = []
+    const arrayQuestions = []
+
+    // Handle both array and object structures
+    if (Array.isArray(userNotes.value)) {
+      userNotes.value.forEach((item) => {
+        if (typeof item === 'object' && item.id && item.text && item.text.trim() !== '') {
+          arrayNotes.push(item)
+        }
+      })
+    } else if (typeof userNotes.value === 'object') {
+      Object.values(userNotes.value).forEach((item) => {
+        if (typeof item === 'object' && item.id && item.text && item.text.trim() !== '') {
+          arrayNotes.push(item)
+        }
+      })
+    }
+
+    if (Array.isArray(userQuestions.value)) {
+      userQuestions.value.forEach((item) => {
+        if (typeof item === 'object' && item.id && item.text && item.text.trim() !== '') {
+          arrayQuestions.push(item)
+        }
+      })
+    } else if (typeof userQuestions.value === 'object') {
+      Object.values(userQuestions.value).forEach((item) => {
+        if (typeof item === 'object' && item.id && item.text && item.text.trim() !== '') {
+          arrayQuestions.push(item)
+        }
+      })
+    }
+
+    // Replace with clean arrays
+    userNotes.value = arrayNotes
+    userQuestions.value = arrayQuestions
+
+    console.log('After cleanup:', userNotes.value)
+    console.log('✅ Cleanup complete!')
+  }
+
   // Get filtered notes
   function getFilteredNotes() {
     return userNotes.value.filter((note) => note.text)
@@ -713,6 +766,7 @@ export const useBibleStore = defineStore('bibleStore', () => {
     getFilteredChapterQuestions,
     getFilteredBookNotes,
     getFilteredBookQuestions,
+    cleanupNotesStructure,
     loadVerseComparison,
     getAvailableVersions,
     availableVersions,

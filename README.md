@@ -1,4 +1,4 @@
-# Christ Companions - Interactive Bible Study Application
+# Cross Companions - Interactive Bible Study Application
 
 A modern, feature-rich Bible study application built with Vue 3, designed to provide an immersive and interactive experience for reading, studying, and taking notes on the Bible.
 
@@ -56,8 +56,8 @@ A modern, feature-rich Bible study application built with Vue 3, designed to pro
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/Finsternavy/ChristCompanions.git
-   cd ChristCompanions
+   git clone https://github.com/Finsternavy/CrossCompanions.git
+   cd CrossCompanions
    ```
 
 2. **Install dependencies**
@@ -191,4 +191,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-**Christ Companions** - Bringing the Bible to life through modern technology.
+**Cross Companions** - Bringing the Bible to life through modern technology.

@@ -46,10 +46,10 @@ const user = computed(() => authStore.user)
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16">
         <!-- Logo in Top Nav -->
-        <div class="flex items-center gap-3 cursor-pointer" @click="navigateToHome">
+        <div class="flex items-end gap-3 cursor-pointer" @click="navigateToHome">
           <!-- <img :src="Logo" alt="Logo" class="w-10 h-10" /> -->
-          <LogoIcon class="w-10 h-10" primaryColor="#b3980000" secondaryColor="#b39800" />
-          <span class="text-xl font-bold text-primary">Christ Companions</span>
+          <LogoIcon class="w-10 h-10" primaryColor="#fff5bc00" secondaryColor="#b39800" />
+          <span class="text-2xl font-bold text-neutral-70">Cross Companions</span>
         </div>
 
         <!-- Navigation Links -->

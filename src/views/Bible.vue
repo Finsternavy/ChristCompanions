@@ -3,12 +3,14 @@ import { ref, computed, onMounted, watch, nextTick } from 'vue'
 import { useRouter } from 'vue-router'
 import ChapterViewer from '@/components/ChapterViewer.vue'
 import { useBibleStore } from '@/stores/bibleStore'
+import { useStudyGroupsStore } from '@/stores/studyGroupsStore'
 import * as HeroIcons from '@heroicons/vue/24/solid'
 // use uuidv4
 import { v4 as uuidv4 } from 'uuid'
 import SideNav from '@/components/SideNav.vue'
 
 const bibleStore = useBibleStore()
+const studyGroupsStore = useStudyGroupsStore()
 const router = useRouter()
 
 const bookData = computed(() => bibleStore.bookData)
@@ -81,32 +83,51 @@ const chaptersPerView = 5
 
 const filteredUserNotes = computed(() => {
   const allNotes = bibleStore.getFilteredNotes()
-  // Filter by current book and sort by chapter, then verse
-  return allNotes
-    .filter((note) => note.book === currentBookId.value)
-    .sort((a, b) => {
-      // First sort by chapter
-      if (a.chapter !== b.chapter) {
-        return a.chapter - b.chapter
-      }
-      // Then sort by verse
-      return a.verse - b.verse
-    })
+  // Filter by current book
+  const bookNotes = allNotes.filter((note) => note.book === currentBookId.value)
+
+  // If an active verse is selected, show only notes for that verse
+  if (activeVerse.value) {
+    return bookNotes.filter(
+      (note) =>
+        note.chapter === activeVerse.value.chapter && note.verse === activeVerse.value.verse,
+    )
+  }
+
+  // Otherwise show all verse-level notes for the book, sorted by chapter and verse
+  return bookNotes.sort((a, b) => {
+    // First sort by chapter
+    if (a.chapter !== b.chapter) {
+      return a.chapter - b.chapter
+    }
+    // Then sort by verse
+    return a.verse - b.verse
+  })
 })
 
 const filteredUserQuestions = computed(() => {
   const allQuestions = bibleStore.getFilteredQuestions()
-  // Filter by current book and sort by chapter, then verse
-  return allQuestions
-    .filter((question) => question.book === currentBookId.value)
-    .sort((a, b) => {
-      // First sort by chapter
-      if (a.chapter !== b.chapter) {
-        return a.chapter - b.chapter
-      }
-      // Then sort by verse
-      return a.verse - b.verse
-    })
+  // Filter by current book
+  const bookQuestions = allQuestions.filter((question) => question.book === currentBookId.value)
+
+  // If an active verse is selected, show only questions for that verse
+  if (activeVerse.value) {
+    return bookQuestions.filter(
+      (question) =>
+        question.chapter === activeVerse.value.chapter &&
+        question.verse === activeVerse.value.verse,
+    )
+  }
+
+  // Otherwise show all verse-level questions for the book, sorted by chapter and verse
+  return bookQuestions.sort((a, b) => {
+    // First sort by chapter
+    if (a.chapter !== b.chapter) {
+      return a.chapter - b.chapter
+    }
+    // Then sort by verse
+    return a.verse - b.verse
+  })
 })
 
 // Group notes by verse
@@ -205,6 +226,103 @@ const chapterQuestions = computed(() => bibleStore.getFilteredChapterQuestions(c
 const bookNotes = computed(() => bibleStore.getFilteredBookNotes(currentBookId.value))
 const bookQuestions = computed(() => bibleStore.getFilteredBookQuestions(currentBookId.value))
 
+// Study groups - other users' notes and questions
+const otherUsersNotes = computed(() => {
+  if (!studyGroupsStore.showOtherUsersContent) return []
+
+  if (activeStudyLevel.value === 'verse') {
+    // If an active verse is selected, show only notes for that verse
+    if (activeVerse.value) {
+      return studyGroupsStore
+        .getOtherUsersNotes(currentBookId.value)
+        .filter(
+          (note) =>
+            note.verse !== undefined &&
+            note.verse !== null &&
+            note.chapter === activeVerse.value.chapter &&
+            note.verse === activeVerse.value.verse,
+        )
+    }
+    // Otherwise show all verse-level notes for the current book
+    return studyGroupsStore
+      .getOtherUsersNotes(currentBookId.value)
+      .filter((note) => note.verse !== undefined && note.verse !== null)
+      .sort((a, b) => {
+        // First sort by chapter
+        if (a.chapter !== b.chapter) {
+          return a.chapter - b.chapter
+        }
+        // Then sort by verse
+        return a.verse - b.verse
+      })
+  } else if (activeStudyLevel.value === 'chapter') {
+    // Show all chapter-level notes for the current book
+    return studyGroupsStore
+      .getOtherUsersNotes(currentBookId.value)
+      .filter(
+        (note) =>
+          note.chapter !== undefined &&
+          note.chapter !== null &&
+          (note.verse === undefined || note.verse === null),
+      )
+      .sort((a, b) => a.chapter - b.chapter)
+  } else if (activeStudyLevel.value === 'book') {
+    // Show all book-level notes for the current book
+    return studyGroupsStore
+      .getOtherUsersNotes(currentBookId.value)
+      .filter((note) => note.chapter === undefined || note.chapter === null)
+  }
+  return []
+})
+
+const otherUsersQuestions = computed(() => {
+  if (!studyGroupsStore.showOtherUsersContent) return []
+
+  if (activeStudyLevel.value === 'verse') {
+    // If an active verse is selected, show only questions for that verse
+    if (activeVerse.value) {
+      return studyGroupsStore
+        .getOtherUsersQuestions(currentBookId.value)
+        .filter(
+          (question) =>
+            question.verse !== undefined &&
+            question.verse !== null &&
+            question.chapter === activeVerse.value.chapter &&
+            question.verse === activeVerse.value.verse,
+        )
+    }
+    // Otherwise show all verse-level questions for the current book
+    return studyGroupsStore
+      .getOtherUsersQuestions(currentBookId.value)
+      .filter((question) => question.verse !== undefined && question.verse !== null)
+      .sort((a, b) => {
+        // First sort by chapter
+        if (a.chapter !== b.chapter) {
+          return a.chapter - b.chapter
+        }
+        // Then sort by verse
+        return a.verse - b.verse
+      })
+  } else if (activeStudyLevel.value === 'chapter') {
+    // Show all chapter-level questions for the current book
+    return studyGroupsStore
+      .getOtherUsersQuestions(currentBookId.value)
+      .filter(
+        (question) =>
+          question.chapter !== undefined &&
+          question.chapter !== null &&
+          (question.verse === undefined || question.verse === null),
+      )
+      .sort((a, b) => a.chapter - b.chapter)
+  } else if (activeStudyLevel.value === 'book') {
+    // Show all book-level questions for the current book
+    return studyGroupsStore
+      .getOtherUsersQuestions(currentBookId.value)
+      .filter((question) => question.chapter === undefined || question.chapter === null)
+  }
+  return []
+})
+
 // Chapter carousel computed properties
 const visibleChapters = computed(() => {
   const chapters = compiledData.value || []
@@ -293,42 +411,90 @@ const setActiveVerse = (verse) => {
 }
 
 const findActiveVerse = (note) => {
+  console.log('🔍 findActiveVerse called with:', note)
   bibleStore.navigateToVerseFromNote(note)
   tmpNote.value = activeNote.value?.text || ''
 
   // Scroll to the verse after navigation
   nextTick(() => {
     setTimeout(() => {
-      // Use version-independent key to find the verse
-      const versionIndependentKey = `${note.book}_${note.chapter}_${note.verse}`
-      const verseElement = document.querySelector(`[data-verse-id$="${versionIndependentKey}"]`)
+      // Try to find the verse using the exact verse ID format
+      const verseId = `kjv_${note.book.toLowerCase()}_${note.chapter}_${note.verse}`
+      console.log('🔍 Looking for verse with ID:', verseId)
+      const verseElement = document.querySelector(`[data-verse-id="${verseId}"]`)
+      console.log('🔍 Found verse element:', verseElement)
+
       if (verseElement) {
+        console.log('🔍 Scrolling to verse element')
         verseElement.scrollIntoView({
           behavior: 'smooth',
           block: 'center',
         })
+      } else {
+        console.log('🔍 Verse element not found, trying alternative selectors')
+        // Try alternative selectors
+        const altSelectors = [
+          `[data-verse-id*="${note.book.toLowerCase()}_${note.chapter}_${note.verse}"]`,
+          `[data-verse-id*="genesis_${note.chapter}_${note.verse}"]`,
+        ]
+        for (const selector of altSelectors) {
+          const element = document.querySelector(selector)
+          if (element) {
+            console.log('🔍 Found with alternative selector:', selector, element)
+            element.scrollIntoView({
+              behavior: 'smooth',
+              block: 'center',
+            })
+            return
+          }
+        }
+        console.log('🔍 No verse element found with any selector')
       }
-    }, 100)
+    }, 200)
   })
 }
 
 const findActiveVerseFromQuestion = (question) => {
+  console.log('🔍 findActiveVerseFromQuestion called with:', question)
   bibleStore.navigateToVerseFromNote(question)
   tmpQuestion.value = question.text || ''
 
   // Scroll to the verse after navigation
   nextTick(() => {
     setTimeout(() => {
-      // Use version-independent key to find the verse
-      const versionIndependentKey = `${question.book}_${question.chapter}_${question.verse}`
-      const verseElement = document.querySelector(`[data-verse-id$="${versionIndependentKey}"]`)
+      // Try to find the verse using the exact verse ID format
+      const verseId = `kjv_${question.book.toLowerCase()}_${question.chapter}_${question.verse}`
+      console.log('🔍 Looking for verse with ID:', verseId)
+      const verseElement = document.querySelector(`[data-verse-id="${verseId}"]`)
+      console.log('🔍 Found verse element:', verseElement)
+
       if (verseElement) {
+        console.log('🔍 Scrolling to verse element')
         verseElement.scrollIntoView({
           behavior: 'smooth',
           block: 'center',
         })
+      } else {
+        console.log('🔍 Verse element not found, trying alternative selectors')
+        // Try alternative selectors
+        const altSelectors = [
+          `[data-verse-id*="${question.book.toLowerCase()}_${question.chapter}_${question.verse}"]`,
+          `[data-verse-id*="genesis_${question.chapter}_${question.verse}"]`,
+        ]
+        for (const selector of altSelectors) {
+          const element = document.querySelector(selector)
+          if (element) {
+            console.log('🔍 Found with alternative selector:', selector, element)
+            element.scrollIntoView({
+              behavior: 'smooth',
+              block: 'center',
+            })
+            return
+          }
+        }
+        console.log('🔍 No verse element found with any selector')
       }
-    }, 100)
+    }, 200)
   })
 }
 
@@ -1364,6 +1530,27 @@ watch(comparisonData, () => {
               Verse
             </button>
           </div>
+
+          <!-- Study Groups Toggle -->
+          <div class="flex items-center justify-between px-2 py-1 bg-gray-50 rounded-md">
+            <span class="text-xs text-gray-600">Show study group content</span>
+            <button
+              @click="studyGroupsStore.toggleOtherUsersContent()"
+              class="relative inline-flex h-4 w-7 items-center rounded-full transition-colors"
+              :class="{
+                'bg-primary': studyGroupsStore.showOtherUsersContent,
+                'bg-gray-300': !studyGroupsStore.showOtherUsersContent,
+              }"
+            >
+              <span
+                class="inline-block h-3 w-3 transform rounded-full bg-white transition-transform"
+                :class="{
+                  'translate-x-3.5': studyGroupsStore.showOtherUsersContent,
+                  'translate-x-0.5': !studyGroupsStore.showOtherUsersContent,
+                }"
+              />
+            </button>
+          </div>
           <div
             v-if="activeStudyTool === 'notes'"
             class="min-w-0 h-full justify-between flex flex-col overflow-hidden"
@@ -1622,6 +1809,62 @@ watch(comparisonData, () => {
                 <div v-else class="text-center text-neutral-60 py-8">
                   <p class="text-sm">No book notes for {{ currentBookId }} yet</p>
                   <p class="text-xs mt-1">Add notes for the entire book below</p>
+                </div>
+              </div>
+
+              <!-- Study Group Notes -->
+              <div v-if="otherUsersNotes.length > 0" class="mt-4">
+                <div class="text-sm text-neutral-60 mb-2 px-2">
+                  <div class="flex items-center gap-2">
+                    <svg
+                      class="w-4 h-4 text-orange-500"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                      />
+                    </svg>
+                    Study Group Notes ({{ otherUsersNotes.length }})
+                  </div>
+                </div>
+                <div class="flex flex-col gap-2 rounded-md p-2 bg-orange-50">
+                  <div
+                    v-for="note in otherUsersNotes"
+                    :key="note.id"
+                    class="p-3 rounded-md border border-orange-200 cursor-pointer hover:bg-orange-50 transition-colors"
+                    :class="{
+                      'bg-secondary-lt shadow-md':
+                        activeVerse &&
+                        activeVerse.chapter === note.chapter &&
+                        activeVerse.verse === note.verse,
+                      'bg-white': !(
+                        activeVerse &&
+                        activeVerse.chapter === note.chapter &&
+                        activeVerse.verse === note.verse
+                      ),
+                    }"
+                    @click="findActiveVerse(note)"
+                  >
+                    <div class="flex items-center gap-2 mb-2">
+                      <span class="text-sm font-medium text-gray-900">{{ note.userName }}</span>
+                      <span class="text-xs text-gray-500">
+                        <span v-if="note.verse"
+                          >Chapter {{ note.chapter }}, Verse {{ note.verse }}</span
+                        >
+                        <span v-else-if="note.chapter">Chapter {{ note.chapter }}</span>
+                        <span v-else>Book level</span>
+                      </span>
+                    </div>
+                    <p class="text-sm text-gray-700">{{ note.text }}</p>
+                    <p class="text-xs text-gray-500 mt-1">
+                      {{ new Date(note.createdAt).toLocaleDateString() }}
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -1928,6 +2171,62 @@ watch(comparisonData, () => {
                 <div v-else class="text-center text-neutral-60 py-8">
                   <p class="text-sm">No book questions for {{ currentBookId }} yet</p>
                   <p class="text-xs mt-1">Add questions for the entire book below</p>
+                </div>
+              </div>
+
+              <!-- Study Group Questions -->
+              <div v-if="otherUsersQuestions.length > 0" class="mt-4">
+                <div class="text-sm text-neutral-60 mb-2 px-2">
+                  <div class="flex items-center gap-2">
+                    <svg
+                      class="w-4 h-4 text-orange-500"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                      />
+                    </svg>
+                    Study Group Questions ({{ otherUsersQuestions.length }})
+                  </div>
+                </div>
+                <div class="flex flex-col gap-2 rounded-md p-2 bg-orange-50">
+                  <div
+                    v-for="question in otherUsersQuestions"
+                    :key="question.id"
+                    class="p-3 rounded-md border border-orange-200 cursor-pointer hover:bg-orange-50 transition-colors"
+                    :class="{
+                      'bg-secondary-lt shadow-md':
+                        activeVerse &&
+                        activeVerse.chapter === question.chapter &&
+                        activeVerse.verse === question.verse,
+                      'bg-white': !(
+                        activeVerse &&
+                        activeVerse.chapter === question.chapter &&
+                        activeVerse.verse === question.verse
+                      ),
+                    }"
+                    @click="findActiveVerseFromQuestion(question)"
+                  >
+                    <div class="flex items-center gap-2 mb-2">
+                      <span class="text-sm font-medium text-gray-900">{{ question.userName }}</span>
+                      <span class="text-xs text-gray-500">
+                        <span v-if="question.verse"
+                          >Chapter {{ question.chapter }}, Verse {{ question.verse }}</span
+                        >
+                        <span v-else-if="question.chapter">Chapter {{ question.chapter }}</span>
+                        <span v-else>Book level</span>
+                      </span>
+                    </div>
+                    <p class="text-sm text-gray-700">{{ question.text }}</p>
+                    <p class="text-xs text-gray-500 mt-1">
+                      {{ new Date(question.createdAt).toLocaleDateString() }}
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

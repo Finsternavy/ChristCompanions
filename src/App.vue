@@ -116,7 +116,7 @@ provide('showContent', showContent)
             'opacity-0 scale-95': logoColorPhase !== 'gold',
           }"
         >
-          <h1 class="text-2xl font-bold text-primary">Christ Companions</h1>
+          <h1 class="text-2xl font-bold text-primary">Cross Companions</h1>
         </div> -->
       </div>
     </div>

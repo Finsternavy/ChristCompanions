@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import TheHome from '@/views/TheHome.vue'
 import Bible from '@/views/Bible.vue'
+import StudyGroups from '@/views/StudyGroups.vue'
 import { useAuthStore } from '@/stores/authStore'
 
 const router = createRouter({
@@ -15,6 +16,12 @@ const router = createRouter({
       path: '/bible',
       name: 'bible',
       component: Bible,
+      meta: { requiresAuth: true },
+    },
+    {
+      path: '/study-groups',
+      name: 'study-groups',
+      component: StudyGroups,
       meta: { requiresAuth: true },
     },
   ],
