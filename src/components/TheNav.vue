@@ -1,11 +1,18 @@
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, computed } from 'vue'
 import { useRouter } from 'vue-router'
+import { useAuthStore } from '@/stores/authStore'
+import Logo from '@/components/logos/crossCompanionLogo.svg'
+import LogoIcon from '@/components/Logo.vue'
 
 const router = useRouter()
+const authStore = useAuthStore()
 const showTopNav = ref(false)
 
 onMounted(() => {
+  // Check authentication status on mount
+  authStore.checkAuth()
+
   // Show top nav after a delay to allow for any page-specific animations
   setTimeout(() => {
     showTopNav.value = true
@@ -16,6 +23,16 @@ onMounted(() => {
 const navigateToHome = () => {
   router.push('/')
 }
+
+// Sign out function
+const handleSignOut = () => {
+  authStore.signOut()
+  router.push('/')
+}
+
+// Computed properties for authentication state
+const isAuthenticated = computed(() => authStore.isAuthenticated)
+const user = computed(() => authStore.user)
 </script>
 
 <template>
@@ -30,29 +47,44 @@ const navigateToHome = () => {
       <div class="flex items-center justify-between h-16">
         <!-- Logo in Top Nav -->
         <div class="flex items-center gap-3 cursor-pointer" @click="navigateToHome">
-          <div
-            class="w-8 h-8 bg-white rounded-lg flex items-center justify-center border border-gray-200"
-          >
-            <svg
-              class="w-5 h-5 text-black"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2.5"
-              viewBox="0 0 24 24"
-            >
-              <path d="M12 2v20M2 12h20" />
-            </svg>
-          </div>
+          <!-- <img :src="Logo" alt="Logo" class="w-10 h-10" /> -->
+          <LogoIcon class="w-10 h-10" primaryColor="#b3980000" secondaryColor="#b39800" />
           <span class="text-xl font-bold text-primary">Christ Companions</span>
         </div>
 
-        <!-- Navigation Links (placeholder for future) -->
-        <div class="hidden md:flex items-center space-x-8">
-          <!-- Navigation items will go here -->
+        <!-- Navigation Links -->
+        <div class="flex items-center space-x-4">
+          <!-- Show different options based on authentication status -->
+          <template v-if="isAuthenticated">
+            <!-- Authenticated user options -->
+            <router-link
+              to="/bible"
+              class="text-sm font-medium text-gray-700 hover:text-primary transition-colors"
+            >
+              Read Bible
+            </router-link>
+            <div class="flex items-center space-x-2">
+              <span class="text-sm text-gray-600">{{ user?.email }}</span>
+              <button
+                @click="handleSignOut"
+                class="text-sm font-medium text-gray-700 hover:text-primary transition-colors"
+              >
+                Sign Out
+              </button>
+            </div>
+          </template>
+          <template v-else>
+            <!-- Non-authenticated user options -->
+            <span class="text-sm text-gray-600"> Sign in or register on the home page </span>
+          </template>
         </div>
       </div>
     </div>
   </nav>
 </template>
 
-<style scoped></style>
+<style scoped>
+.gold {
+  color: #b39800;
+}
+</style>

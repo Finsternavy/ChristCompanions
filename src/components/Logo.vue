@@ -1,0 +1,72 @@
+<template>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    :viewBox="viewBox"
+    :width="width"
+    :height="height"
+    :class="className"
+    :style="{
+      '--primary-color': primaryColor,
+      '--secondary-color': secondaryColor,
+    }"
+  >
+    <g id="Layer_2" data-name="Layer 2">
+      <g id="Layer_2-2" data-name="Layer 2">
+        <polygon
+          fill="var(--primary-color)"
+          points="184.92 12 8.19 170.68 56.65 317 312.24 317 359.75 169.73 184.92 12"
+        />
+        <path
+          fill="var(--secondary-color)"
+          d="M186,0,0,167,51,321H320l50-155ZM65,130h72.69l-33.44,73.07-81-36.38Zm43.62,85.42,64.7,29.52L74.8,289.38ZM22.31,176.05l78,35.6L62.43,294.5ZM179,304.5H67.89l111.11-51Zm0-67.89L112.58,206.8,147.71,130H179ZM179,120H76.41L179,30Zm166.84,45.78L266.38,203l-33.11-73h72ZM296.26,289.24,197.74,245l65.15-29.57ZM191,29.59,292.92,120H191ZM191,130h33.26l34.54,76.39L191,237Zm0,174.5V253l112,51.06.21.45Zm119.12-9L270.48,212l79-35.87Z"
+        />
+      </g>
+    </g>
+  </svg>
+</template>
+
+<script setup>
+import { computed } from 'vue'
+
+// Props
+const props = defineProps({
+  // Size props
+  width: {
+    type: [String, Number],
+    default: '370',
+  },
+  height: {
+    type: [String, Number],
+    default: '321',
+  },
+  // Color props
+  primaryColor: {
+    type: String,
+    default: '#ffe21f', // Original yellow color
+  },
+  secondaryColor: {
+    type: String,
+    default: '#000000', // Black for the cross outline
+  },
+  // Additional props
+  className: {
+    type: String,
+    default: '',
+  },
+  viewBox: {
+    type: String,
+    default: '0 0 370 321',
+  },
+})
+
+// Computed properties for dynamic styling
+const primaryColor = computed(() => props.primaryColor)
+const secondaryColor = computed(() => props.secondaryColor)
+</script>
+
+<style scoped>
+polygon,
+path {
+  transition: fill 0.5s ease-in-out;
+}
+</style>

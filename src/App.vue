@@ -2,29 +2,24 @@
 import { ref, onMounted, provide, watch } from 'vue'
 import { RouterView, useRoute, useRouter } from 'vue-router'
 import TheNav from '@/components/TheNav.vue'
+import LogoIcon from '@/components/Logo.vue'
 
 const route = useRoute()
 const router = useRouter()
 const logoAnimationComplete = ref(false)
 const showContent = ref(false)
-const hasPlayedAnimation = ref(false) // Track if animation has been played
+const logoColorPhase = ref('transparent') // 'transparent', 'gold', 'transparent', 'fade'
+const logoOpacity = ref(1)
 
-// Only play animation on home route and only once
-const shouldPlayAnimation = ref(route.path === '/' && !hasPlayedAnimation.value)
+// Play animation on home route
+const shouldPlayAnimation = ref(route.path === '/')
 
 onMounted(() => {
   if (shouldPlayAnimation.value) {
-    // Start the logo animation sequence only on home route and only once
-    hasPlayedAnimation.value = true // Mark animation as played
-    setTimeout(() => {
-      logoAnimationComplete.value = true
-      // Show content after logo animation completes
-      setTimeout(() => {
-        showContent.value = true
-      }, 1000) // Wait for logo to move to top-left
-    }, 2000) // Logo stays centered for 2 seconds
+    // Start the enhanced logo animation sequence
+    startLogoAnimation()
   } else {
-    // Skip animation on other routes or if already played
+    // Skip animation on other routes
     logoAnimationComplete.value = true
     showContent.value = true
   }
@@ -33,32 +28,44 @@ onMounted(() => {
 // Watch for route changes
 watch(route, (newRoute) => {
   if (newRoute.path === '/') {
-    // Only play animation if it hasn't been played yet
-    if (!hasPlayedAnimation.value) {
-      shouldPlayAnimation.value = true
-      hasPlayedAnimation.value = true
-      // Reset animation state for home route
-      logoAnimationComplete.value = false
-      showContent.value = false
-      // Play animation
-      setTimeout(() => {
-        logoAnimationComplete.value = true
-        setTimeout(() => {
-          showContent.value = true
-        }, 1000)
-      }, 2000)
-    } else {
-      // Animation already played, just show content
-      shouldPlayAnimation.value = false
-      logoAnimationComplete.value = true
-      showContent.value = true
-    }
+    // Play animation when navigating to home
+    shouldPlayAnimation.value = true
+    logoAnimationComplete.value = false
+    showContent.value = false
+    logoColorPhase.value = 'transparent'
+    logoOpacity.value = 1
+    startLogoAnimation()
   } else {
+    // Skip animation on other routes
     shouldPlayAnimation.value = false
     logoAnimationComplete.value = true
     showContent.value = true
   }
 })
+
+const startLogoAnimation = () => {
+  // Phase 1: Start with transparent (already set)
+  setTimeout(() => {
+    // Phase 2: Change to bright gold
+    logoColorPhase.value = 'gold'
+  }, 1000)
+
+  setTimeout(() => {
+    // Phase 3: Change back to transparent
+    logoColorPhase.value = 'transparent'
+  }, 2000)
+
+  setTimeout(() => {
+    // Phase 4: Fade out the entire logo container
+    logoOpacity.value = 0
+  }, 3000)
+
+  setTimeout(() => {
+    // Phase 5: Animation complete, show content
+    logoAnimationComplete.value = true
+    showContent.value = true
+  }, 4000)
+}
 
 // Navigate to home when logo is clicked
 const navigateToHome = () => {
@@ -73,38 +80,29 @@ provide('showContent', showContent)
   <div class="min-h-screen bg-gradient-to-br from-blue-50 to-secondary-lt relative overflow-hidden">
     <!-- Animated Logo -->
     <div
-      class="fixed transition-all duration-1000 ease-in-out z-50 cursor-pointer"
-      :class="{
-        'top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2': !logoAnimationComplete,
-        'top-6 left-6 transform-none opacity-0': logoAnimationComplete,
-      }"
+      class="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50 cursor-pointer transition-opacity duration-1000 ease-in-out"
+      :style="{ opacity: logoOpacity }"
       @click="navigateToHome"
     >
-      <div class="flex items-center gap-3">
+      <div class="w-[80vw] h-[80vh] flex items-center justify-center">
         <!-- Logo Icon -->
-        <div
-          class="w-12 h-12 bg-white rounded-xl flex items-center justify-center shadow-lg border-2 border-gray-200"
-        >
-          <svg
-            class="w-8 h-8 text-black"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="3"
-            viewBox="0 0 24 24"
-          >
-            <path d="M12 2v20M2 12h20" />
-          </svg>
-        </div>
+        <LogoIcon
+          :primaryColor="logoColorPhase === 'gold' ? '#FFD700' : '#b3980000'"
+          :secondaryColor="'#222222'"
+          :width="'100%'"
+          :height="'100%'"
+          class="transition-colors duration-500 ease-in-out"
+        />
         <!-- Logo Text -->
-        <div
-          class="transition-all duration-1000 ease-in-out"
+        <!-- <div
+          class="transition-all duration-500 ease-in-out"
           :class="{
-            'opacity-100 scale-100': logoAnimationComplete,
-            'opacity-0 scale-95': !logoAnimationComplete,
+            'opacity-100 scale-100': logoColorPhase === 'gold',
+            'opacity-0 scale-95': logoColorPhase !== 'gold',
           }"
         >
           <h1 class="text-2xl font-bold text-primary">Christ Companions</h1>
-        </div>
+        </div> -->
       </div>
     </div>
 
