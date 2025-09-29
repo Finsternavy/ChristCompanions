@@ -57,14 +57,14 @@ const user = computed(() => authStore.user)
           <!-- Show different options based on authentication status -->
           <template v-if="isAuthenticated">
             <!-- Authenticated user options -->
-            <router-link
+            <!-- <router-link
               to="/bible"
               class="text-sm font-medium text-gray-700 hover:text-primary transition-colors"
             >
               Read Bible
-            </router-link>
+            </router-link> -->
             <div class="flex items-center space-x-2">
-              <span class="text-sm text-gray-600">{{ user?.email }}</span>
+              <!-- <span class="text-sm text-gray-600">{{ user?.email }}</span> -->
               <button
                 @click="handleSignOut"
                 class="text-sm font-medium text-gray-700 hover:text-primary transition-colors"
