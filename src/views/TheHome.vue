@@ -44,8 +44,9 @@ const handleSignIn = async () => {
 
   try {
     const result = await authStore.signIn(email.value, password.value)
-
+    console.log(result)
     if (result.success) {
+      router.push('/bible')
       // Form will automatically hide due to authentication state change
     } else {
       error.value = result.error || 'Invalid email or password. Please try again.'

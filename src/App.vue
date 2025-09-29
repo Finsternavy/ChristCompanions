@@ -11,8 +11,11 @@ const showContent = ref(false)
 const logoColorPhase = ref('transparent') // 'transparent', 'gold', 'transparent', 'fade'
 const logoOpacity = ref(1)
 
-// Play animation on home route
-const shouldPlayAnimation = ref(route.path === '/')
+// Check if animation has been played in this session
+const hasPlayedAnimationThisSession = ref(sessionStorage.getItem('animationPlayed') === 'true')
+
+// Play animation on home route only if not played this session
+const shouldPlayAnimation = ref(route.path === '/' && !hasPlayedAnimationThisSession.value)
 
 onMounted(() => {
   if (shouldPlayAnimation.value) {
@@ -28,13 +31,23 @@ onMounted(() => {
 // Watch for route changes
 watch(route, (newRoute) => {
   if (newRoute.path === '/') {
-    // Play animation when navigating to home
-    shouldPlayAnimation.value = true
-    logoAnimationComplete.value = false
-    showContent.value = false
-    logoColorPhase.value = 'transparent'
-    logoOpacity.value = 1
-    startLogoAnimation()
+    // Check if animation has been played this session
+    const animationPlayed = sessionStorage.getItem('animationPlayed') === 'true'
+
+    if (!animationPlayed) {
+      // Play animation on first visit to home this session
+      shouldPlayAnimation.value = true
+      logoAnimationComplete.value = false
+      showContent.value = false
+      logoColorPhase.value = 'transparent'
+      logoOpacity.value = 1
+      startLogoAnimation()
+    } else {
+      // Skip animation - already played this session
+      shouldPlayAnimation.value = false
+      logoAnimationComplete.value = true
+      showContent.value = true
+    }
   } else {
     // Skip animation on other routes
     shouldPlayAnimation.value = false
@@ -61,9 +74,10 @@ const startLogoAnimation = () => {
   }, 3000)
 
   setTimeout(() => {
-    // Phase 5: Animation complete, show content
+    // Phase 5: Animation complete, show content and mark as played
     logoAnimationComplete.value = true
     showContent.value = true
+    sessionStorage.setItem('animationPlayed', 'true')
   }, 4000)
 }
 
@@ -80,6 +94,7 @@ provide('showContent', showContent)
   <div class="min-h-screen bg-gradient-to-br from-blue-50 to-secondary-lt relative overflow-hidden">
     <!-- Animated Logo -->
     <div
+      v-if="!showContent"
       class="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50 cursor-pointer transition-opacity duration-1000 ease-in-out"
       :style="{ opacity: logoOpacity }"
       @click="navigateToHome"
@@ -106,8 +121,8 @@ provide('showContent', showContent)
       </div>
     </div>
 
-    <TheNav />
-    <RouterView />
+    <TheNav v-if="showContent" />
+    <RouterView v-if="showContent" />
   </div>
 </template>
 

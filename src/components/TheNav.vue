@@ -73,10 +73,6 @@ const user = computed(() => authStore.user)
               </button>
             </div>
           </template>
-          <template v-else>
-            <!-- Non-authenticated user options -->
-            <span class="text-sm text-gray-600"> Sign in or register on the home page </span>
-          </template>
         </div>
       </div>
     </div>
