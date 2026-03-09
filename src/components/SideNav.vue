@@ -231,8 +231,8 @@ const navigateToVerse = (verse) => {
 </script>
 
 <template>
-  <div class="bg-white/60 rounded-xl shadow-lg p-2 w-80 flex-shrink-0">
-    <div class="flex flex-col h-full">
+  <div class="bg-white/60 rounded-xl shadow-lg p-2 w-full md:w-80 flex-shrink-0 h-full min-h-0">
+    <div class="flex flex-col h-full min-h-0">
       <!-- Bible Version Selector -->
       <div class="flex-shrink-0 mb-2">
         <p class="text-sm font-bold mb-2">Bible Version</p>
